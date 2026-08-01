@@ -39,42 +39,42 @@ interface TechCategory {
 // ─── MINI ARCHITECTURE DIAGRAMS FOR CASE STUDIES ──────────────────────────────
 const ManufacturingArchSvg: React.FC = () => (
   <svg viewBox="0 0 160 80" className="w-full max-w-[140px] h-auto stroke-current stroke-[0.75] fill-none opacity-75">
-    <rect x="10" y="25" width="28" height="28" rx="2" className="stroke-black/20" />
-    <text x="24" y="42" className="font-sans text-[7px] fill-[#1a1a1a] text-center" textAnchor="middle">ERP</text>
-    <path d="M38,39 L62,39" className="stroke-black/20" />
-    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#9fff00] fill-[#9fff00]/5" />
-    <text x="76" y="42" className="font-sans text-[7px] fill-[#1a1a1a] text-center" textAnchor="middle">n8n</text>
-    <circle cx="76" cy="48" r="1" className="fill-[#9fff00]" />
-    <path d="M90,39 L114,39" className="stroke-black/20" />
-    <rect x="114" y="25" width="28" height="28" rx="2" className="stroke-black/20" />
-    <text x="128" y="42" className="font-sans text-[7px] fill-[#1a1a1a] text-center" textAnchor="middle">DB</text>
+    <rect x="10" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
+    <text x="24" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">ERP</text>
+    <path d="M38,39 L62,39" className="stroke-white/30" />
+    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#8FBF3C] fill-[#8FBF3C]/10" />
+    <text x="76" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">n8n</text>
+    <circle cx="76" cy="48" r="1" className="fill-[#8FBF3C]" />
+    <path d="M90,39 L114,39" className="stroke-white/30" />
+    <rect x="114" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
+    <text x="128" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">DB</text>
   </svg>
 )
 
 const FinanceArchSvg: React.FC = () => (
   <svg viewBox="0 0 160 80" className="w-full max-w-[140px] h-auto stroke-current stroke-[0.75] fill-none opacity-75">
-    <rect x="10" y="25" width="28" height="28" rx="2" className="stroke-black/20" />
-    <text x="24" y="42" className="font-sans text-[7px] fill-[#1a1a1a] text-center" textAnchor="middle">DOCS</text>
-    <path d="M38,39 L62,39" className="stroke-black/20" />
-    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#9fff00] fill-[#9fff00]/5" />
-    <text x="76" y="42" className="font-sans text-[7px] fill-[#1a1a1a] text-center" textAnchor="middle">RAG</text>
-    <path d="M68,34 L84,44" className="stroke-[#9fff00]/60" />
-    <path d="M90,39 L114,39" className="stroke-black/20" />
-    <rect x="114" y="25" width="28" height="28" rx="2" className="stroke-black/20" />
-    <text x="128" y="42" className="font-sans text-[7px] fill-[#1a1a1a] text-center" textAnchor="middle">LLM</text>
+    <rect x="10" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
+    <text x="24" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">DOCS</text>
+    <path d="M38,39 L62,39" className="stroke-white/30" />
+    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#8FBF3C] fill-[#8FBF3C]/10" />
+    <text x="76" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">RAG</text>
+    <path d="M68,34 L84,44" className="stroke-[#8FBF3C]/60" />
+    <path d="M90,39 L114,39" className="stroke-white/30" />
+    <rect x="114" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
+    <text x="128" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">LLM</text>
   </svg>
 )
 
 const LogisticsArchSvg: React.FC = () => (
   <svg viewBox="0 0 160 80" className="w-full max-w-[140px] h-auto stroke-current stroke-[0.75] fill-none opacity-75">
-    <rect x="10" y="25" width="28" height="28" rx="2" className="stroke-black/20" />
-    <text x="24" y="42" className="font-sans text-[7px] fill-[#1a1a1a] text-center" textAnchor="middle">GPS</text>
-    <path d="M38,39 L62,39" className="stroke-black/20" />
-    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#9fff00] fill-[#9fff00]/5" />
-    <text x="76" y="42" className="font-sans text-[7px] fill-[#1a1a1a] text-center" textAnchor="middle">REDIS</text>
-    <path d="M90,39 L114,39" className="stroke-black/20" />
-    <rect x="114" y="25" width="28" height="28" rx="2" className="stroke-black/20" />
-    <text x="128" y="42" className="font-sans text-[7px] fill-[#1a1a1a] text-center" textAnchor="middle">AWS</text>
+    <rect x="10" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
+    <text x="24" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">GPS</text>
+    <path d="M38,39 L62,39" className="stroke-white/30" />
+    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#8FBF3C] fill-[#8FBF3C]/10" />
+    <text x="76" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">REDIS</text>
+    <path d="M90,39 L114,39" className="stroke-white/30" />
+    <rect x="114" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
+    <text x="128" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">AWS</text>
   </svg>
 )
 
@@ -105,7 +105,7 @@ const CountUp: React.FC<{ value: number; suffix: string; active: boolean; reduce
   }, [value, active, reducedMotion])
 
   return (
-    <span className="font-display font-medium text-[36px] md:text-[54px] lg:text-[62px] text-[#1a1a1a] leading-none tracking-tight">
+    <span className="font-display font-medium text-[36px] md:text-[54px] lg:text-[62px] text-white leading-none tracking-tight">
       {count.toLocaleString()}{suffix}
     </span>
   )
@@ -430,7 +430,7 @@ export const Trust: React.FC = () => {
                         <span className="text-[10px] font-sans font-bold tracking-widest text-white/40 uppercase self-start">
                           System Architecture Preview
                         </span>
-                        <div className="w-full flex justify-center py-4 bg-white/10 rounded border border-white/[0.02] filter invert brightness-[2]">
+                        <div className="w-full flex justify-center py-4 bg-white/5 rounded border border-white/[0.04]">
                           {caseStudy.arch}
                         </div>
                       </motion.div>

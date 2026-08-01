@@ -38,7 +38,7 @@ const footerNav = [
       { label: 'Executive Consultation', href: '#conversion' },
       { label: 'Enterprise AI', href: '#conversion' },
       { label: 'Modernize Operations', href: '#conversion' },
-      { label: 'contact@Vyom.ai', href: 'mailto:contact@Vyom.ai' },
+      { label: 'contact@vyom.ai', href: 'mailto:contact@vyom.ai' },
     ],
   },
 ]
@@ -72,7 +72,7 @@ export const Footer: React.FC = () => {
             className="outline-none focus-visible:ring-2 focus-visible:ring-[#8FBF3C] focus-visible:ring-offset-2 rounded-sm inline-block w-fit filter invert brightness-[2]"
             aria-label="Vyom AI — back to home"
           >
-            <VyomLogo variant="full" height={72} />
+            <VyomLogo variant="full" height={48} />
           </a>
 
           <div className="flex flex-col gap-2">
@@ -87,7 +87,7 @@ export const Footer: React.FC = () => {
           {/* Social links */}
           <div className="flex gap-4 mt-2 text-[12px] font-sans font-bold text-white/40">
             <a
-              href="https://linkedin.com/company/Vyomi"
+              href="https://linkedin.com/company/vyom-ai"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors hover-link-underline"
@@ -96,7 +96,7 @@ export const Footer: React.FC = () => {
             </a>
             <span>·</span>
             <a
-              href="mailto:contact@Vyom.ai"
+              href="mailto:contact@vyom.ai"
               className="hover:text-white transition-colors hover-link-underline"
             >
               Email

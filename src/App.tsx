@@ -20,7 +20,7 @@ function App() {
 
   return (
     <ExperienceModeProvider>
-      <div className="min-h-screen bg-bg-base selection:bg-brand-green selection:text-black flex flex-col">
+      <div className="min-h-screen bg-bg-base flex flex-col">
         {/* Persistent Glass Navigation bar */}
         <Navbar />
 

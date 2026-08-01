@@ -146,7 +146,7 @@ export const Philosophy: React.FC = () => {
               transition={{ repeat: Infinity, duration: 35, ease: 'linear' }}
               style={{ transformOrigin: '120px 120px' }}
             >
-              <circle cx="230" cy="120" r="4.5" className="fill-[#8FBF3C] stroke-[#1a1a1a]/40" strokeWidth="0.5" />
+              <circle cx="225" cy="120" r="4.5" className="fill-[#8FBF3C] stroke-[#1a1a1a]/40" strokeWidth="0.5" />
             </motion.g>
           </svg>
         </motion.div>

@@ -266,7 +266,7 @@ export const Insights: React.FC = () => {
           >
             {/* Left abstract banner cover (Larger, occupying 7 columns on desktop) */}
             <div className="col-span-12 lg:col-span-7 py-16 bg-white/30 border border-black/[0.04] rounded-[12px] flex items-center justify-center shadow-medium overflow-hidden relative group-hover:shadow-floating transition-all duration-500">
-              <div className="w-full h-full max-w-[85%] transition-transform duration-700 group-hover:scale-103">
+              <div className="w-full h-full max-w-[85%] transition-transform duration-700 group-hover:scale-[1.03]">
                 {renderCover(featuredArticle.coverType)}
               </div>
             </div>
@@ -274,7 +274,7 @@ export const Insights: React.FC = () => {
             {/* Right text layout metadata (Occupying 5 columns on desktop) */}
             <div className="col-span-12 lg:col-span-5 flex flex-col gap-6 text-left">
               <div className="flex items-center gap-4 text-[11px] font-sans font-bold text-[#8e8e8e] uppercase tracking-widest">
-                <span className="text-[#1a1a1a] bg-[#8FBF3C] px-2 py-0.5 rounded-[3px] text-[9.5px]">
+                <span className="text-[#1a1a1a] bg-[#8FBF3C] px-2.5 py-1 rounded-[3px] text-[9.5px] font-bold tracking-wider uppercase">
                   {featuredArticle.category}
                 </span>
                 <span>•</span>
@@ -347,7 +347,7 @@ export const Insights: React.FC = () => {
                   >
                     {/* Small cover display */}
                     <div className="w-full flex items-center justify-center py-6 bg-white/20 border border-black/[0.02] rounded-[4px] mb-2 overflow-hidden">
-                      <div className="transition-transform duration-500 group-hover:scale-102">
+                      <div className="transition-transform duration-500 group-hover:scale-[1.02]">
                         {renderCover(art.coverType)}
                       </div>
                     </div>
@@ -465,7 +465,8 @@ export const Insights: React.FC = () => {
                   />
                   <button
                     type="submit"
-                    className="bg-[#1a1a1a] hover:bg-[#333] text-white py-2 px-5 rounded-pill font-sans text-[12.5px] font-medium transition-colors border-none outline-none cursor-pointer shrink-0"
+                    aria-label="Subscribe to Vyom Intelligence newsletter"
+                    className="bg-[#1a1a1a] hover:bg-[#333] text-white py-2 px-5 rounded-pill font-sans text-[12.5px] font-medium transition-all duration-200 border-none outline-none cursor-pointer shrink-0 hover:scale-[1.02] active:scale-95 focus-visible:ring-2 focus-visible:ring-[#8FBF3C] focus-visible:ring-offset-2"
                   >
                     Subscribe
                   </button>

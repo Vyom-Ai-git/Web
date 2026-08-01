@@ -408,7 +408,7 @@ export const Capabilities: React.FC = () => {
       <div className="max-w-7xl mx-auto px-8 md:px-16 lg:px-20 grid grid-cols-12 gap-y-10 lg:gap-x-8 items-start relative z-10">
 
         {/* DESKTOP SIDEBAR / TABLET HORIZONTAL CONTROLS (Cols 1-4) */}
-        <div className="col-span-12 lg:col-span-4 lg:sticky lg:top-28 z-30">
+        <div className="col-span-12 lg:col-span-4 lg:sticky lg:top-24 z-30">
 
           {/* Desktop view (Vertical stack, sticky) */}
           <div className="hidden lg:flex flex-col gap-3.5 text-left border-l border-white/[0.08] pl-6">

@@ -109,7 +109,7 @@ export const SearchExperience: React.FC = () => {
           className="bg-[#1a1a1a] hover:bg-[#333] text-white w-9 h-9 rounded-full relative flex items-center justify-center transition-all duration-300 shrink-0 outline-none border-none cursor-pointer group hover:scale-105 active:scale-95 focus-visible:ring-2 focus-visible:ring-[#8FBF3C] focus-visible:ring-offset-2"
           aria-label="Submit search query"
         >
-          <ArrowRight className="w-4 h-4 text-white transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-rotate-45" />
+          <ArrowRight className="w-4 h-4 text-white transition-transform duration-300 group-hover:translate-x-0.5" />
         </button>
       </div>
 

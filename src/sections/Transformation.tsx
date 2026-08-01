@@ -380,10 +380,10 @@ export const Transformation: React.FC = () => {
         onTouchStart={onTouchStart}
         onTouchMove={onTouchMove}
         onTouchEnd={onTouchEnd}
-        className="max-w-4xl mx-auto px-8 md:px-16 relative z-10 flex flex-col items-center gap-10"
+        className="max-w-5xl mx-auto px-8 md:px-16 relative z-10 flex flex-col items-center gap-10"
       >
         {/* Large Premium Illustration Box */}
-        <div className="w-full max-w-lg aspect-[1.8/1] flex items-center justify-center py-6 bg-white/20 border border-black/[0.03] rounded-[16px] shadow-soft relative overflow-hidden backdrop-blur-sm">
+        <div className="w-full max-w-xl aspect-[1.8/1] flex items-center justify-center py-6 bg-white/20 border border-black/[0.03] rounded-[16px] shadow-soft relative overflow-hidden backdrop-blur-sm">
           <AnimatePresence mode="wait">
             <motion.div
               key={currentStage}

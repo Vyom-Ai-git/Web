@@ -254,8 +254,8 @@ export const Conversion: React.FC = () => {
 
           {/* Alternate contacts */}
           <div className="flex flex-wrap gap-4 text-[13px] font-sans font-bold text-white/50">
-            <a href="mailto:contact@Vyom.com" className="hover:text-white hover-link-underline transition-colors lowercase">
-              email: contact@Vyom.com
+            <a href="mailto:contact@vyom.ai" className="hover:text-white hover-link-underline transition-colors lowercase">
+              email: contact@vyom.ai
             </a>
             <span>•</span>
             <a href="#linkedin" className="hover:text-white hover-link-underline transition-colors lowercase">
@@ -305,7 +305,7 @@ export const Conversion: React.FC = () => {
                       if (nameError) setNameError('')
                     }}
                     placeholder="Enter your name"
-                    className={`w-full bg-[#0D1117]/80 border rounded-[6px] py-2 px-3 text-[13.5px] font-sans outline-none focus:bg-[#0D1117] focus:border-[#8FBF3C]/60 focus:ring-1 focus:ring-[#8FBF3C]/25 transition-all duration-300 text-white ${nameError ? 'border-red-500 bg-red-500/5 focus:ring-red-100' : 'border-white/[0.08]'
+                    className={`input-dark w-full bg-[#0D1117]/80 border rounded-[6px] py-2.5 px-3.5 text-[13.5px] font-sans outline-none focus:bg-[#0D1117] focus:border-[#8FBF3C]/60 focus:ring-1 focus:ring-[#8FBF3C]/25 transition-all duration-300 text-white ${nameError ? 'border-red-500/60 bg-red-500/5 focus:ring-red-500/20' : 'border-white/[0.10]'
                       }`}
                   />
                   {nameError && (
@@ -329,7 +329,7 @@ export const Conversion: React.FC = () => {
                       if (orgError) setOrgError('')
                     }}
                     placeholder="Enter organization name"
-                    className={`w-full bg-[#0D1117]/80 border rounded-[6px] py-2 px-3 text-[13.5px] font-sans outline-none focus:bg-[#0D1117] focus:border-[#8FBF3C]/60 focus:ring-1 focus:ring-[#8FBF3C]/25 transition-all duration-300 text-white ${orgError ? 'border-red-500 bg-red-500/5 focus:ring-red-100' : 'border-white/[0.08]'
+                    className={`input-dark w-full bg-[#0D1117]/80 border rounded-[6px] py-2.5 px-3.5 text-[13.5px] font-sans outline-none focus:bg-[#0D1117] focus:border-[#8FBF3C]/60 focus:ring-1 focus:ring-[#8FBF3C]/25 transition-all duration-300 text-white ${orgError ? 'border-red-500/60 bg-red-500/5 focus:ring-red-500/20' : 'border-white/[0.10]'
                       }`}
                   />
                   {orgError && (
@@ -353,7 +353,7 @@ export const Conversion: React.FC = () => {
                       if (emailError) setEmailError('')
                     }}
                     placeholder="name@organization.com"
-                    className={`w-full bg-[#0D1117]/80 border rounded-[6px] py-2 px-3 text-[13.5px] font-sans outline-none focus:bg-[#0D1117] focus:border-[#8FBF3C]/60 focus:ring-1 focus:ring-[#8FBF3C]/25 transition-all duration-300 text-white ${emailError ? 'border-red-500 bg-red-500/5 focus:ring-red-100' : 'border-white/[0.08]'
+                    className={`input-dark w-full bg-[#0D1117]/80 border rounded-[6px] py-2.5 px-3.5 text-[13.5px] font-sans outline-none focus:bg-[#0D1117] focus:border-[#8FBF3C]/60 focus:ring-1 focus:ring-[#8FBF3C]/25 transition-all duration-300 text-white ${emailError ? 'border-red-500/60 bg-red-500/5 focus:ring-red-500/20' : 'border-white/[0.10]'
                       }`}
                   />
                   {emailError && (
@@ -372,7 +372,7 @@ export const Conversion: React.FC = () => {
                     id="objective"
                     value={objective}
                     onChange={(e) => setObjective(e.target.value)}
-                    className="w-full bg-[#0D1117]/80 border border-white/[0.08] rounded-[6px] py-2 px-3 text-[13.5px] font-sans outline-none focus:bg-[#0D1117] focus:border-[#8FBF3C]/60 focus:ring-1 focus:ring-[#8FBF3C]/25 transition-all duration-300 text-white cursor-pointer"
+                    className="input-dark w-full bg-[#0D1117]/80 border border-white/[0.10] rounded-[6px] py-2.5 px-3.5 text-[13.5px] font-sans outline-none focus:bg-[#0D1117] focus:border-[#8FBF3C]/60 focus:ring-1 focus:ring-[#8FBF3C]/25 transition-all duration-300 text-white cursor-pointer"
                   >
                     <option className="bg-[#0D1117] text-white" value="Explore Enterprise AI">Explore Enterprise AI</option>
                     <option className="bg-[#0D1117] text-white" value="Modernize Operations">Modernize Operations</option>
@@ -390,7 +390,7 @@ export const Conversion: React.FC = () => {
                     id="timeline"
                     value={timeline}
                     onChange={(e) => setTimeline(e.target.value)}
-                    className="w-full bg-[#0D1117]/80 border border-white/[0.08] rounded-[6px] py-2 px-3 text-[13.5px] font-sans outline-none focus:bg-[#0D1117] focus:border-[#8FBF3C]/60 focus:ring-1 focus:ring-[#8FBF3C]/25 transition-all duration-300 text-white cursor-pointer"
+                    className="input-dark w-full bg-[#0D1117]/80 border border-white/[0.10] rounded-[6px] py-2.5 px-3.5 text-[13.5px] font-sans outline-none focus:bg-[#0D1117] focus:border-[#8FBF3C]/60 focus:ring-1 focus:ring-[#8FBF3C]/25 transition-all duration-300 text-white cursor-pointer"
                   >
                     <option className="bg-[#0D1117] text-white" value="< 1 month">&lt; 1 month</option>
                     <option className="bg-[#0D1117] text-white" value="1-3 months">1-3 months</option>
@@ -409,8 +409,8 @@ export const Conversion: React.FC = () => {
                     value={context}
                     onChange={(e) => setContext(e.target.value)}
                     placeholder="Briefly describe operational goals or constraints"
-                    rows={2.5}
-                    className="w-full bg-[#0D1117]/80 border border-white/[0.08] rounded-[6px] py-2 px-3 text-[13.5px] font-sans outline-none focus:bg-[#0D1117] focus:border-[#8FBF3C]/60 focus:ring-1 focus:ring-[#8FBF3C]/25 transition-all duration-300 text-white resize-none"
+                    rows={3}
+                    className="input-dark w-full bg-[#0D1117]/80 border border-white/[0.10] rounded-[6px] py-2.5 px-3.5 text-[13.5px] font-sans outline-none focus:bg-[#0D1117] focus:border-[#8FBF3C]/60 focus:ring-1 focus:ring-[#8FBF3C]/25 transition-all duration-300 text-white resize-none"
                   />
                 </div>
 
@@ -418,7 +418,7 @@ export const Conversion: React.FC = () => {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full sm:w-auto px-8 self-end bg-black/40 hover:bg-black/60 border border-white/10 hover:border-white/20 disabled:bg-[#333] text-white py-3 px-6 rounded-pill font-sans text-[13px] font-bold transition-all duration-300 cursor-pointer outline-none shadow-soft text-center mt-2 group hover:scale-[1.02] active:scale-[0.97] disabled:scale-100 disabled:pointer-events-none flex items-center justify-center gap-1.5"
+                  className="w-full sm:w-auto px-8 self-end bg-black/40 hover:bg-black/60 border border-white/10 hover:border-white/20 disabled:bg-[#333] text-white py-3 rounded-pill font-sans text-[13px] font-bold transition-all duration-300 cursor-pointer outline-none shadow-soft text-center mt-2 group hover:scale-[1.02] active:scale-[0.97] disabled:scale-100 disabled:pointer-events-none flex items-center justify-center gap-1.5"
                 >
                   {isSubmitting ? (
                     <>
