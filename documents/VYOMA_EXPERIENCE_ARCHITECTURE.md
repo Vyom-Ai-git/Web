@@ -1,4 +1,4 @@
-# VYOMA: EXPERIENCE & INFORMATION ARCHITECTURE
+# Vyom: EXPERIENCE & INFORMATION ARCHITECTURE
 ### System Navigation, Section Blueprint, and Interaction Flow
 **Version:** 1.0.0  
 **Classification:** Internal Strategy Standard  
@@ -29,12 +29,12 @@ Enterprise decision-makers do not browse websites; they evaluate partners. Their
 ## 2. Homepage Section-by-Section Blueprint
 
 ### Section 01: The Horizon (Hero Entry)
-*   **Why it exists:** To decelerate the visitor's focus. Most tech sites are noisy; Vyoma is an expanse of absolute calm, commanding attention through silence.
-*   **Business Goal:** Establish immediate gravitas and position Vyoma as the premier engineering partner for complex transformations.
+*   **Why it exists:** To decelerate the visitor's focus. Most tech sites are noisy; Vyom is an expanse of absolute calm, commanding attention through silence.
+*   **Business Goal:** Establish immediate gravitas and position Vyom as the premier engineering partner for complex transformations.
 *   **User Emotion:** Quiet awe, intellectual focus, curiosity.
 *   **Content:**
     *   Faint coordinate crosshair following the cursor.
-    *   A single, understated statement: `VYOMA / Engineering intelligent systems for enterprise scale.`
+    *   A single, understated statement: `Vyom / Engineering intelligent systems for enterprise scale.`
     *   Live system diagnostics telemetry ticking quietly in monospace at the top right: `[ SYS_ACTIVE // LATENCY: 24MS ]`.
 *   **CTA:** `[ EXPLORE SYSTEM ]` — A micro-outlines control that triggers a viewport scroll.
 *   **Transition From Previous:** Fresh browser load: page starts in absolute black (`#08080C`); 1px grid lines draw in, followed by text fading up.
@@ -48,7 +48,7 @@ Enterprise decision-makers do not browse websites; they evaluate partners. Their
 *   **User Emotion:** Reassurance, clarity, alignment.
 *   **Content:**
     *   A highly architectural statement: *"Artificial Intelligence is not a product; it is a structural capacity. We bridge the gap between strategic vision and raw computing power."*
-    *   A side-by-side comparative column detailing current corporate friction vs. Vyoma’s engineered solutions.
+    *   A side-by-side comparative column detailing current corporate friction vs. Vyom’s engineered solutions.
 *   **CTA:** `[ READ CORE BELIEFS // 01 ]` — Leading to the philosophical manifesto page.
 *   **Transition From Previous:** Vertical lines from Section 01 slide downward, forming the structural borders of the comparative columns.
 *   **Transition Into Next:** The vertical lines divide into four quadrants, shifting dynamically to lay the groundwork for Section 03.
@@ -58,7 +58,7 @@ Enterprise decision-makers do not browse websites; they evaluate partners. Their
 ### Section 03: The Instrument (Capabilities Matrix)
 *   **Why it exists:** To display our technical breadth without overwhelming the user. It is styled like a laboratory control board.
 *   **Business Goal:** Establish credentials across Software, AI, Cloud, Automation, and Strategy.
-*   **User Emotion:** Absolute confidence in Vyoma’s technical capability.
+*   **User Emotion:** Absolute confidence in Vyom’s technical capability.
 *   **Content:**
     *   A 4-quadrant interactive matrix of capabilities:
         1. `[ AI & Intelligent Systems ]`
@@ -87,7 +87,7 @@ Enterprise decision-makers do not browse websites; they evaluate partners. Their
 ---
 
 ### Section 05: The Protocol (Methodology)
-*   **Why it exists:** To demystify the process of working with Vyoma. CEOs and CTOs need to know the timeline, commitment, and milestones up front.
+*   **Why it exists:** To demystify the process of working with Vyom. CEOs and CTOs need to know the timeline, commitment, and milestones up front.
 *   **Business Goal:** Simplify the onboarding funnel and set clear transaction expectations.
 *   **User Emotion:** Control, structure, clarity.
 *   **Content:**
@@ -110,7 +110,7 @@ Enterprise decision-makers do not browse websites; they evaluate partners. Their
         *   `[ SENDER: Name / Organization ]`
         *   `[ CRITICAL BOTTLENECK: AI / Cloud / Scale / Strategy ]`
         *   `[ INITIATION WINDOW: Immediate / 30 Days / 90 Days ]`
-    *   System timezone clock and active coordinate stamp of Vyoma HQ.
+    *   System timezone clock and active coordinate stamp of Vyom HQ.
 *   **CTA:** `[ TRANSMIT SYSTEM INTAKE ]` — A thin outlined CTA that activates a confirmation boot sequence upon click.
 *   **Transition From Previous:** The background grid lines contract, focusing all remaining screen brightness onto the portal intake form.
 *   **Transition Into Next:** The grid lines fade out completely, blending into the system footer.
@@ -127,7 +127,7 @@ The navigation is designed as a persistent, high-end dashboard element that fram
 +-----------------------------------------------------------------------------------+
 ```
 
-*   **Left Anchor:** The clean geometric text logo `VYOMA`, accompanied by a tiny blinking active status dot.
+*   **Left Anchor:** The clean geometric text logo `Vyom`, accompanied by a tiny blinking active status dot.
 *   **Center Links:**
     *   `[ 01 // CAPABILITIES ]`
     *   `[ 02 // ENGAGEMENTS ]`
@@ -221,5 +221,5 @@ The footer is clean, highly structured, and avoids standard clutter in favor of 
 4.  **Calibrator Panel:** A micro-settings panel in the header allowing users to change background theme styles (e.g., `CALIBRATION: [ OBSIDIAN ] [ TITANIUM ] [ AMBER_GLOW ]`).
 
 ---
-*Developed by Vyoma Product Experience Group.*  
+*Developed by Vyom Product Experience Group.*  
 *Experience Architecture Blueprint Approved for Interface Design.*

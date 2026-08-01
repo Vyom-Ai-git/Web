@@ -1,4 +1,4 @@
-# VYOMA HOMEPAGE HIGH-FIDELITY DESIGN SPECIFICATION (V1.0)
+# Vyom HOMEPAGE HIGH-FIDELITY DESIGN SPECIFICATION (V1.0)
 ### The Complete Visual and Interactive Design System Implementation Guide
 **Classification:** Interface Design Standard  
 **Theme:** *Apple designed NASA's operating system.*  
@@ -75,7 +75,7 @@ Before the homepage content renders, the website executes a structural diagnosti
 *   **Border Bottom:** `1px solid rgba(255, 255, 255, 0.03)` (Chamber Iron).
 *   **Layout Structure:**
     *   **Cols 1-2 (Logo Group):**
-        *   Text: `VYOMA` (Outfit, `14px`, weight `500`, tracking `0.15em`, color `#F8F9FA`).
+        *   Text: `Vyom` (Outfit, `14px`, weight `500`, tracking `0.15em`, color `#F8F9FA`).
         *   Telemetry Badge: `[ SYS.OK ]` (JetBrains Mono, `9px`, color `#00E5FF`, padding-left `8px`).
     *   **Cols 4-8 (Nav Links Array):**
         *   Links: `[ 01 // CAPABILITIES ]` | `[ 02 // ENGAGEMENTS ]` | `[ 03 // THE PROTOCOL ]`.
@@ -343,9 +343,9 @@ Before the homepage content renders, the website executes a structural diagnosti
 
 ---
 
-## Viewport 08: Why Vyoma
+## Viewport 08: Why Vyom
 
-*   **Component ID:** `vp-08-why-vyoma`
+*   **Component ID:** `vp-08-why-Vyom`
 *   **Height:** `120vh`
 *   **Grid:** 12 Columns | Margins: `128px`
 
@@ -354,7 +354,7 @@ Before the homepage content renders, the website executes a structural diagnosti
 +--------------------------------------------------------------------------------+
 | THE DIVERGENCE.                                                                |
 |                                                                                |
-| [Col 1-5: Standard Outsourcing]         |    [Col 7-12: Vyoma Architecture]    |
+| [Col 1-5: Standard Outsourcing]         |    [Col 7-12: Vyom Architecture]    |
 | - Focused on billing developer blocks   |    - Focus: Working software systems |
 | - High employee churn & handoffs        |    - Core team: Locked senior squads |
 | - Overhead: Inefficient account layers  |    - Zero intermediate management    |
@@ -366,7 +366,7 @@ Before the homepage content renders, the website executes a structural diagnosti
     *   Width: `1px`. Height: `540px` (Centered vertically). Color: `rgba(255, 255, 255, 0.06)`.
 *   **Visual Hierarchy:**
     *   **Left Column (Standard):** Color: `#8E929D`. Text is styled in standard weights.
-    *   **Right Column (Vyoma):** Color: `#F8F9FA`. Highlight points are marked with tiny coordinate dots (`+`).
+    *   **Right Column (Vyom):** Color: `#F8F9FA`. Highlight points are marked with tiny coordinate dots (`+`).
 *   **Background Detail:**
     *   Microscopic, helium-silver dust particles (1px diameter, 10% opacity) float slowly in vertical paths behind the right column, representing system organization and order.
 
@@ -422,7 +422,7 @@ Before the homepage content renders, the website executes a structural diagnosti
 | - Case Engagements       - Ingress Node        - GMT Clock      - Security     |
 | - Manifesto              - Frame Rate          - HQ Address     - Privacy Matrix|
 |                                                                                |
-| VYOMA // INTEGRATED.                           PGP KEY: [ DOWNLOAD PGP ]       |
+| Vyom // INTEGRATED.                           PGP KEY: [ DOWNLOAD PGP ]       |
 +--------------------------------------------------------------------------------+
 ```
 *   **Typography:**
@@ -431,8 +431,8 @@ Before the homepage content renders, the website executes a structural diagnosti
 *   **Separators:**
     *   A persistent, top horizontal hairline separator spans Cols 1-12. Height: `1px`. Color: `rgba(255, 255, 255, 0.05)`.
 *   **Exit details:**
-    *   Bottom copyright line: `VYOMA // ALL SYSTEMS CONVERGED.` (Monospace, `9px`, color `#8E929D`, bottom-left position).
+    *   Bottom copyright line: `Vyom // ALL SYSTEMS CONVERGED.` (Monospace, `9px`, color `#8E929D`, bottom-left position).
 
 ---
-*Developed by Vyoma Design System Board.*  
+*Developed by Vyom Design System Board.*  
 *High-Fidelity UI Blueprint Approved for Platform Construction.*

@@ -1,4 +1,4 @@
-# VYOMA HOMEPAGE STORYBOARD (V1.0)
+# Vyom HOMEPAGE STORYBOARD (V1.0)
 ### Elite Production Blueprint & Motion Choreography
 **Classification:** Product Design Standard  
 **Single Source of Truth For:** Visual Designers, Frontend Engineers, Motion Directors, and 3D Developers.  
@@ -14,7 +14,7 @@
 *   **Purpose:** Decelerate the user's attention, establish the visual theme of *Precisionism*, and command instant focus through negative space.
 *   **Business Goal:** Anchor the brand positioning ("We engineer intelligent systems") and filter out low-value inquiries by establishing extreme sophistication.
 *   **User Emotion:** Quiet awe, curiosity, intellectual focus.
-*   **Question Being Answered:** *"Who is Vyoma, and why do they exist?"*
+*   **Question Being Answered:** *"Who is Vyom, and why do they exist?"*
 *   **Headline:** `ENGINEERING INTELLECTUAL CAPACITY FOR THE ENTERPRISE.`
 *   **Supporting Copy:** `We construct custom intelligent software systems that bridge strategic vision with computational scale.`
 *   **Primary CTA:** `[ SYSTEM CALIBRATION ]` (4px radius, outline border `#1E2026`, text Titanium White `#F8F9FA`)
@@ -58,7 +58,7 @@
 *   **Purpose:** Articulate the strategic engineering bottleneck faced by scaling enterprises (fragmentation, system noise, and AI complexity).
 *   **Business Goal:** Build intellectual alignment with CTOs/CEOs by proving we understand the architecture of their friction.
 *   **User Emotion:** Intellectual resonance, relief, validation.
-*   **Question Being Answered:** *"Why is modern digital scaling so complex, and how does Vyoma see it?"*
+*   **Question Being Answered:** *"Why is modern digital scaling so complex, and how does Vyom see it?"*
 *   **Headline:** `THE FRICTION OF ISOLATED INTELLIGENCE.`
 *   **Supporting Copy:** `Modern enterprises do not lack data or software. They lack structural cohesion. Most companies deploy disconnected AI tools that create fragmented silos. We build cohesive systems.`
 *   **Primary CTA:** `[ READ VALUE PRINCIPLES ]`
@@ -91,7 +91,7 @@
 
 *   **Viewport Number:** 03
 *   **Viewport Height:** 150vh
-*   **Purpose:** Present Vyoma's technical expertise (AI, Cloud, Data, Strategy) as an organized, diagnostic cockpit.
+*   **Purpose:** Present Vyom's technical expertise (AI, Cloud, Data, Strategy) as an organized, diagnostic cockpit.
 *   **Business Goal:** Establish deep technical authority across key technology disciplines.
 *   **User Emotion:** Confidence in technical mastery, clarity of navigation.
 *   **Question Being Answered:** *"What specific systems is this team qualified to build?"*
@@ -129,7 +129,7 @@
 
 *   **Viewport Number:** 04
 *   **Viewport Height:** 120vh
-*   **Purpose:** Ground technical capabilities into concrete strategic solutions, showing the practical value Vyoma engineers.
+*   **Purpose:** Ground technical capabilities into concrete strategic solutions, showing the practical value Vyom engineers.
 *   **Business Goal:** Demonstrate to enterprise decision-makers that our work translates to structural margins, efficiency, and scale.
 *   **User Emotion:** Analytical satisfaction, recognition of value.
 *   **Question Being Answered:** *"How do their capabilities solve real enterprise problems?"*
@@ -167,7 +167,7 @@
 
 *   **Viewport Number:** 05
 *   **Viewport Height:** 130vh
-*   **Purpose:** Deconstruct a singular, deep case engagement to show Vyoma's capabilities in production.
+*   **Purpose:** Deconstruct a singular, deep case engagement to show Vyom's capabilities in production.
 *   **Business Goal:** Build absolute credibility and trust by showing high-level engineering details, not generic summaries.
 *   **User Emotion:** Deep conviction, intellectual trust.
 *   **Question Being Answered:** *"How does this look in practice for a major client?"*
@@ -265,21 +265,21 @@
 
 ---
 
-## Viewport 08: Why Vyoma
+## Viewport 08: Why Vyom
 
 *   **Viewport Number:** 08
 *   **Viewport Height:** 120vh
-*   **Purpose:** Position Vyoma as a premium product engineering partner, explicitly differentiating from traditional agency/consulting models.
+*   **Purpose:** Position Vyom as a premium product engineering partner, explicitly differentiating from traditional agency/consulting models.
 *   **Business Goal:** Solidify the "expensive, high-trust" value proposition. Prevent comparison with low-cost outsourcing agencies.
 *   **User Emotion:** Realization, alignment, trust.
-*   **Question Being Answered:** *"What makes Vyoma different from a traditional software agency?"*
+*   **Question Being Answered:** *"What makes Vyom different from a traditional software agency?"*
 *   **Headline:** `THE DIVERGENCE.`
 *   **Supporting Copy:** `We do not sell blocks of developer hours. We engineer functional intelligent systems. No account managers. No communication layers. Direct access to system architects.`
 *   **Primary CTA:** `[ REQUEST CONSULTATION ]`
 *   **Visual Composition:**
     *   *Comparison Split:* Two clean columns divided by a central 1px line.
         *   *Left Column:* `[ STANDARD OUTSOURCING ]` (Focuses on metrics like head count, bloated teams, high churn, overhead).
-        *   *Right Column:* `[ VYOMA ARCHITECTURE ]` (Focuses on metrics like senior squad deployment, locked timelines, verified testing, direct communication).
+        *   *Right Column:* `[ Vyom ARCHITECTURE ]` (Focuses on metrics like senior squad deployment, locked timelines, verified testing, direct communication).
 *   **Background Behaviour:**
     *   *Particles:* Slow, vertical drift of Quantum Noise particles (helium silver, 1px diameter) in the right column, representing structure, while the left column remains dark and empty.
     *   *Lighting:* Faint ambient gradient catching the right column.
@@ -306,13 +306,13 @@
 *   **Purpose:** Capture high-intent, qualified executive inquiries through a secure, premium intake interface.
 *   **Business Goal:** Generate inbound pipeline leads for system audits and architectural builds.
 *   **User Emotion:** Intentionality, security, anticipation.
-*   **Question Being Answered:** *"How do we initiate a diagnostic review with Vyoma?"*
+*   **Question Being Answered:** *"How do we initiate a diagnostic review with Vyom?"*
 *   **Headline:** `INITIATE THE DIAGNOSTIC PROTOCOL.`
 *   **Supporting Copy:** `Submit your system parameters. Our engineering board will analyze your infrastructure and schedule a direct consultation.`
 *   **Primary CTA:** `[ SECURE TRANSMISSION ]`
 *   **Visual Composition:**
     *   *Center-Left Console:* Minimalist, functional form console (Name/Company, Bottleneck Domain, Expected Timeline, Secure Email).
-    *   *Right Panel (Metadata):* Live GMT clock, Vyoma HQ coordinates, active network handshake protocol status, and PGP key link.
+    *   *Right Panel (Metadata):* Live GMT clock, Vyom HQ coordinates, active network handshake protocol status, and PGP key link.
 *   **Background Behaviour:**
     *   *Canvas:* Pure Space Obsidian.
     *   *Lighting:* Soft top-down white light catching the active input fields.
@@ -342,7 +342,7 @@
 *   **Business Goal:** Complete the visitor journey on a calm, quiet note of absolute authority.
 *   **User Emotion:** Deep trust, closure, finality.
 *   **Question Being Answered:** *"Where can I find legal, taxonomic, or contact parameters?"*
-*   **Headline:** `VYOMA // ARCHITECTS OF INTELLECT.`
+*   **Headline:** `Vyom // ARCHITECTS OF INTELLECT.`
 *   **Supporting Copy:** `Designed for clarity. Engineered for scale. Powered by absolute precision.`
 *   **Primary CTA:** `[ CONNECT SECURELY // PGP KEY ]`
 *   **Visual Composition:**
@@ -371,5 +371,5 @@
     *   *Layout:* Stacks vertically. The four columns collapse into a single chronological column. Technical specs and coordinates are hidden to keep the layout concise.
 
 ---
-*Developed by Vyoma Creative Direction Board.*  
+*Developed by Vyom Creative Direction Board.*  
 *Homepage Storyboard Approved for Interface Design & Asset Production.*

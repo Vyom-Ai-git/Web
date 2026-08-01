@@ -1,8 +1,8 @@
-# VYOMA ABOUT PAGE ARCHITECTURE (V1.0)
+# Vyom ABOUT PAGE ARCHITECTURE (V1.0)
 ### Corporate Identity, Strategic Vision, and Engineering Principles Blueprint
 **Classification:** Brand Identity & Platform Standard  
 **Single Source of Truth For:** Visual Designers, Frontend Engineers, and Content Leads.  
-**Design System Anchor:** Conforming strictly to [VYOMA_DESIGN_BIBLE.md](file:///Users/vivek/Documents/Vyoma/VYOMA_DESIGN_BIBLE.md) and [06_COMPONENT_LIBRARY.md](file:///Users/vivek/Documents/Vyoma/06_COMPONENT_LIBRARY.md).
+**Design System Anchor:** Conforming strictly to [Vyom_DESIGN_BIBLE.md](file:///Users/vivek/Documents/Vyom/Vyom_DESIGN_BIBLE.md) and [06_COMPONENT_LIBRARY.md](file:///Users/vivek/Documents/Vyom/06_COMPONENT_LIBRARY.md).
 
 ---
 
@@ -27,7 +27,7 @@ The About page is structured as a cinematic journey detailing the intellectual c
 
 ## 1. Hero & Mission (`about-hero`)
 
-*   **Purpose:** Declare Vyoma's core purpose with absolute authority and zero marketing fluff.
+*   **Purpose:** Declare Vyom's core purpose with absolute authority and zero marketing fluff.
 *   **Grid Layout:** Split 12-Column Grid.
     *   *Left Columns (Col 1-8):* Mission Headline, telemetry labels, and narrative copy.
     *   *Right Columns (Col 9-12):* An active GMT timezone clock and coordinate readout tracing NYC, SF, and London engineering hubs.
@@ -43,7 +43,7 @@ The About page is structured as a cinematic journey detailing the intellectual c
 
 ## 2. Vision & Culture Pillars (`about-culture`)
 
-*   **Purpose:** Define our perspective on digital transformation and document the internal engineering culture of Vyoma.
+*   **Purpose:** Define our perspective on digital transformation and document the internal engineering culture of Vyom.
 *   **Grid Layout:** 3 columns (each 4 columns wide) representing the Core Cultural Pillars:
     1.  `[ INTELLECTUAL HONESTY ]`
     2.  `[ ARCHITECTURAL RIGOR ]`
@@ -68,7 +68,7 @@ The About page is structured as a cinematic journey detailing the intellectual c
 
 ## 4. Leadership Directory (`about-leadership`)
 
-*   **Purpose:** Present the senior system architects driving Vyoma's project delivery.
+*   **Purpose:** Present the senior system architects driving Vyom's project delivery.
 *   **Grid Layout:** 4-Column Card Grid (each 3 columns wide).
 *   **Visual Assets:**
     *   **Leadership Portraits:** High-contrast, monochromatic (black and white) studio headshots with low exposure, deep blacks, and fine-grain noise.
@@ -78,7 +78,7 @@ The About page is structured as a cinematic journey detailing the intellectual c
 
 ## 5. Milestone Timeline (`about-timeline`)
 
-*   **Purpose:** Visualizing the chronology of Vyoma's corporate growth and system deployments.
+*   **Purpose:** Visualizing the chronology of Vyom's corporate growth and system deployments.
 *   **Grid Layout:** Vertical timeline bar running down Col 1. Chronological event cards stack sequentially on the right side spanning Cols 3-12.
 *   **Interactions:** As the page scrolls, the timeline progress bar draws downward, illuminating the target node and card in Kelvin Cyan as it passes the screen center.
 
@@ -110,5 +110,5 @@ The About page is structured as a cinematic journey detailing the intellectual c
 *   **Haptic Modifiers:** Touch events replace mouse tracking hover states; PGP keys and technical domains are visible statically.
 
 ---
-*Developed by Vyoma Design System Board.*  
+*Developed by Vyom Design System Board.*  
 *About Page Architecture Approved for Platform Construction.*

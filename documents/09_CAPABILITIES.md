@@ -1,8 +1,8 @@
-# VYOMA CAPABILITIES PAGES ARCHITECTURE (V1.0)
+# Vyom CAPABILITIES PAGES ARCHITECTURE (V1.0)
 ### System-Level Schematics, Layout Blueprints, and Interaction Models for Core Disciplines
 **Classification:** Product Architecture Standard  
 **Single Source of Truth For:** Visual Designers, Content Strategy Leads, and Frontend Developers.  
-**Design System Anchor:** Conforming strictly to [VYOMA_DESIGN_BIBLE.md](file:///Users/vivek/Documents/Vyoma/VYOMA_DESIGN_BIBLE.md) and [06_COMPONENT_LIBRARY.md](file:///Users/vivek/Documents/Vyoma/06_COMPONENT_LIBRARY.md).
+**Design System Anchor:** Conforming strictly to [Vyom_DESIGN_BIBLE.md](file:///Users/vivek/Documents/Vyom/Vyom_DESIGN_BIBLE.md) and [06_COMPONENT_LIBRARY.md](file:///Users/vivek/Documents/Vyom/06_COMPONENT_LIBRARY.md).
 
 ---
 
@@ -41,7 +41,7 @@ Every capability page inherits the standard layout skeleton below to preserve ty
 *   **Animations & Choreography:** Text reveals via a vertical clip mask on load. WebGL gyroid expands slowly from the center outward. On scroll, the gyroid's vertices disperse into floating coordinate particles, sliding down into the overview section.
 
 #### 2. Overview
-*   **Layout:** Two columns divided by a vertical hairline. Left: the business friction (siloed model deployments, data security gaps). Right: Vyoma’s solution (sovereign fine-tuning, secure vector routing).
+*   **Layout:** Two columns divided by a vertical hairline. Left: the business friction (siloed model deployments, data security gaps). Right: Vyom’s solution (sovereign fine-tuning, secure vector routing).
 *   **Mobile Behaviour:** Left and right columns stack vertically. Comparison transitions to a tab toggle.
 
 #### 3. Process
@@ -87,7 +87,7 @@ Every capability page inherits the standard layout skeleton below to preserve ty
 *   **Animations & Choreography:** The central vertical line splits and opens like a gate as typography reveals. On scroll, the horizontal progress tracks slide out vertically to form the bounding columns of Section 02.
 
 #### 2. Overview
-*   **Layout:** 3-column matrix. Column 01: Legacy operations friction. Column 02: Vyoma Autonomic Protocol. Column 03: Performance statistics (`92% human error reduction`).
+*   **Layout:** 3-column matrix. Column 01: Legacy operations friction. Column 02: Vyom Autonomic Protocol. Column 03: Performance statistics (`92% human error reduction`).
 *   **Mobile Behaviour:** Stacks vertically. Column 03 metrics scale down to fit small displays.
 
 #### 3. Process
@@ -133,7 +133,7 @@ Every capability page inherits the standard layout skeleton below to preserve ty
 *   **Animations & Choreography:** Neural nodes trace connection pathways to neighbors on load. Scrolling down compresses the node mesh horizontally into a single layout line framing the next section.
 
 #### 2. Overview
-*   **Layout:** Two columns. Left: Structural bottlenecks (multi-region latency, uncontrolled cloud spend, downtime risk). Right: Vyoma Cloud Grid architecture (IaC, Kubernetes mesh, automated failure domains).
+*   **Layout:** Two columns. Left: Structural bottlenecks (multi-region latency, uncontrolled cloud spend, downtime risk). Right: Vyom Cloud Grid architecture (IaC, Kubernetes mesh, automated failure domains).
 *   **Mobile Behaviour:** Stacks vertically.
 
 #### 3. Process
@@ -179,7 +179,7 @@ Every capability page inherits the standard layout skeleton below to preserve ty
 *   **Animations & Choreography:** Visual tracing lines illuminate sequentially on load. Scrolling down fades the CPU model as its outer boundaries expand to become the vertical column guides for the overview.
 
 #### 2. Overview
-*   **Layout:** 3 columns. Col 1: Software bloat. Col 2: The Vyoma Compiling Protocol (Direct architectures, zero telemetry bloat). Col 3: System metrics (`90% latency reduction`).
+*   **Layout:** 3 columns. Col 1: Software bloat. Col 2: The Vyom Compiling Protocol (Direct architectures, zero telemetry bloat). Col 3: System metrics (`90% latency reduction`).
 *   **Mobile Behaviour:** Stacks vertically.
 
 #### 3. Process
@@ -225,7 +225,7 @@ Every capability page inherits the standard layout skeleton below to preserve ty
 *   **Animations & Choreography:** Particle streams slide down continuously. Scrolling down speeds up the particle streams, compressing them into the central vertical timeline indicator of Section 03.
 
 #### 2. Overview
-*   **Layout:** Two columns. Left: Data scale friction (ingestion bottlenecks, query execution delays, high database maintenance overhead). Right: Vyoma Data Systems architecture (distributed messaging queues, real-time telemetry processing).
+*   **Layout:** Two columns. Left: Data scale friction (ingestion bottlenecks, query execution delays, high database maintenance overhead). Right: Vyom Data Systems architecture (distributed messaging queues, real-time telemetry processing).
 *   **Mobile Behaviour:** Stacks vertically.
 
 #### 3. Process
@@ -271,7 +271,7 @@ Every capability page inherits the standard layout skeleton below to preserve ty
 *   **Animations & Choreography:** Typographic clip mask reveal. Crosshair splits laterally. Scrolling down moves the layout lines to frame the comparative value panels in Section 02.
 
 #### 2. Overview
-*   **Layout:** 3 columns. Col 1: Current corporate friction. Col 2: Vyoma Strategic alignment. Col 3: Outcomes (operating margin improvement metrics).
+*   **Layout:** 3 columns. Col 1: Current corporate friction. Col 2: Vyom Strategic alignment. Col 3: Outcomes (operating margin improvement metrics).
 *   **Mobile Behaviour:** Stacks vertically.
 
 #### 3. Process
@@ -293,12 +293,12 @@ Every capability page inherits the standard layout skeleton below to preserve ty
 
 #### 7. FAQ
 *   **Matrix:**
-    *   *Q: How does Vyoma align strategic consulting with deep engineering capabilities?*  
+    *   *Q: How does Vyom align strategic consulting with deep engineering capabilities?*  
         *A: Our strategy partners are senior system architects who write code, ensuring that strategic feasibility blueprints are physically verified before development starts.*
 
 #### 8. CTA
 *   **Convergence:** Form console. Primary action: `[ SECURE CONSULTATION ]`.
 
 ---
-*Developed by Vyoma Product Strategy Board.*  
+*Developed by Vyom Product Strategy Board.*  
 *Capabilities Pages Specification Approved for Platform Construction.*

@@ -1,6 +1,6 @@
 import React from 'react'
 
-interface VyomaLogoProps {
+interface VyomLogoProps {
   /** 'mark' = ∞ symbol only
    *  'full' = ∞ stacked above "VYOM AI" text
    *  'inline' = ∞ + "VYOM AI" side-by-side (default, used in Navbar) */
@@ -55,7 +55,7 @@ const InfinityMark: React.FC<MarkProps> = ({ color, strokeWidth }) => (
   />
 )
 
-export const VyomaLogo: React.FC<VyomaLogoProps> = ({
+export const VyomLogo: React.FC<VyomLogoProps> = ({
   variant = 'inline',
   height = 32,
   color = '#1a1a1a',
@@ -153,4 +153,4 @@ export const VyomaLogo: React.FC<VyomaLogoProps> = ({
   )
 }
 
-export default VyomaLogo
+export default VyomLogo

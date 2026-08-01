@@ -1,4 +1,4 @@
-# VYOMA MOTION SYSTEM (V1.0)
+# Vyom MOTION SYSTEM (V1.0)
 ### Choreography, Physics Engines, and Interactive Transition Standards
 **Classification:** Motion & Performance Engineering Standard  
 **Single Source of Truth For:** Frontend Engineers, WebGL Developers, and Motion Animators.  
@@ -201,5 +201,5 @@ To guarantee a locked `60fps` experience across devices:
 *   Use standard CSS transitions exclusively for micro-interactions (button hovers, navigation state drops) to minimize JavaScript main thread processing.
 
 ---
-*Developed by Vyoma Motion System Board.*  
+*Developed by Vyom Motion System Board.*  
 *Motion System Specification Approved for Platform Architecture.*

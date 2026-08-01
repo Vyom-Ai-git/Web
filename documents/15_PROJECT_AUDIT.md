@@ -1,4 +1,4 @@
-# VYOMA ARCHITECTURAL AUDIT & PRE-DEVELOPMENT REVIEW (V1.0)
+# Vyom ARCHITECTURAL AUDIT & PRE-DEVELOPMENT REVIEW (V1.0)
 ### Critical UX, Performance, Accessibility, and Design Token Inspection
 **Classification:** Strategic Quality Assurance Audit  
 **Review Board:** Awwwards Jury Standards, Apple Design Review Protocol, and Senior UX Director.  
@@ -27,7 +27,7 @@ Each category is scored on an absolute premium scale. A score of `10/10` represe
 ## 2. Exposed Inconsistencies & Contradictions
 
 ### 1. Color Token Drifts
-*   *Obsidian Canvas Color:* `VYOMA_DESIGN_BIBLE.md` defines Space Obsidian as `#08080C` (Sec 4) but also lists `#08080A` in typography samples (Sec 5) and gradient stops as `#050507` (Sec 11).
+*   *Obsidian Canvas Color:* `Vyom_DESIGN_BIBLE.md` defines Space Obsidian as `#08080C` (Sec 4) but also lists `#08080A` in typography samples (Sec 5) and gradient stops as `#050507` (Sec 11).
     *   *Correction:* Lock `--canvas-void` globally to `#08080C`. Background gradient must range from `#08080C` to `#0B0C10`. Remove all `#08080A` variables.
 *   *Accent Color Hue:* Cyan is defined as `#00E5FF` (Sec 4) but listed as `#5CE1E6` in strategy drafts.
     *   *Correction:* Lock `--accent-cyan` strictly to `#00E5FF` (Kelvin Cyan). Banish `#5CE1E6` to preserve visual alignment.
@@ -77,7 +77,7 @@ Each category is scored on an absolute premium scale. A score of `10/10` represe
 ### 1. Route Ingress Delay Fatigue
 *   *The Problem:* The initial page boot sequence runs for `1200ms` to `1600ms`. While elegant for first visits, waiting 1200ms on subsequent page returns (e.g., clicking from about back to home) creates operational lag.
 *   *Motion Directives:*
-    *   Implement session-state caching: if `sessionStorage.getItem('vyoma-booted')` is registered, bypass the loading boot sequence entirely, launching routing layouts in `300ms`.
+    *   Implement session-state caching: if `sessionStorage.getItem('Vyom-booted')` is registered, bypass the loading boot sequence entirely, launching routing layouts in `300ms`.
 
 ### 2. Spring Physics Calibration Drift
 *   *The Problem:* Bouncy animations are banned, yet `Spring Gamma` is configured with a high tension/low friction ratio (`tension: 90`, `friction: 30`), which will trigger small oscillations (bounce) on high-mass elements.
@@ -110,5 +110,5 @@ Each category is scored on an absolute premium scale. A score of `10/10` represe
     *   *Correct:* `"We compile backend services in Rust to secure zero memory leaks and cut operational cloud costs by 40%."`
 
 ---
-*Developed by Vyoma Architecture Review Board.*  
+*Developed by Vyom Architecture Review Board.*  
 *Audit Finalized. SC-01 Scaffolding Conditional Release Approved.*

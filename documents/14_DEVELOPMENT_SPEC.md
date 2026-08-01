@@ -1,14 +1,14 @@
-# VYOMA FRONTEND DEVELOPMENT SPECIFICATION (V1.0)
+# Vyom FRONTEND DEVELOPMENT SPECIFICATION (V1.0)
 ### Technical Architecture, Folder Schemas, and Development Guidelines
 **Classification:** Engineering Architecture Standard  
 **Single Source of Truth For:** Frontend Architects, DevOps Engineers, and Full-Stack Developers.  
-**Design System Anchor:** Conforming strictly to [VYOMA_DESIGN_BIBLE.md](file:///Users/vivek/Documents/Vyoma/VYOMA_DESIGN_BIBLE.md) and [08_RESPONSIVE_SYSTEM.md](file:///Users/vivek/Documents/Vyoma/08_RESPONSIVE_SYSTEM.md).
+**Design System Anchor:** Conforming strictly to [Vyom_DESIGN_BIBLE.md](file:///Users/vivek/Documents/Vyom/Vyom_DESIGN_BIBLE.md) and [08_RESPONSIVE_SYSTEM.md](file:///Users/vivek/Documents/Vyom/08_RESPONSIVE_SYSTEM.md).
 
 ---
 
 ## 1. Technical Stack Selection
 
-The Vyoma frontend platform is engineered on a modern, React-based server-and-client architecture to secure SEO indexability, high-performance static rendering, and smooth WebGL canvas overlays.
+The Vyom frontend platform is engineered on a modern, React-based server-and-client architecture to secure SEO indexability, high-performance static rendering, and smooth WebGL canvas overlays.
 
 *   **Core Framework:** Next.js 15 (App Router, TypeScript).
 *   **Styling Engine:** Vanilla CSS (CSS Modules) paired with global CSS Custom Properties. (Zero runtime CSS-in-JS overhead).
@@ -206,5 +206,5 @@ Every page iteration must pass Lighthouse pipeline verification:
 *   **CDN Ingress:** Static assets (fonts, icons, models) preloaded and cached on global CDN boundaries using HTTP headers `Cache-Control: public, max-age=31536000, immutable`.
 
 ---
-*Developed by Vyoma Frontend Engineering Board.*  
+*Developed by Vyom Frontend Engineering Board.*  
 *Development Specification Approved for Platform Construction.*

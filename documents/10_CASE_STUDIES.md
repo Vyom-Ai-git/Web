@@ -1,8 +1,8 @@
-# VYOMA REUSABLE CASE STUDY TEMPLATE (V1.0)
+# Vyom REUSABLE CASE STUDY TEMPLATE (V1.0)
 ### High-Fidelity Layout, Data Visualizations, and Interactive Architecture Specifications
 **Classification:** Content Design & Engineering Standard  
 **Single Source of Truth For:** Frontend Engineers, Technical Copywriters, and Visual Designers.  
-**Design System Anchor:** Conforming strictly to [VYOMA_DESIGN_BIBLE.md](file:///Users/vivek/Documents/Vyoma/VYOMA_DESIGN_BIBLE.md) and [06_COMPONENT_LIBRARY.md](file:///Users/vivek/Documents/Vyoma/06_COMPONENT_LIBRARY.md).
+**Design System Anchor:** Conforming strictly to [Vyom_DESIGN_BIBLE.md](file:///Users/vivek/Documents/Vyom/Vyom_DESIGN_BIBLE.md) and [06_COMPONENT_LIBRARY.md](file:///Users/vivek/Documents/Vyom/06_COMPONENT_LIBRARY.md).
 
 ---
 
@@ -70,7 +70,7 @@ Every Case Study page uses a clean, unified viewport layout grid, structuring te
 
 ## 4. Interactive System Diagram (`case-diagram`)
 
-*   **Purpose:** A visual, interactive deconstruction of the custom architecture Vyoma engineered.
+*   **Purpose:** A visual, interactive deconstruction of the custom architecture Vyom engineered.
 *   **Grid Layout:** Full-bleed 12-Column layout.
     *   *Canvas Container:* Spans Cols 1-12. Height: `600px`. Glass Silica panel.
 *   **Component Structure:**
@@ -104,12 +104,12 @@ Every Case Study page uses a clean, unified viewport layout grid, structuring te
 
 ## 7. Before vs. After Metric Comparison (`case-metrics`)
 
-*   **Purpose:** Direct numerical proof of engineering success, contrasting standard metrics with Vyoma's optimized outcomes.
+*   **Purpose:** Direct numerical proof of engineering success, contrasting standard metrics with Vyom's optimized outcomes.
 
 ### Desktop Wireframe Grid (Cols 1-12)
 ```
 +───────────────────────────────────────────────────────────────────────────────────+
-| [ BEFORE CALIBRATION ]              |          [ AFTER VYOMA PROTOCOL ]           |
+| [ BEFORE CALIBRATION ]              |          [ AFTER Vyom PROTOCOL ]           |
 |                                     |                                             |
 | Latency: 420ms                      |          Latency: 8ms                       |
 | CPU Load: 84%                       |          CPU Load: 12%                      |
@@ -136,7 +136,7 @@ Every Case Study page uses a clean, unified viewport layout grid, structuring te
 
 ## 9. Client Quote (`case-quote`)
 
-*   **Purpose:** Verified executive confirmation of Vyoma's business and technical delivery.
+*   **Purpose:** Verified executive confirmation of Vyom's business and technical delivery.
 *   **Grid Layout:** Centered 12-Column container.
     *   *Text Area:* Spans Cols 3-10.
 *   **Typography Specs:**
@@ -153,5 +153,5 @@ Every Case Study page uses a clean, unified viewport layout grid, structuring te
     *   *Right (Col 7-12):* Primary Intake form console with `[ SECURE TRANSMISSION ]` conversion button.
 
 ---
-*Developed by Vyoma Design System Board.*  
+*Developed by Vyom Design System Board.*  
 *Case Study Template Approved for Platform Construction.*

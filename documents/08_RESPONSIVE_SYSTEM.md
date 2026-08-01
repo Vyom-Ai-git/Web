@@ -1,8 +1,8 @@
-# VYOMA RESPONSIVE SYSTEM (V1.0)
+# Vyom RESPONSIVE SYSTEM (V1.0)
 ### Grid Breakpoints, Fluid Typography, Component Stacking, and Device Performance Standards
 **Classification:** Layout Engineering Standard  
 **Single Source of Truth For:** Frontend Engineers, Layout QA, and Mobile Developers.  
-**Design System Anchor:** Conforming strictly to [VYOMA_DESIGN_BIBLE.md](file:///Users/vivek/Documents/Vyoma/VYOMA_DESIGN_BIBLE.md) and [06_COMPONENT_LIBRARY.md](file:///Users/vivek/Documents/Vyoma/06_COMPONENT_LIBRARY.md).
+**Design System Anchor:** Conforming strictly to [Vyom_DESIGN_BIBLE.md](file:///Users/vivek/Documents/Vyom/Vyom_DESIGN_BIBLE.md) and [06_COMPONENT_LIBRARY.md](file:///Users/vivek/Documents/Vyom/06_COMPONENT_LIBRARY.md).
 
 ---
 
@@ -88,7 +88,7 @@ Vertical page voids (`sp-cosmic`, `sp-huge`) contract on smaller viewports to op
 
 ### 3. Comparison Table (Divergence Columns)
 *   **Desktop/Laptop/Tablet:** Side-by-side comparative grid. Vertical dividing 1px hairline sits in the center.
-*   **Mobile:** Collapses to a single-column detailed view. The competitor column (Standard Outsourcing) is completely hidden or accessible only via a tab selector toggle to keep the focus on Vyoma's metrics.
+*   **Mobile:** Collapses to a single-column detailed view. The competitor column (Standard Outsourcing) is completely hidden or accessible only via a tab selector toggle to keep the focus on Vyom's metrics.
 
 ---
 
@@ -160,5 +160,5 @@ To prevent frame drops on lower-performance mobile devices, the frontend layout 
 *   **Orientation Changes:** Layout margins and grid columns adjust instantly on orientation transitions without losing active form input data.
 
 ---
-*Developed by Vyoma Design System Board.*  
+*Developed by Vyom Design System Board.*  
 *Responsive System Specification Approved for Platform Architecture.*

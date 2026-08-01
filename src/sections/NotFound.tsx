@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'motion/react'
 import { useReducedMotion } from '@/hooks/useReducedMotion'
-import { VyomaLogo } from '@/components/shared/VyomaLogo'
+import { VyomLogo } from '@/components/shared/VyomaLogo'
 
 export const NotFound: React.FC = () => {
   const reducedMotion = useReducedMotion()
@@ -25,7 +25,7 @@ export const NotFound: React.FC = () => {
       >
         {/* Brand mark */}
         <a href="/" aria-label="Vyom AI — back to home">
-          <VyomaLogo variant="full" height={64} />
+          <VyomLogo variant="full" height={64} />
         </a>
 
         {/* Large editorial numeral */}
@@ -44,9 +44,9 @@ export const NotFound: React.FC = () => {
 
         <a
           href="/"
-          className="mt-4 inline-flex items-center gap-2 bg-[#1a1a1a] hover:bg-[#333] text-white py-3 px-6 rounded-full font-sans text-[13px] font-bold transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#9fff00] focus-visible:ring-offset-2"
+          className="mt-4 inline-flex items-center gap-2 bg-[#1a1a1a] hover:bg-[#333] text-white py-3 px-6 rounded-full font-sans text-[13px] font-bold transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#8FBF3C] focus-visible:ring-offset-2"
         >
-          Return to Vyoma →
+          Return to Vyom →
         </a>
       </motion.div>
     </section>

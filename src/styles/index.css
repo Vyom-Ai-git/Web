@@ -6,11 +6,13 @@
   /* Core Colors */
   --color-bg: #EDEEF5;
   --color-bg-base: #EDEEF5;
-  --color-brand-green: #9fff00;
+  --color-brand-green: #8FBF3C;
+  --color-brand-green-hover: #A3D94C;
+  --color-brand-green-tint: #EAF4D6;
   --color-surface: #F5F6FA;
   --color-primary-text: #1A1A1A;
   --color-muted-text: #8E8E8E;
-  --color-accent: #9FFF00;
+  --color-accent: #8FBF3C;
   --color-border: rgba(0, 0, 0, 0.06);
   --color-glass: rgba(255, 255, 255, 0.42);
 
@@ -194,18 +196,62 @@
 
 @utility glass-card {
   background-color: var(--color-glass);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.45);
   box-shadow: var(--shadow-glass);
   transition: all var(--transition-duration-normal) var(--ease-editorial);
 }
 
 @utility glass-card-hover {
   &:hover {
-    border-color: rgba(255, 255, 255, 0.6);
+    border-color: rgba(255, 255, 255, 0.7);
     box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.06), inset 0 1px 2px 0 rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
+  }
+}
+
+@utility card-premium {
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-soft);
+  transition: all var(--transition-duration-normal) var(--ease-editorial);
+}
+
+@utility card-premium-hover {
+  &:hover {
+    transform: translateY(-4px);
+    border-color: rgba(0, 0, 0, 0.08);
+    box-shadow: var(--shadow-floating);
+    background-color: rgba(255, 255, 255, 0.55);
+  }
+}
+
+@utility tech-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: var(--shadow-soft);
+  transition: all var(--transition-duration-fast) var(--ease-gentle);
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-2px) scale(1.03);
+    background-color: rgba(255, 255, 255, 0.7);
+    border-color: rgba(159, 255, 0, 0.45);
+    box-shadow: 0 8px 20px -4px rgba(159, 255, 0, 0.15), var(--shadow-medium);
+  }
+
+  &:active {
+    transform: translateY(0px) scale(0.97);
   }
 }
 
@@ -228,7 +274,7 @@
   }
 
   &:hover svg {
-    transform: translateX(2px);
+    transform: translateX(3px);
   }
 }
 

@@ -1,8 +1,8 @@
-# VYOMA ASSET PRODUCTION INDEX (V1.0)
+# Vyom ASSET PRODUCTION INDEX (V1.0)
 ### Format, Resolution, Compression, and Folder Structure Specifications
 **Classification:** Media & Asset Engineering Standard  
 **Single Source of Truth For:** Visual Designers, 3D Artists, Sound Engineers, and Frontend Developers.  
-**Design System Anchor:** Conforming strictly to [VYOMA_DESIGN_BIBLE.md](file:///Users/vivek/Documents/Vyoma/VYOMA_DESIGN_BIBLE.md) and [06_COMPONENT_LIBRARY.md](file:///Users/vivek/Documents/Vyoma/06_COMPONENT_LIBRARY.md).
+**Design System Anchor:** Conforming strictly to [Vyom_DESIGN_BIBLE.md](file:///Users/vivek/Documents/Vyom/Vyom_DESIGN_BIBLE.md) and [06_COMPONENT_LIBRARY.md](file:///Users/vivek/Documents/Vyom/06_COMPONENT_LIBRARY.md).
 
 ---
 
@@ -56,7 +56,7 @@ Format: [asset-type]-[location/page]-[element-name].[extension]
     *   *Weight:* `500` | *Format:* WOFF2
 
 ### 2. Branding Logos & Icons (`/assets/icons`)
-*   **Asset 06: `logo-vyoma-mono.svg`**
+*   **Asset 06: `logo-Vyom-mono.svg`**
     *   *Resolution:* Vector scale | *Format:* SVG | *Stroke:* `1.5px`
     *   *Description:* Primary wordmark. Absolutely no fill colors.
 *   **Asset 07: `icon-arrow-coordinate.svg`**
@@ -134,7 +134,7 @@ All production assets must pass compression checks before deploy verification.
 
 ## 5. Absolute Asset Exclusions
 
-To protect Vyoma visual integrity, the following asset types are strictly prohibited in the assets directory:
+To protect Vyom visual integrity, the following asset types are strictly prohibited in the assets directory:
 
 1.  **NO** `.gif` files (animations must be CSS, SVG, or Canvas).
 2.  **NO** `.mp4` video assets (interactive WebGL and Canvas animations replace all video files).
@@ -144,5 +144,5 @@ To protect Vyoma visual integrity, the following asset types are strictly prohib
 6.  **NO** `.otf` or `.ttf` raw font files (precompiled WOFF2 preloads only).
 
 ---
-*Developed by Vyoma Media Production Board.*  
+*Developed by Vyom Media Production Board.*  
 *Asset Production Index Approved for Immediate Acquisition.*

@@ -1,0 +1,723 @@
+- generic [ref=f2e3]:
+  - banner [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - link "Vyom AI — home" [ref=f2e7] [cursor=pointer]:
+        - /url: "#"
+        - generic "Vyom AI" [ref=f2e8]: VYOM AI
+      - navigation [ref=f2e12]:
+        - link "capabilities" [ref=f2e14] [cursor=pointer]:
+          - /url: "#capabilities"
+        - link "industries" [ref=f2e16] [cursor=pointer]:
+          - /url: "#industries"
+        - link "success stories" [ref=f2e18] [cursor=pointer]:
+          - /url: "#success-stories"
+        - link "insights" [ref=f2e20] [cursor=pointer]:
+          - /url: "#insights"
+      - generic [ref=f2e21]:
+        - link "connect" [ref=f2e22] [cursor=pointer]:
+          - /url: "#connect"
+        - link "Deploy Intelligence" [ref=f2e23] [cursor=pointer]:
+          - /url: "#begin"
+  - main [ref=f2e27]:
+    - generic [ref=f2e28]:
+      - generic [ref=f2e30]:
+        - heading [level=1] [ref=f2e31]:
+          - text: "Engineering: Vyom designs"
+          - generic [ref=f2e32]:
+            - text: infrastructure and systems to help you automate your
+            - img "Vyom Inline Signature Pill" [ref=f2e33]
+            - text: enterprise operations.
+        - paragraph [ref=f2e40]: "Focus: AI Agents • RAG • LLMs • Automation • Knowledge Systems"
+        - generic [ref=f2e42]:
+          - generic [ref=f2e43]:
+            - textbox [ref=f2e44]
+            - button "Submit search query" [ref=f2e45] [cursor=pointer]
+          - generic [ref=f2e48]:
+            - button "Build RAG pipeline" [ref=f2e49] [cursor=pointer]
+            - button "Design autonomous agents" [ref=f2e50] [cursor=pointer]
+            - button "Compare LLM models" [ref=f2e51] [cursor=pointer]
+      - radiogroup "Experience Mode Selector" [ref=f2e52]:
+        - radio "Enterprise" [ref=f2e53] [cursor=pointer]
+        - radio "Intelligence" [checked] [ref=f2e54] [cursor=pointer]
+        - radio "Growth" [ref=f2e56] [cursor=pointer]
+      - generic:
+        - generic:
+          - generic: "2026"
+          - generic: Enterprise Intelligence • Autonomous Operations • Growth Infrastructure
+    - region "Vyom Corporate Philosophy" [ref=f2e57]:
+      - generic [ref=f2e59]:
+        - generic [ref=f2e60]:
+          - generic [ref=f2e61]: Unified Approach
+          - heading "Engineering Systems, Not Just Software" [level=2] [ref=f2e62]
+          - paragraph [ref=f2e63]: Technology creates value only when it becomes part of the way an organization thinks, operates, and grows. Vyom designs intelligent systems that connect strategy, automation, data, and human expertise into a unified operating model.
+        - generic [ref=f2e64]:
+          - generic [ref=f2e65]:
+            - heading "Strategic Thinking" [level=4] [ref=f2e66]
+            - paragraph [ref=f2e67]: Every engagement begins with understanding business objectives before selecting technology.
+          - generic [ref=f2e68]:
+            - heading "Intelligence by Design" [level=4] [ref=f2e69]
+            - paragraph [ref=f2e70]: AI is embedded where it creates measurable value, not where it creates novelty.
+          - generic [ref=f2e71]:
+            - heading "Scalable Architecture" [level=4] [ref=f2e72]
+            - paragraph [ref=f2e73]: Solutions are designed to evolve with the organization rather than solve only today's problems.
+          - generic [ref=f2e74]:
+            - heading "Measurable Impact" [level=4] [ref=f2e75]
+            - paragraph [ref=f2e76]: Every system should improve efficiency, decision-making, customer experience, or revenue through clear outcomes.
+    - region "Capabilities Portfolio Explorer" [ref=f2e77]:
+      - generic [ref=f2e79]:
+        - generic [ref=f2e80]: Ecosystem Architecture
+        - heading "Building Intelligent Systems for Modern Enterprises" [level=2] [ref=f2e81]
+        - paragraph [ref=f2e82]: Every organization is unique, but the challenges are often connected. Vyom designs integrated systems that combine artificial intelligence, automation, data, growth, and strategy into a unified enterprise operating model.
+      - generic [ref=f2e83]:
+        - generic [ref=f2e85]:
+          - tab "Enterprise Intelligence Architecture" [selected] [ref=f2e86] [cursor=pointer]
+          - tab "Autonomous Operations" [ref=f2e89] [cursor=pointer]
+          - tab "Growth Infrastructure" [ref=f2e91] [cursor=pointer]
+          - tab "Revenue Acceleration Systems" [ref=f2e93] [cursor=pointer]
+          - tab "Business Transformation" [ref=f2e95] [cursor=pointer]
+        - generic [ref=f2e99]:
+          - generic [ref=f2e100]:
+            - heading "Enterprise Intelligence Architecture" [level=3] [ref=f2e101]
+            - paragraph [ref=f2e102]: Design AI-enabled decision systems that connect knowledge, context, and executive insight into scalable business intelligence.
+          - separator [ref=f2e103]
+          - generic [ref=f2e104]:
+            - generic [ref=f2e105]: Core Focus
+            - list [ref=f2e106]:
+              - listitem [ref=f2e107]:
+                - generic [ref=f2e109]: Executive AI Strategy
+              - listitem [ref=f2e110]:
+                - generic [ref=f2e112]: Knowledge Architecture
+              - listitem [ref=f2e113]:
+                - generic [ref=f2e115]: Decision Intelligence
+              - listitem [ref=f2e116]:
+                - generic [ref=f2e118]: Agentic Systems
+              - listitem [ref=f2e119]:
+                - generic [ref=f2e121]: Context Engineering
+          - separator [ref=f2e122]
+          - generic [ref=f2e123]:
+            - generic [ref=f2e124]: Business Outcomes
+            - list [ref=f2e125]:
+              - listitem [ref=f2e126]: • Faster executive decision-making
+              - listitem [ref=f2e127]: • Reduced operational friction
+              - listitem [ref=f2e128]: • Connected organizational knowledge
+              - listitem [ref=f2e129]: • Scalable AI adoption
+    - region "Vyom Transformation Journey Roadmap" [ref=f2e131]:
+      - generic [ref=f2e133]:
+        - generic [ref=f2e134]: Transformation Journey
+        - heading "Every Transformation Begins with Understanding" [level=2] [ref=f2e135]
+        - paragraph [ref=f2e136]: Sustainable innovation starts with clarity. Every engagement follows a structured progression that aligns business goals, operational realities, technology, and measurable outcomes into a unified transformation roadmap.
+      - generic [ref=f2e137]:
+        - generic [ref=f2e140]:
+          - button "Discover" [ref=f2e141] [cursor=pointer]
+          - button "Design" [ref=f2e145] [cursor=pointer]
+          - button "Build" [ref=f2e148] [cursor=pointer]
+          - button "Optimize" [ref=f2e151] [cursor=pointer]
+          - button "Scale" [ref=f2e154] [cursor=pointer]
+        - generic [ref=f2e157]:
+          - generic [ref=f2e159]:
+            - generic [ref=f2e160]:
+              - generic [ref=f2e161]: STAGE 01
+              - heading "Discover" [level=3] [ref=f2e162]
+              - paragraph [ref=f2e163]: Understand the organization’s goals, constraints, workflows, and opportunities through collaborative discovery and executive alignment.
+            - separator [ref=f2e164]
+            - generic [ref=f2e165]:
+              - generic [ref=f2e166]: Supporting Focus
+              - generic [ref=f2e167]:
+                - generic [ref=f2e168]: Stakeholder Workshops
+                - generic [ref=f2e169]: Business Assessment
+                - generic [ref=f2e170]: Operational Analysis
+                - generic [ref=f2e171]: Opportunity Mapping
+          - generic [ref=f2e174]:
+            - generic [ref=f2e175]:
+              - generic [ref=f2e176]: STAGE 02
+              - heading "Design" [level=3] [ref=f2e177]
+              - paragraph [ref=f2e178]: Translate business understanding into a scalable architecture that integrates intelligence, automation, and growth strategies.
+            - separator [ref=f2e179]
+            - generic [ref=f2e180]:
+              - generic [ref=f2e181]: Supporting Focus
+              - generic [ref=f2e182]:
+                - generic [ref=f2e183]: Enterprise Architecture
+                - generic [ref=f2e184]: AI Strategy
+                - generic [ref=f2e185]: Process Design
+                - generic [ref=f2e186]: Experience Mapping
+          - generic [ref=f2e189]:
+            - generic [ref=f2e190]:
+              - generic [ref=f2e191]: STAGE 03
+              - heading "Build" [level=3] [ref=f2e192]
+              - paragraph [ref=f2e193]: Engineer secure, scalable systems that integrate seamlessly with existing operations while preparing for future growth.
+            - separator [ref=f2e194]
+            - generic [ref=f2e195]:
+              - generic [ref=f2e196]: Supporting Focus
+              - generic [ref=f2e197]:
+                - generic [ref=f2e198]: Platform Engineering
+                - generic [ref=f2e199]: AI Integration
+                - generic [ref=f2e200]: Automation Systems
+                - generic [ref=f2e201]: Data Infrastructure
+          - generic [ref=f2e204]:
+            - generic [ref=f2e205]:
+              - generic [ref=f2e206]: STAGE 04
+              - heading "Optimize" [level=3] [ref=f2e207]
+              - paragraph [ref=f2e208]: Continuously measure performance, refine workflows, and improve outcomes using operational intelligence and feedback loops.
+            - separator [ref=f2e209]
+            - generic [ref=f2e210]:
+              - generic [ref=f2e211]: Supporting Focus
+              - generic [ref=f2e212]:
+                - generic [ref=f2e213]: Analytics
+                - generic [ref=f2e214]: Performance Monitoring
+                - generic [ref=f2e215]: Continuous Improvement
+                - generic [ref=f2e216]: Experimentation
+          - generic [ref=f2e219]:
+            - generic [ref=f2e220]:
+              - generic [ref=f2e221]: STAGE 05
+              - heading "Scale" [level=3] [ref=f2e222]
+              - paragraph [ref=f2e223]: Expand capabilities across teams, markets, and business units while maintaining operational excellence and strategic alignment.
+            - separator [ref=f2e224]
+            - generic [ref=f2e225]:
+              - generic [ref=f2e226]: Supporting Focus
+              - generic [ref=f2e227]:
+                - generic [ref=f2e228]: Growth Enablement
+                - generic [ref=f2e229]: Organizational Adoption
+                - generic [ref=f2e230]: Governance
+                - generic [ref=f2e231]: Long-term Partnership
+    - region "Vyom Trust and Performance Layer" [ref=f2e233]:
+      - generic [ref=f2e234]:
+        - generic [ref=f2e235]:
+          - generic [ref=f2e236]:
+            - generic [ref=f2e237]: Chapter 01 // Impact
+            - heading "Outcomes That Matter" [level=2] [ref=f2e238]
+            - paragraph [ref=f2e239]: Every engagement is measured by tangible business outcomes rather than feature delivery.
+          - generic [ref=f2e240]:
+            - generic [ref=f2e241]:
+              - generic [ref=f2e242]: 0+
+              - generic [ref=f2e243]: Enterprise Systems Delivered
+            - generic [ref=f2e244]:
+              - generic [ref=f2e245]: 0+
+              - generic [ref=f2e246]: Workflows Automated
+            - generic [ref=f2e247]:
+              - generic [ref=f2e248]: 0+
+              - generic [ref=f2e249]: AI Solutions Deployed
+            - generic [ref=f2e250]:
+              - generic [ref=f2e251]: 0+
+              - generic [ref=f2e252]: Operational Hours Saved
+        - generic [ref=f2e253]:
+          - generic [ref=f2e254]:
+            - generic [ref=f2e255]: Chapter 02 // Engagements
+            - heading "Representative Engagements" [level=2] [ref=f2e256]
+          - generic [ref=f2e257]:
+            - generic [ref=f2e259]:
+              - generic [ref=f2e260]:
+                - generic [ref=f2e261]:
+                  - generic [ref=f2e262]: Manufacturing Enterprise
+                  - generic [ref=f2e263]: •
+                  - generic [ref=f2e264]: Industrial Logistics
+                  - generic [ref=f2e265]: •
+                  - generic [ref=f2e266]: 4 Months Timeline
+                - generic [ref=f2e267]:
+                  - generic [ref=f2e268]:
+                    - generic [ref=f2e269]: Business Challenge
+                    - paragraph [ref=f2e270]: Disconnected operational inventory and routing flows causing delays across regional facilities.
+                  - generic [ref=f2e271]:
+                    - generic [ref=f2e272]: Solution
+                    - paragraph [ref=f2e273]: Unified intelligence database platform integrating n8n automation and custom forecasting algorithms.
+                  - generic [ref=f2e274]:
+                    - generic [ref=f2e275]: Outcome & Impact
+                    - paragraph [ref=f2e276]: Unified regional pipeline operations, accelerated scheduling, and faster audit resolutions.
+                    - generic [ref=f2e277]: "Impact: 35% Operational Dispatch Speedup"
+                  - generic [ref=f2e278]:
+                    - generic [ref=f2e279]: Technologies Deployed
+                    - generic [ref=f2e280]:
+                      - generic [ref=f2e281]: Python
+                      - generic [ref=f2e282]: PostgreSQL
+                      - generic [ref=f2e283]: Kubernetes
+                      - generic [ref=f2e284]: n8n
+              - generic [ref=f2e285]:
+                - generic [ref=f2e286]: System Architecture Preview
+                - img [ref=f2e288]:
+                  - generic [ref=f2e290]: ERP
+                  - generic [ref=f2e292]: n8n
+                  - generic [ref=f2e295]: DB
+            - generic [ref=f2e297]:
+              - generic [ref=f2e298]:
+                - generic [ref=f2e299]:
+                  - generic [ref=f2e300]: Financial Services Platform
+                  - generic [ref=f2e301]: •
+                  - generic [ref=f2e302]: Fintech Compliance
+                  - generic [ref=f2e303]: •
+                  - generic [ref=f2e304]: 3 Months Timeline
+                - generic [ref=f2e305]:
+                  - generic [ref=f2e306]:
+                    - generic [ref=f2e307]: Business Challenge
+                    - paragraph [ref=f2e308]: Slow context indexing and high compliance latency in customer document verification pipelines.
+                  - generic [ref=f2e309]:
+                    - generic [ref=f2e310]: Solution
+                    - paragraph [ref=f2e311]: Secure RAG context-engineering scanner auditing PDF extractions and user validation paths.
+                  - generic [ref=f2e312]:
+                    - generic [ref=f2e313]: Outcome & Impact
+                    - paragraph [ref=f2e314]: Eliminated manual indexing delays, establishing self-healing document validation layers.
+                    - generic [ref=f2e315]: "Impact: 80% Reduction in Audit Latency"
+                  - generic [ref=f2e316]:
+                    - generic [ref=f2e317]: Technologies Deployed
+                    - generic [ref=f2e318]:
+                      - generic [ref=f2e319]: React
+                      - generic [ref=f2e320]: TypeScript
+                      - generic [ref=f2e321]: Redis
+                      - generic [ref=f2e322]: OpenAI
+              - generic [ref=f2e323]:
+                - generic [ref=f2e324]: System Architecture Preview
+                - img [ref=f2e326]:
+                  - generic [ref=f2e328]: DOCS
+                  - generic [ref=f2e330]: RAG
+                  - generic [ref=f2e333]: LLM
+            - generic [ref=f2e335]:
+              - generic [ref=f2e336]:
+                - generic [ref=f2e337]:
+                  - generic [ref=f2e338]: Logistics Network
+                  - generic [ref=f2e339]: •
+                  - generic [ref=f2e340]: Supply Chain Operations
+                  - generic [ref=f2e341]: •
+                  - generic [ref=f2e342]: 5 Months Timeline
+                - generic [ref=f2e343]:
+                  - generic [ref=f2e344]:
+                    - generic [ref=f2e345]: Business Challenge
+                    - paragraph [ref=f2e346]: Inefficient route tracking and driver coordination overhead under unstable cell telemetry.
+                  - generic [ref=f2e347]:
+                    - generic [ref=f2e348]: Solution
+                    - paragraph [ref=f2e349]: Algorithmic route optimization engine running on AWS, backed by fast Redis memory layers.
+                  - generic [ref=f2e350]:
+                    - generic [ref=f2e351]: Outcome & Impact
+                    - paragraph [ref=f2e352]: Automated warehouse dispatch syncing, stabilizing driver telemetry routing checks.
+                    - generic [ref=f2e353]: "Impact: 15% Monthly Fuel Cost Reduction"
+                  - generic [ref=f2e354]:
+                    - generic [ref=f2e355]: Technologies Deployed
+                    - generic [ref=f2e356]:
+                      - generic [ref=f2e357]: Python
+                      - generic [ref=f2e358]: Docker
+                      - generic [ref=f2e359]: Redis
+                      - generic [ref=f2e360]: AWS
+              - generic [ref=f2e361]:
+                - generic [ref=f2e362]: System Architecture Preview
+                - img [ref=f2e364]:
+                  - generic [ref=f2e366]: GPS
+                  - generic [ref=f2e368]: REDIS
+                  - generic [ref=f2e370]: AWS
+        - generic [ref=f2e371]:
+          - generic [ref=f2e372]:
+            - generic [ref=f2e373]: Chapter 03 // Methodology
+            - heading "How We Deliver" [level=2] [ref=f2e374]
+          - generic [ref=f2e375]:
+            - generic [ref=f2e376]:
+              - heading "Business First" [level=3] [ref=f2e377]
+              - paragraph [ref=f2e378]: Every technology decision must map directly to a commercial goal and measurable business outcomes.
+            - generic [ref=f2e379]:
+              - heading "Secure by Design" [level=3] [ref=f2e380]
+              - paragraph [ref=f2e381]: Threat modeling, compartmentalized vectors, and enterprise data privacy are integrated into the core.
+            - generic [ref=f2e382]:
+              - heading "Human-Centered AI" [level=3] [ref=f2e383]
+              - paragraph [ref=f2e384]: Systems are designed to augment human operations, maintaining human-in-the-loop validation triggers.
+            - generic [ref=f2e385]:
+              - heading "Measurable Value" [level=3] [ref=f2e386]
+              - paragraph [ref=f2e387]: We define clear telemetry metrics to track operational output and ROI from day one.
+            - generic [ref=f2e388]:
+              - heading "Scalable Architecture" [level=3] [ref=f2e389]
+              - paragraph [ref=f2e390]: Infrastructure scales naturally with expanding data loads without bloating technical debt.
+            - generic [ref=f2e391]:
+              - heading "Long-Term Partnership" [level=3] [ref=f2e392]
+              - paragraph [ref=f2e393]: We focus on operational independence, transferring systems knowledge to your internal teams.
+        - generic [ref=f2e394]:
+          - generic [ref=f2e395]:
+            - generic [ref=f2e396]: Chapter 04 // Stack
+            - heading "Ecosystem Technologies" [level=2] [ref=f2e397]
+          - generic [ref=f2e398]:
+            - generic [ref=f2e399]:
+              - generic [ref=f2e400]: Artificial Intelligence
+              - generic [ref=f2e401]:
+                - generic "OpenAI technology integration" [ref=f2e402] [cursor=pointer]
+                - generic "Anthropic technology integration" [ref=f2e405] [cursor=pointer]
+                - generic "Google AI technology integration" [ref=f2e408] [cursor=pointer]
+                - generic "Meta AI technology integration" [ref=f2e412] [cursor=pointer]
+                - generic "LangChain technology integration" [ref=f2e416] [cursor=pointer]
+                - generic "Pinecone technology integration" [ref=f2e423] [cursor=pointer]
+                - generic "Qdrant technology integration" [ref=f2e429] [cursor=pointer]
+            - generic [ref=f2e434]:
+              - generic [ref=f2e435]: Frontend
+              - generic [ref=f2e436]:
+                - generic "React technology integration" [ref=f2e437] [cursor=pointer]
+                - generic "Next.js technology integration" [ref=f2e444] [cursor=pointer]
+                - generic "TypeScript technology integration" [ref=f2e449] [cursor=pointer]
+                - generic "Vercel technology integration" [ref=f2e453] [cursor=pointer]
+            - generic [ref=f2e456]:
+              - generic [ref=f2e457]: Backend
+              - generic [ref=f2e458]:
+                - generic "Python technology integration" [ref=f2e459] [cursor=pointer]
+                - generic "Node.js technology integration" [ref=f2e463] [cursor=pointer]
+            - generic [ref=f2e468]:
+              - generic [ref=f2e469]: Cloud
+              - generic [ref=f2e470]:
+                - generic "AWS technology integration" [ref=f2e471] [cursor=pointer]
+                - generic "Microsoft Azure technology integration" [ref=f2e476] [cursor=pointer]
+                - generic "Google Cloud technology integration" [ref=f2e481] [cursor=pointer]
+            - generic [ref=f2e487]:
+              - generic [ref=f2e488]: Databases
+              - generic [ref=f2e489]:
+                - generic "PostgreSQL technology integration" [ref=f2e490] [cursor=pointer]
+                - generic "MongoDB technology integration" [ref=f2e494] [cursor=pointer]
+                - generic "Redis technology integration" [ref=f2e499] [cursor=pointer]
+                - generic "Supabase technology integration" [ref=f2e504] [cursor=pointer]
+            - generic [ref=f2e507]:
+              - generic [ref=f2e508]: Automation
+              - generic "n8n technology integration" [ref=f2e510] [cursor=pointer]
+            - generic [ref=f2e515]:
+              - generic [ref=f2e516]: Infrastructure
+              - generic [ref=f2e517]:
+                - generic "Docker technology integration" [ref=f2e518] [cursor=pointer]
+                - generic "Kubernetes technology integration" [ref=f2e525] [cursor=pointer]
+                - generic "GitHub technology integration" [ref=f2e530] [cursor=pointer]
+    - region "Vyom Insights Hub" [ref=f2e533]:
+      - generic [ref=f2e534]:
+        - generic [ref=f2e536]:
+          - generic [ref=f2e537]: Intelligence Hub
+          - heading "Ideas That Shape Intelligent Enterprises" [level=2] [ref=f2e538]
+          - paragraph [ref=f2e539]: Technology evolves quickly, but enduring advantage comes from understanding how systems, people, and strategy evolve together. Explore research, implementation guides, and perspectives from the Vyom team.
+        - generic [ref=f2e553] [cursor=pointer]:
+          - generic [ref=f2e554]:
+            - generic [ref=f2e555]: Artificial Intelligence
+            - generic [ref=f2e556]: •
+            - generic [ref=f2e557]: 12 min read
+            - generic [ref=f2e558]: •
+            - generic [ref=f2e559]: July 24, 2026
+          - heading [level=3] [ref=f2e560]:
+            - link "The Architecture of Agentic Workflow Orchestration" [ref=f2e561]:
+              - /url: "#insight-agentic-workflow-orchestration"
+          - paragraph [ref=f2e562]: A technical examination of autonomous agent loop coordination, state synchronization, and fallback boundaries in high-throughput enterprise backbones.
+          - generic [ref=f2e563]:
+            - generic [ref=f2e564]: BY Vyom INTELLIGENCE LAB
+            - generic [ref=f2e565]:
+              - generic [ref=f2e566]: read insight
+              - generic [ref=f2e567]: →
+        - generic [ref=f2e568]:
+          - generic [ref=f2e569]:
+            - button "All" [ref=f2e570] [cursor=pointer]
+            - button "Artificial Intelligence" [ref=f2e571] [cursor=pointer]
+            - button "Enterprise Strategy" [ref=f2e572] [cursor=pointer]
+            - button "Automation" [ref=f2e573] [cursor=pointer]
+            - button "Product Engineering" [ref=f2e574] [cursor=pointer]
+            - button "Growth Systems" [ref=f2e575] [cursor=pointer]
+            - button "Digital Transformation" [ref=f2e576] [cursor=pointer]
+            - button "Research" [ref=f2e577] [cursor=pointer]
+          - generic [ref=f2e579]:
+            - article [ref=f2e580]:
+              - generic [ref=f2e588]:
+                - generic [ref=f2e589]: Enterprise Strategy
+                - generic [ref=f2e590]: •
+                - generic [ref=f2e591]: 8 min read
+              - heading [level=4] [ref=f2e592]:
+                - 'link "AI Readiness: Audit Protocols for Legacy Infrastructure" [ref=f2e593] [cursor=pointer]':
+                  - /url: "#insight-ai-readiness-audit-protocols"
+              - paragraph [ref=f2e594]: A blueprint guide outlining how to evaluate context capabilities, check data pipelines, and index legacy tables before mounting LLM inference clusters.
+              - generic [ref=f2e595]:
+                - generic [ref=f2e596]: BY ELENA ROSTOVA
+                - generic [ref=f2e597]: July 18, 2026
+            - article [ref=f2e598]:
+              - generic [ref=f2e605]:
+                - generic [ref=f2e606]: Growth Systems
+                - generic [ref=f2e607]: •
+                - generic [ref=f2e608]: 6 min read
+              - heading [level=4] [ref=f2e609]:
+                - 'link "Converting Attention: Growth Systems for B2B Operations" [ref=f2e610] [cursor=pointer]':
+                  - /url: "#insight-converting-attention-growth-systems"
+              - paragraph [ref=f2e611]: Designing predictable demand generation vectors, attribution systems, and conversion funnels to automate lead qualification paths.
+              - generic [ref=f2e612]:
+                - generic [ref=f2e613]: BY MARCUS VANCE
+                - generic [ref=f2e614]: July 10, 2026
+            - article [ref=f2e615]:
+              - generic [ref=f2e624]:
+                - generic [ref=f2e625]: Research
+                - generic [ref=f2e626]: •
+                - generic [ref=f2e627]: 14 min read
+              - heading [level=4] [ref=f2e628]:
+                - link "Managing Latency in Retrieval-Augmented Generation" [ref=f2e629] [cursor=pointer]:
+                  - /url: "#insight-managing-latency-rag"
+              - paragraph [ref=f2e630]: Advanced chunking systems, parallel database reads, and vector index clustering techniques to reduce RAG search latencies.
+              - generic [ref=f2e631]:
+                - generic [ref=f2e632]: BY DR. ARIS THORNE
+                - generic [ref=f2e633]: June 28, 2026
+            - article [ref=f2e634]:
+              - generic [ref=f2e640]:
+                - generic [ref=f2e641]: Automation
+                - generic [ref=f2e642]: •
+                - generic [ref=f2e643]: 10 min read
+              - heading [level=4] [ref=f2e644]:
+                - 'link "Autonomous Operational Excellence: A Board Case Study" [ref=f2e645] [cursor=pointer]':
+                  - /url: "#insight-autonomous-operational-excellence"
+              - paragraph [ref=f2e646]: How a multinational logistics enterprise integrated event triggers to eliminate 40% of standard data coordination latency.
+              - generic [ref=f2e647]:
+                - generic [ref=f2e648]: BY ELENA ROSTOVA
+                - generic [ref=f2e649]: June 15, 2026
+            - article [ref=f2e650]:
+              - generic [ref=f2e656]:
+                - generic [ref=f2e657]: Digital Transformation
+                - generic [ref=f2e658]: •
+                - generic [ref=f2e659]: 9 min read
+              - heading [level=4] [ref=f2e660]:
+                - 'link "Digital Transformation Speeds: Modernizing Core Services" [ref=f2e661] [cursor=pointer]':
+                  - /url: "#insight-digital-transformation-speeds"
+              - paragraph [ref=f2e662]: A strategy manual on refactoring monolithic architectures into reactive micro-clusters without operational interruptions.
+              - generic [ref=f2e663]:
+                - generic [ref=f2e664]: BY MARCUS VANCE
+                - generic [ref=f2e665]: May 22, 2026
+        - generic [ref=f2e666]:
+          - generic [ref=f2e667]:
+            - generic [ref=f2e668]: Resource Library
+            - heading "Transformation Playbooks" [level=3] [ref=f2e669]
+          - generic [ref=f2e670]:
+            - generic [ref=f2e671]:
+              - generic [ref=f2e672]:
+                - generic [ref=f2e673]:
+                  - generic [ref=f2e674]: Executive Playbook
+                  - generic [ref=f2e675]: •
+                  - generic [ref=f2e676]: PDF Guide
+                - heading "Enterprise AI Strategy & Governance Framework" [level=4] [ref=f2e677]
+              - generic [ref=f2e678]:
+                - generic [ref=f2e679]: 14 min read
+                - link "download playbook →" [ref=f2e680] [cursor=pointer]:
+                  - /url: "#download"
+            - generic [ref=f2e681]:
+              - generic [ref=f2e682]:
+                - generic [ref=f2e683]:
+                  - generic [ref=f2e684]: Implementation Guide
+                  - generic [ref=f2e685]: •
+                  - generic [ref=f2e686]: PDF Template
+                - heading "Workflow Automation Integration Checklist" [level=4] [ref=f2e687]
+              - generic [ref=f2e688]:
+                - generic [ref=f2e689]: 8 min read
+                - link "download checklist →" [ref=f2e690] [cursor=pointer]:
+                  - /url: "#download"
+            - generic [ref=f2e691]:
+              - generic [ref=f2e692]:
+                - generic [ref=f2e693]:
+                  - generic [ref=f2e694]: Industry Report
+                  - generic [ref=f2e695]: •
+                  - generic [ref=f2e696]: PDF Document
+                - heading "2026 Industrial Intelligence Operational Index" [level=4] [ref=f2e697]
+              - generic [ref=f2e698]:
+                - generic [ref=f2e699]: 22 min read
+                - link "download report →" [ref=f2e700] [cursor=pointer]:
+                  - /url: "#download"
+            - generic [ref=f2e701]:
+              - generic [ref=f2e702]:
+                - generic [ref=f2e703]:
+                  - generic [ref=f2e704]: Enterprise Framework
+                  - generic [ref=f2e705]: •
+                  - generic [ref=f2e706]: Interactive Map
+                - heading "Autonomous Growth and Revenue Systems Map" [level=4] [ref=f2e707]
+              - generic [ref=f2e708]:
+                - generic [ref=f2e709]: 18 min read
+                - link "view framework →" [ref=f2e710] [cursor=pointer]:
+                  - /url: "#download"
+        - generic [ref=f2e711]:
+          - generic [ref=f2e712]:
+            - heading "Stay Ahead of What's Next" [level=3] [ref=f2e713]
+            - paragraph [ref=f2e714]: Receive thoughtful perspectives on enterprise AI, intelligent systems, and business transformation.
+          - generic [ref=f2e716]:
+            - textbox "Enter your corporate email" [ref=f2e717]
+            - button "Subscribe" [ref=f2e718] [cursor=pointer]
+    - region "Vyom Executive Consultation Booking" [ref=f2e719]:
+      - generic [ref=f2e720]:
+        - generic [ref=f2e721]:
+          - generic [ref=f2e722]:
+            - generic [ref=f2e723]: Next Stage
+            - heading "Let's Design What's Next" [level=2] [ref=f2e724]
+            - paragraph [ref=f2e725]: Every transformation begins with a conversation. Whether you're exploring enterprise AI, modernizing operations, or building entirely new digital capabilities, we'll help you define the right path forward.
+          - generic [ref=f2e726]:
+            - generic [ref=f2e727]: Select Engagement Path
+            - generic [ref=f2e728]:
+              - button "Explore Enterprise AI Evaluate where AI can create measurable business value." [ref=f2e729] [cursor=pointer]:
+                - generic [ref=f2e730]: Explore Enterprise AI
+                - generic [ref=f2e731]: Evaluate where AI can create measurable business value.
+              - button "Modernize Operations Identify opportunities to improve efficiency through automation and intelligent workflows." [ref=f2e732] [cursor=pointer]:
+                - generic [ref=f2e733]: Modernize Operations
+                - generic [ref=f2e734]: Identify opportunities to improve efficiency through automation and intelligent workflows.
+              - button "Accelerate Growth Design systems that improve customer acquisition, retention, and revenue performance." [ref=f2e735] [cursor=pointer]:
+                - generic [ref=f2e736]: Accelerate Growth
+                - generic [ref=f2e737]: Design systems that improve customer acquisition, retention, and revenue performance.
+              - button "Build Digital Products Plan scalable digital platforms, AI experiences, and enterprise applications." [ref=f2e738] [cursor=pointer]:
+                - generic [ref=f2e739]: Build Digital Products
+                - generic [ref=f2e740]: Plan scalable digital platforms, AI experiences, and enterprise applications.
+          - generic [ref=f2e741]:
+            - generic [ref=f2e742]:
+              - generic [ref=f2e743]: Meeting SLA Parameters
+              - list [ref=f2e744]:
+                - listitem [ref=f2e745]:
+                  - generic [ref=f2e747]: "SLA Response: Within 24 business hours"
+                - listitem [ref=f2e748]:
+                  - generic [ref=f2e750]: "Discovery Duration: 30 minutes call"
+                - listitem [ref=f2e751]:
+                  - generic [ref=f2e753]: "Initial Roadmap: Sent in 5-7 business days"
+            - generic [ref=f2e754]:
+              - generic [ref=f2e755]: Process Overview
+              - generic [ref=f2e756]:
+                - generic [ref=f2e757]:
+                  - generic [ref=f2e758]: "01"
+                  - generic [ref=f2e759]: Discovery & Strategic Scoping
+                - generic [ref=f2e760]:
+                  - generic [ref=f2e761]: "02"
+                  - generic [ref=f2e762]: System Architecture Spec & Proposal
+                - generic [ref=f2e763]:
+                  - generic [ref=f2e764]: "03"
+                  - generic [ref=f2e765]: Implementation Kickoff & Delivery
+          - generic [ref=f2e766]:
+            - 'link "email: contact@Vyom.com" [ref=f2e767] [cursor=pointer]':
+              - /url: mailto:contact@Vyom.com
+            - generic [ref=f2e768]: •
+            - link "linkedin" [ref=f2e769] [cursor=pointer]:
+              - /url: "#linkedin"
+            - generic [ref=f2e770]: •
+            - link "schedule on calendar" [ref=f2e771] [cursor=pointer]:
+              - /url: "#calendar"
+        - generic [ref=f2e773]:
+          - generic [ref=f2e774]:
+            - heading "Executive Consultation" [level=3] [ref=f2e775]
+            - generic [ref=f2e776]: Expected response within 24 business hours.
+          - generic [ref=f2e777]:
+            - generic [ref=f2e778]: Your Name
+            - textbox "Your Name" [ref=f2e779]:
+              - /placeholder: Enter your name
+          - generic [ref=f2e780]:
+            - generic [ref=f2e781]: Organization
+            - textbox "Organization" [ref=f2e782]:
+              - /placeholder: Enter organization name
+          - generic [ref=f2e783]:
+            - generic [ref=f2e784]: Business Email
+            - textbox "Business Email" [ref=f2e785]:
+              - /placeholder: name@organization.com
+          - generic [ref=f2e786]:
+            - generic [ref=f2e787]: Primary Objective
+            - combobox "Primary Objective" [ref=f2e788] [cursor=pointer]:
+              - option "Explore Enterprise AI" [selected]
+              - option "Modernize Operations"
+              - option "Accelerate Growth"
+              - option "Build Digital Products"
+          - generic [ref=f2e789]:
+            - generic [ref=f2e790]: Project Timeline
+            - combobox "Project Timeline" [ref=f2e791] [cursor=pointer]:
+              - option "< 1 month"
+              - option "1-3 months" [selected]
+              - option "3-6 months"
+              - option "6+ months"
+          - generic [ref=f2e792]:
+            - generic [ref=f2e793]: Optional Context
+            - textbox "Optional Context" [ref=f2e794]:
+              - /placeholder: Briefly describe operational goals or constraints
+          - button "Schedule Consultation →" [ref=f2e795] [cursor=pointer]:
+            - generic [ref=f2e796]: Schedule Consultation
+            - generic [ref=f2e797]: →
+      - generic [ref=f2e798]:
+        - generic [ref=f2e799]:
+          - generic [ref=f2e800]: Information
+          - heading "Common Questions" [level=3] [ref=f2e801]
+          - paragraph [ref=f2e802]: Key insights on how engagements are scoped, integrated, and optimized.
+        - generic [ref=f2e803]:
+          - button "What types of organizations do you work with? +" [ref=f2e805] [cursor=pointer]:
+            - generic [ref=f2e806]: What types of organizations do you work with?
+            - generic [ref=f2e807]: +
+          - button "How long do transformation engagements typically last? +" [ref=f2e809] [cursor=pointer]:
+            - generic [ref=f2e810]: How long do transformation engagements typically last?
+            - generic [ref=f2e811]: +
+          - button "Can Vyom work with existing technology stacks? +" [ref=f2e813] [cursor=pointer]:
+            - generic [ref=f2e814]: Can Vyom work with existing technology stacks?
+            - generic [ref=f2e815]: +
+          - button "Do you provide long-term support? +" [ref=f2e817] [cursor=pointer]:
+            - generic [ref=f2e818]: Do you provide long-term support?
+            - generic [ref=f2e819]: +
+  - contentinfo [ref=f2e820]:
+    - generic [ref=f2e822]:
+      - generic [ref=f2e823]:
+        - link "Vyom AI — back to home" [ref=f2e824] [cursor=pointer]:
+          - /url: "#"
+          - img "Vyom AI" [ref=f2e825]:
+            - generic [ref=f2e827]: VYOM AI
+        - generic [ref=f2e828]:
+          - generic [ref=f2e829]: Philosophy
+          - paragraph [ref=f2e830]: Engineering systems, not just software. We design for intelligence, scale, and measurable value to help organizations build operations that last.
+        - generic [ref=f2e831]:
+          - link "LinkedIn" [ref=f2e832] [cursor=pointer]:
+            - /url: https://linkedin.com/company/Vyomi
+          - generic [ref=f2e833]: ·
+          - link "Email" [ref=f2e834] [cursor=pointer]:
+            - /url: mailto:contact@Vyom.ai
+      - navigation "Footer navigation" [ref=f2e835]:
+        - generic [ref=f2e836]:
+          - generic [ref=f2e837]: Capabilities
+          - list [ref=f2e838]:
+            - listitem [ref=f2e839]:
+              - link "Enterprise Intelligence" [ref=f2e840] [cursor=pointer]:
+                - /url: "#capabilities"
+            - listitem [ref=f2e841]:
+              - link "Autonomous Operations" [ref=f2e842] [cursor=pointer]:
+                - /url: "#capabilities"
+            - listitem [ref=f2e843]:
+              - link "Growth Infrastructure" [ref=f2e844] [cursor=pointer]:
+                - /url: "#capabilities"
+            - listitem [ref=f2e845]:
+              - link "Revenue Acceleration" [ref=f2e846] [cursor=pointer]:
+                - /url: "#capabilities"
+            - listitem [ref=f2e847]:
+              - link "Business Transformation" [ref=f2e848] [cursor=pointer]:
+                - /url: "#capabilities"
+        - generic [ref=f2e849]:
+          - generic [ref=f2e850]: Transformation
+          - list [ref=f2e851]:
+            - listitem [ref=f2e852]:
+              - link "Discover" [ref=f2e853] [cursor=pointer]:
+                - /url: "#transformation"
+            - listitem [ref=f2e854]:
+              - link "Design" [ref=f2e855] [cursor=pointer]:
+                - /url: "#transformation"
+            - listitem [ref=f2e856]:
+              - link "Build" [ref=f2e857] [cursor=pointer]:
+                - /url: "#transformation"
+            - listitem [ref=f2e858]:
+              - link "Optimize" [ref=f2e859] [cursor=pointer]:
+                - /url: "#transformation"
+            - listitem [ref=f2e860]:
+              - link "Scale" [ref=f2e861] [cursor=pointer]:
+                - /url: "#transformation"
+        - generic [ref=f2e862]:
+          - generic [ref=f2e863]: Intelligence
+          - list [ref=f2e864]:
+            - listitem [ref=f2e865]:
+              - link "Insights Hub" [ref=f2e866] [cursor=pointer]:
+                - /url: "#insights"
+            - listitem [ref=f2e867]:
+              - link "Transformation Playbooks" [ref=f2e868] [cursor=pointer]:
+                - /url: "#insights"
+            - listitem [ref=f2e869]:
+              - link "Research" [ref=f2e870] [cursor=pointer]:
+                - /url: "#insights"
+            - listitem [ref=f2e871]:
+              - link "Newsletter" [ref=f2e872] [cursor=pointer]:
+                - /url: "#insights"
+        - generic [ref=f2e873]:
+          - generic [ref=f2e874]: Engage
+          - list [ref=f2e875]:
+            - listitem [ref=f2e876]:
+              - link "Executive Consultation" [ref=f2e877] [cursor=pointer]:
+                - /url: "#conversion"
+            - listitem [ref=f2e878]:
+              - link "Enterprise AI" [ref=f2e879] [cursor=pointer]:
+                - /url: "#conversion"
+            - listitem [ref=f2e880]:
+              - link "Modernize Operations" [ref=f2e881] [cursor=pointer]:
+                - /url: "#conversion"
+            - listitem [ref=f2e882]:
+              - link "contact@Vyom.ai" [ref=f2e883] [cursor=pointer]:
+                - /url: mailto:contact@Vyom.ai
+    - generic [ref=f2e884]:
+      - generic [ref=f2e885]: © 2026 Vyom. All rights reserved.
+      - generic [ref=f2e886]:
+        - generic [ref=f2e887]:
+          - link "Privacy Policy" [ref=f2e888] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms of Service" [ref=f2e889] [cursor=pointer]:
+            - /url: "#"
+        - button "Scroll Back to Top" [ref=f2e890] [cursor=pointer]

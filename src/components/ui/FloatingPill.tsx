@@ -1,27 +1,45 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { motion } from 'motion/react'
 import { cn } from '@/lib/utils'
+import { useExperienceMode } from '@/hooks/useExperienceMode'
 
 export const FloatingPill: React.FC = () => {
   const modes = ['Enterprise', 'Intelligence', 'Growth'] as const
-  const [selectedMode, setSelectedMode] = useState<typeof modes[number]>('Intelligence')
+  const { mode: selectedMode, setMode } = useExperienceMode()
 
   return (
     <div 
-      className="fixed right-8 top-1/2 -translate-y-1/2 z-40 hidden lg:flex flex-col gap-1.5 p-1 rounded-[18px] bg-white/20 border border-white/40 backdrop-blur-[12px] shadow-glass select-none pointer-events-auto"
+      className="fixed bottom-6 right-6 lg:right-8 lg:top-1/2 lg:-translate-y-1/2 lg:bottom-auto z-40 flex flex-row lg:flex-col gap-1.5 p-1 rounded-[18px] bg-white/20 border border-white/40 backdrop-blur-[12px] shadow-glass select-none pointer-events-auto"
       role="radiogroup"
       aria-label="Experience Mode Selector"
     >
-      {modes.map((mode) => {
+      {modes.map((mode, idx) => {
         const isSelected = selectedMode === mode
         return (
           <button
             key={mode}
-            onClick={() => setSelectedMode(mode)}
+            onClick={() => setMode(mode)}
+            onKeyDown={(e) => {
+              if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                e.preventDefault()
+                const nextIndex = (idx + 1) % modes.length
+                setMode(modes[nextIndex])
+                const buttons = e.currentTarget.parentElement?.querySelectorAll('button')
+                buttons?.[nextIndex]?.focus()
+              } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                e.preventDefault()
+                const prevIndex = (idx - 1 + modes.length) % modes.length
+                setMode(modes[prevIndex])
+                const buttons = e.currentTarget.parentElement?.querySelectorAll('button')
+                buttons?.[prevIndex]?.focus()
+              }
+            }}
             role="radio"
             aria-checked={isSelected}
+            tabIndex={isSelected ? 0 : -1}
             className={cn(
-              "relative px-4 py-2.5 rounded-[14px] text-[10px] uppercase font-bold tracking-widest font-sans transition-colors duration-300 cursor-pointer outline-none border-none text-left w-28",
+              "relative px-3 py-2 lg:px-4 lg:py-2.5 rounded-[14px] text-[9.5px] lg:text-[10px] uppercase font-bold tracking-widest font-sans transition-colors duration-300 cursor-pointer outline-none border-none text-center lg:text-left w-24 lg:w-28",
+              "focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2 focus-visible:ring-offset-white/40",
               isSelected ? "text-primary" : "text-primary/45 hover:text-primary/80"
             )}
           >

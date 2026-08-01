@@ -1,14 +1,14 @@
-# VYOMA EXECUTIVE INTAKE & SYSTEM DIAGNOSTICS (V1.0)
+# Vyom EXECUTIVE INTAKE & SYSTEM DIAGNOSTICS (V1.0)
 ### The Consultation Protocol, Calibration Console, and Data Security Standards
 **Classification:** Client Onboarding & Security Standard  
 **Single Source of Truth For:** Frontend Engineers, System Architects, and Compliance Officers.  
-**Design System Anchor:** Conforming strictly to [VYOMA_DESIGN_BIBLE.md](file:///Users/vivek/Documents/Vyoma/VYOMA_DESIGN_BIBLE.md) and [06_COMPONENT_LIBRARY.md](file:///Users/vivek/Documents/Vyoma/06_COMPONENT_LIBRARY.md).
+**Design System Anchor:** Conforming strictly to [Vyom_DESIGN_BIBLE.md](file:///Users/vivek/Documents/Vyom/Vyom_DESIGN_BIBLE.md) and [06_COMPONENT_LIBRARY.md](file:///Users/vivek/Documents/Vyom/06_COMPONENT_LIBRARY.md).
 
 ---
 
 ## The Concept: "The Diagnostic Intake Console"
 
-Vyoma does not deploy general-purpose contact forms. We host a high-trust, structured calibration console designed for technical founders, CTOs, and enterprise decision-makers. The interface resembles a secure diagnostic utility (like calibrating an optical sensor on a satellite) rather than a sales form.
+Vyom does not deploy general-purpose contact forms. We host a high-trust, structured calibration console designed for technical founders, CTOs, and enterprise decision-makers. The interface resembles a secure diagnostic utility (like calibrating an optical sensor on a satellite) rather than a sales form.
 
 ---
 
@@ -93,19 +93,19 @@ A simple diagnostic matrix addressing technical and onboarding questions.
 *   **FAQ Items:**
     1.  *Q: What are the terms of the initial diagnostic audit?*  
         *A: The initial audit is a direct architecture consultation with a senior systems architect, analyzing current bottlenecks and mapping target system schematics.*
-    2.  *Q: How does Vyoma process proprietary infrastructure data?*  
+    2.  *Q: How does Vyom process proprietary infrastructure data?*  
         *A: All data parameters submitted via the console are locally encrypted and accessible only to the systems squad assigned to the project.*
 
 ---
 
 ## 7. Data Security & Privacy Protocols
 
-As an enterprise partner, Vyoma treats customer data with absolute security.
+As an enterprise partner, Vyom treats customer data with absolute security.
 
 *   **End-to-End Encryption:** Form payloads are encrypted in transit using TLS 1.3 and stored in localized vaults.
-*   **PGP Key Option:** The intake sidebar includes a direct download link to Vyoma's public PGP key: `PGP_KEY: [ DOWNLOAD PGP ]`. This allows prospects to encrypt their technical bottlenecks manually before sending.
+*   **PGP Key Option:** The intake sidebar includes a direct download link to Vyom's public PGP key: `PGP_KEY: [ DOWNLOAD PGP ]`. This allows prospects to encrypt their technical bottlenecks manually before sending.
 *   **Zero-Knowledge Compliance:** We collect no marketing tracking cookies, analytics variables, or third-party pixels. The platform operates on a zero-tracking privacy policy.
 
 ---
-*Developed by Vyoma Security & Compliance Board.*  
+*Developed by Vyom Security & Compliance Board.*  
 *Intake & Diagnostic Protocol Approved for Immediate Construction.*

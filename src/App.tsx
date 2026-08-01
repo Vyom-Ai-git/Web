@@ -8,6 +8,7 @@ import Trust from '@/sections/Trust'
 import Insights from '@/sections/Insights'
 import Conversion from '@/sections/Conversion'
 import NotFound from '@/sections/NotFound'
+import { ExperienceModeProvider } from '@/hooks/useExperienceMode'
 
 // Minimal path-based 404 guard — no router dependency needed for a single-page site
 const is404 = window.location.pathname !== '/' && window.location.pathname !== ''
@@ -18,37 +19,39 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-bg-base selection:bg-brand-green selection:text-black flex flex-col">
-      {/* Persistent Glass Navigation bar */}
-      <Navbar />
+    <ExperienceModeProvider>
+      <div className="min-h-screen bg-bg-base selection:bg-brand-green selection:text-black flex flex-col">
+        {/* Persistent Glass Navigation bar */}
+        <Navbar />
 
-      {/* Main content viewports */}
-      <main className="flex-grow" id="main-content">
-        {/* Viewport 01: Hero Arrival */}
-        <Hero />
+        {/* Main content viewports */}
+        <main className="flex-grow" id="main-content">
+          {/* Viewport 01: Hero Arrival */}
+          <Hero />
 
-        {/* Viewport 02: Systems Philosophy */}
-        <Philosophy />
+          {/* Viewport 02: Systems Philosophy */}
+          <Philosophy />
 
-        {/* Viewport 03: Editorial Capabilities Narrative */}
-        <Capabilities />
+          {/* Viewport 03: Editorial Capabilities Narrative */}
+          <Capabilities />
 
-        {/* Viewport 04: Scroll-spy Transformation Journey */}
-        <Transformation />
+          {/* Viewport 04: Scroll-spy Transformation Journey */}
+          <Transformation />
 
-        {/* Viewport 05: Trust & Evidence Layer */}
-        <Trust />
+          {/* Viewport 05: Trust & Evidence Layer */}
+          <Trust />
 
-        {/* Viewport 06: Insights & Intelligence Hub */}
-        <Insights />
+          {/* Viewport 06: Insights & Intelligence Hub */}
+          <Insights />
 
-        {/* Viewport 07: Conversion Experience */}
-        <Conversion />
-      </main>
+          {/* Viewport 07: Conversion Experience */}
+          <Conversion />
+        </main>
 
-      {/* Site-wide Footer */}
-      <Footer />
-    </div>
+        {/* Site-wide Footer */}
+        <Footer />
+      </div>
+    </ExperienceModeProvider>
   )
 }
 

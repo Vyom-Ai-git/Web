@@ -1,5 +1,5 @@
 /**
- * Vyoma Analytics Stub
+ * Vyom Analytics Stub
  *
  * In production, swap the console.log calls for your chosen provider:
  *   - GA4:      window.gtag('event', name, props)

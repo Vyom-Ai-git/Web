@@ -1,4 +1,4 @@
-# VYOMA: THE VISUAL BIBLE
+# Vyom: THE VISUAL BIBLE
 ### Creative Direction & Brand Design System
 **Version:** 1.0.0  
 **Classification:** Internal Brand Standard  
@@ -20,7 +20,7 @@ Precisionism is the intersection of mathematical rigor, scientific clarity, and 
 
 ## 2. Brand Personality
 
-The Vyoma brand exists in the tension between deep human intuition and cold machine precision.
+The Vyom brand exists in the tension between deep human intuition and cold machine precision.
 
 | Dimension | Visual Expression | What it is NOT |
 | :--- | :--- | :--- |
@@ -37,7 +37,7 @@ The Vyoma brand exists in the tension between deep human intuition and cold mach
 
 ## 3. Emotional Journey
 
-Every interaction with Vyoma must guide the user through a curated emotional arc:
+Every interaction with Vyom must guide the user through a curated emotional arc:
 
 ```mermaid
 graph TD
@@ -361,7 +361,7 @@ We create hierarchy through extreme scale contrasts rather than heavy font weigh
 +-------------------------------------------------------------+
 | [ 01 // CORE SYSTEM ]                         10px Mono     |
 |                                                             |
-| VYOMA                                         96px Light    |
+| Vyom                                         96px Light    |
 |                                                             |
 | We engineer intelligent systems.              15px Sans     |
 |                                                             |
@@ -399,7 +399,7 @@ The details are what make the design feel "expensive." These are subtle addition
 
 ## 30. Things NEVER to use
 
-To maintain the integrity of the Vyoma brand, the following elements are strictly forbidden:
+To maintain the integrity of the Vyom brand, the following elements are strictly forbidden:
 
 1.  **NEVER** use rounded buttons with a radius greater than 4px.
 2.  **NEVER** use playful, organic, hand-drawn vector illustrations or doodles.
@@ -421,5 +421,5 @@ To maintain the integrity of the Vyoma brand, the following elements are strictl
 18. **NEVER** use diagonal layouts or jagged angles. Everything is built on a 90-degree orthogonal grid.
 
 ---
-*Developed by Vyoma Creative Direction Board.*  
+*Developed by Vyom Creative Direction Board.*  
 *Design Bible Approved for immediate platform development.*

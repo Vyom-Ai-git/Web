@@ -1,8 +1,8 @@
-# VYOMA COMPONENT LIBRARY (V1.0)
+# Vyom COMPONENT LIBRARY (V1.0)
 ### Reusable Design System Blueprint & Production Specifications
 **Classification:** Engineering Component Standard  
 **Single Source of Truth For:** Frontend Engineers, UI Developers, and Accessibility Auditors.  
-**Design System Anchor:** Conforming strictly to [VYOMA_DESIGN_BIBLE.md](file:///Users/vivek/Documents/Vyoma/VYOMA_DESIGN_BIBLE.md) and [05_HOMEPAGE_UI.md](file:///Users/vivek/Documents/Vyoma/05_HOMEPAGE_UI.md).
+**Design System Anchor:** Conforming strictly to [Vyom_DESIGN_BIBLE.md](file:///Users/vivek/Documents/Vyom/Vyom_DESIGN_BIBLE.md) and [05_HOMEPAGE_UI.md](file:///Users/vivek/Documents/Vyom/05_HOMEPAGE_UI.md).
 
 ---
 
@@ -131,7 +131,7 @@
 
 ## 7. Comparison Table (`comp-comparison-divergence`)
 
-*   **Purpose:** Differentiating Vyoma's senior-architect model against traditional software outsourcing models.
+*   **Purpose:** Differentiating Vyom's senior-architect model against traditional software outsourcing models.
 *   **Variants:**
     *   *Split columns:* Default side-by-side.
     *   *Accordion checklist:* Mobile layout.
@@ -141,7 +141,7 @@
 *   **Animation:** Grid line divider sweeps downward on entry load.
 *   **Hover:** Hovering a row highlights comparison metrics, dimming the opposite row.
 *   **Accessibility:** Rendered using standard semantic HTML tables (`<table>`, `<th>`, `<td>`) to ensure screen reader structural navigation.
-*   **Responsive Behaviour:** Mobile scales comparison to show Vyoma's columns only; agency metrics collapse to preserve layout density limits.
+*   **Responsive Behaviour:** Mobile scales comparison to show Vyom's columns only; agency metrics collapse to preserve layout density limits.
 *   **Usage Rules:** Columns divided by a strict 1px hairline divider.
 *   **Things Never to Do:**
     *   **NEVER** use checkmark/cross graphics (use raw mono text like `[ DEPLOYED ]` or `[ SILOED ]`).
@@ -461,5 +461,5 @@ These modifiers define interactive mechanics across all component targets.
 *   **Rules:** Outlined borders drop to flat grey lines, active gradients disabled.
 
 ---
-*Developed by Vyoma Design System Board.*  
+*Developed by Vyom Design System Board.*  
 *Component Library Specification Approved for Production Scaffolding.*

@@ -35,17 +35,17 @@ export const Philosophy: React.FC = () => {
   }
 
   return (
-    <section 
+    <section
       id="philosophy"
-      className="w-full bg-[#EDEEF5] py-24 md:py-36 relative z-20 select-none overflow-hidden"
+      className="w-full bg-[#EDEEF5] py-16 sm:py-[100px] md:py-[130px] relative z-20 select-none overflow-hidden"
       role="region"
-      aria-label="Vyoma Corporate Philosophy"
+      aria-label="Vyom Corporate Philosophy"
     >
       <div className="max-w-7xl w-full mx-auto px-8 md:px-16 lg:px-20 grid grid-cols-12 gap-y-12 lg:gap-x-8 items-center">
-        
+
         {/* LEFT COLUMN (Cols 1-7): Editorial Philosophy Narrative & Principles Grid */}
         <div className="col-span-12 lg:col-span-7 flex flex-col gap-10 text-left">
-          
+
           {/* Headline & Description */}
           <motion.div
             initial={reducedMotion ? { opacity: 1 } : { opacity: 0, y: 15 }}
@@ -61,7 +61,7 @@ export const Philosophy: React.FC = () => {
               Engineering Systems, Not Just Software
             </h2>
             <p className="font-sans text-[15px] md:text-[17px] leading-relaxed text-[#8e8e8e] max-w-[620px] text-balance">
-              Technology creates value only when it becomes part of the way an organization thinks, operates, and grows. Vyoma designs intelligent systems that connect strategy, automation, data, and human expertise into a unified operating model.
+              Technology creates value only when it becomes part of the way an organization thinks, operates, and grows. Vyom designs intelligent systems that connect strategy, automation, data, and human expertise into a unified operating model.
             </p>
           </motion.div>
 
@@ -111,8 +111,8 @@ export const Philosophy: React.FC = () => {
           className="col-span-12 lg:col-span-4 lg:col-start-9 flex items-center justify-center pointer-events-none"
         >
           {/* Orbital Diagram SVG */}
-          <svg 
-            viewBox="0 0 240 240" 
+          <svg
+            viewBox="0 0 240 240"
             className="w-full max-w-[260px] md:max-w-[280px] h-auto aspect-square select-none opacity-85"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -120,10 +120,10 @@ export const Philosophy: React.FC = () => {
             <circle cx="120" cy="120" r="40" className="stroke-[#1a1a1a]/10 fill-none" strokeWidth="1" />
             <circle cx="120" cy="120" r="75" className="stroke-[#1a1a1a]/10 fill-none" strokeWidth="1" />
             <circle cx="120" cy="120" r="110" className="stroke-[#1a1a1a]/10 fill-none" strokeWidth="1" />
-            
+
             {/* Center anchor nucleus */}
             <circle cx="120" cy="120" r="4" className="fill-[#1a1a1a]" />
-            
+
             {/* Orbiting nodes with slow GPU animations */}
             <motion.g
               animate={reducedMotion ? {} : { rotate: 360 }}
@@ -146,7 +146,7 @@ export const Philosophy: React.FC = () => {
               transition={{ repeat: Infinity, duration: 35, ease: 'linear' }}
               style={{ transformOrigin: '120px 120px' }}
             >
-              <circle cx="230" cy="120" r="4.5" className="fill-[#9fff00] stroke-[#1a1a1a]/40" strokeWidth="0.5" />
+              <circle cx="230" cy="120" r="4.5" className="fill-[#8FBF3C] stroke-[#1a1a1a]/40" strokeWidth="0.5" />
             </motion.g>
           </svg>
         </motion.div>

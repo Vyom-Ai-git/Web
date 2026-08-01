@@ -1,4 +1,4 @@
-# VYOMA HOMEPAGE WIREFRAMES (V1.0)
+# Vyom HOMEPAGE WIREFRAMES (V1.0)
 ### Structural Grid, Column Spans, and Responsive Layout Blueprint
 **Classification:** UX Design Standard  
 **Single Source of Truth For:** Frontend Engineers, Layout Designers, and QA Evaluators.  
@@ -18,7 +18,7 @@
 ```
 [Margin 64px] [Col 1-2: Logo] [Col 3-9: Menu Links] [Col 10-11: CTA] [Col 12: Telemetry Status] [Margin 64px]
 ───────────────────────────────────────────────────────────────────────────────────────────────────────────
-(1) Logo: "VYOMA [SYS_OK]" - Left-aligned spanning Cols 1-2.
+(1) Logo: "Vyom [SYS_OK]" - Left-aligned spanning Cols 1-2.
 (2) Links: "[01 // CAP] [02 // ENG] [03 // PROTOCOL]" - Spanning Cols 4-8.
 (3) CTA: "[ INITIATE CONNECTION ]" - Right-aligned spanning Cols 10-11.
 (4) Telemetry: "[ LATENCY: 24MS ]" - Monospace, right-aligned spanning Col 12.
@@ -28,7 +28,7 @@
 ```
 [Margin 32px] [Col 1-2: Logo] [Col 3-6: Menu Links] [Col 7-8: CTA] [Margin 32px]
 ────────────────────────────────────────────────────────────────────────────────
-(1) Logo: "VYOMA" - Left-aligned spanning Cols 1-2.
+(1) Logo: "Vyom" - Left-aligned spanning Cols 1-2.
 (2) Links: "[CAP] [ENG]" - Spanning Cols 3-5.
 (3) CTA: "[CONNECT]" - Outlined button, spanning Cols 7-8. (Telemetry status hidden).
 ```
@@ -37,7 +37,7 @@
 ```
 [Margin 16px] [Col 1-2: Logo] [Col 3-4: Dock Button] [Margin 16px]
 ─────────────────────────────────────────────────────────────────
-(1) Logo: "VYOMA" - Left-aligned spanning Cols 1-2.
+(1) Logo: "Vyom" - Left-aligned spanning Cols 1-2.
 (2) Dock Button: "[ MENU ]" - Spanning Cols 3-4.
 (Persistent bottom dock overrides menu overlay if activated).
 ```
@@ -497,12 +497,12 @@
 
 ---
 
-## Viewport 08: Why Vyoma
+## Viewport 08: Why Vyom
 
-*   **Component ID:** `vp-08-why-vyoma`
+*   **Component ID:** `vp-08-why-Vyom`
 *   **Viewport Height:** 120vh
 *   **Focal Point:** Central hairline vertical divider and right column alignment values.
-*   **Eye Tracking:** Headline -> Right Column (Vyoma) -> Left Column (Agencies) -> CTA.
+*   **Eye Tracking:** Headline -> Right Column (Vyom) -> Left Column (Agencies) -> CTA.
 *   **Interaction Zones:** Left Column panel, Right Column panel, CTA.
 
 ### Desktop Wireframe (12-Column Grid)
@@ -510,7 +510,7 @@
 0vh   +─────────────────────────────────────────────────────────────────────────────+
       |  Col 1-12: Headline & Core Philosophy Statement                             |
       |                                                                             |
-      |  [Col 1-5: Standard Agency Model]    |    [Col 7-12: Vyoma Architecture]    |
+      |  [Col 1-5: Standard Agency Model]    |    [Col 7-12: Vyom Architecture]    |
       |  - Account Manager layers           |    - Direct Architect access          |
       |  - Focus: Block developer hours     |    - Focus: Working software systems  |
       |  - Churn: High team rotation        |    - Core team: Locked senior squads  |
@@ -528,7 +528,7 @@
 0vh   +─────────────────────────────────────────────────────────────────────────────+
       |  Col 1-8: Headline                                                          |
       |                                                                             |
-      |  [Col 1-3.5: Standard Agency]        |    [Col 5.5-8: Vyoma Architecture]   |
+      |  [Col 1-3.5: Standard Agency]        |    [Col 5.5-8: Vyom Architecture]   |
       |  - Account Managers                  |    - Direct Architects               |
       |  - Billable hours focus              |    - System delivery focus           |
       |                                      |                                       |
@@ -543,7 +543,7 @@
 0vh   +─────────────────────────────────────────────────────────────────────────────+
       |  Col 1-4: Headline                                                          |
       |                                                                             |
-      |  [Col 1-4: Vyoma Architecture Panel]                                        |
+      |  [Col 1-4: Vyom Architecture Panel]                                        |
       |  - Direct system architect alignment                                        |
       |  - Delivery of completed functional software systems                        |
       |                                                                             |
@@ -553,7 +553,7 @@
 120vh +─────────────────────────────────────────────────────────────────────────────+
 ```
 *   **Mobile Specs:**
-    *   *Layout:* Stacks vertically. The comparison is removed; only Vyoma's value points are displayed to focus mobile reading attention.
+    *   *Layout:* Stacks vertically. The comparison is removed; only Vyom's value points are displayed to focus mobile reading attention.
 
 ---
 
@@ -634,7 +634,7 @@
       |  - Case Studies       - Ingress CDN        - GMT Clock      - Operations    |
       |  - Manifesto          - Lock Frame Rate    - Address        - Privacy Matrix|
       |                                                                             |
-      |  Col 1-3: VYOMA Logo Tagline                 Col 10-12: PGP Key Link        |
+      |  Col 1-3: Vyom Logo Tagline                 Col 10-12: PGP Key Link        |
 80vh  +─────────────────────────────────────────────────────────────────────────────+
 ```
 *   **Desktop Specs:**
@@ -648,7 +648,7 @@
       |  [Col 1-4: Navigation & Sitemap]            [Col 5-8: Technical Details]    |
       |  - Links, manifesto, cases                  - HQ, timezone, PGP download    |
       |                                                                             |
-      |  Col 1-4: VYOMA Logo                         Col 5-8: Copyright             |
+      |  Col 1-4: Vyom Logo                         Col 5-8: Copyright             |
 80vh  +─────────────────────────────────────────────────────────────────────────────+
 ```
 *   **Tablet Specs:**
@@ -671,5 +671,5 @@
     *   *Layout:* 4 columns collapse to a single stack. Sitemap link blocks stack first, followed by contact details, PGP links, and copyright text at the bottom.
 
 ---
-*Developed by Vyoma Design System Board.*  
+*Developed by Vyom Design System Board.*  
 *Homepage Wireframe Blueprint Approved for Front-End Layout Engineering.*
