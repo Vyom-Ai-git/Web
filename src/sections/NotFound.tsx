@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'motion/react'
 import { useReducedMotion } from '@/hooks/useReducedMotion'
-import { VyomLogo } from '@/components/shared/VyomaLogo'
+import { OnnrevLogo } from '@/components/shared/OnnrevLogo'
 
 export const NotFound: React.FC = () => {
   const reducedMotion = useReducedMotion()
@@ -13,7 +13,7 @@ export const NotFound: React.FC = () => {
 
   return (
     <section
-      className="w-full min-h-screen bg-[#EDEEF5] flex flex-col items-center justify-center text-center px-8"
+      className="w-full min-h-screen bg-[#F6F7F9] flex flex-col items-center justify-center text-center px-8"
       role="main"
       aria-label="Page not found"
     >
@@ -24,29 +24,29 @@ export const NotFound: React.FC = () => {
         className="flex flex-col items-center gap-6 max-w-[480px]"
       >
         {/* Brand mark */}
-        <a href="/" aria-label="Vyom AI — back to home">
-          <VyomLogo variant="full" height={64} />
+        <a href="/" aria-label="ONNREV — back to home">
+          <OnnrevLogo variant="full" height={54} color="#0B0D13" accentColor="#10B981" />
         </a>
 
         {/* Large editorial numeral */}
-        <span className="font-display font-medium text-[120px] md:text-[160px] leading-none tracking-tight text-[#1a1a1a]/[0.06] select-none">
+        <span className="font-display font-medium text-[120px] md:text-[160px] leading-none tracking-tight text-[#0B0D13]/[0.05] select-none">
           404
         </span>
 
         <div className="flex flex-col gap-3 -mt-10">
-          <h1 className="font-display font-medium text-[28px] md:text-[36px] text-[#1a1a1a] tracking-tight">
-            This page doesn't exist — yet.
+          <h1 className="font-display font-medium text-[28px] md:text-[36px] text-[#0B0D13] tracking-tight">
+            System Node Not Found
           </h1>
-          <p className="font-sans text-[14.5px] leading-relaxed text-[#8e8e8e]">
-            The page you're looking for may have moved, or may be part of something we're building next.
+          <p className="font-sans text-[14.5px] leading-relaxed text-[#64748B]">
+            The requested architecture coordinate does not exist or has been recalibrated.
           </p>
         </div>
 
         <a
           href="/"
-          className="mt-4 inline-flex items-center gap-2 bg-[#1a1a1a] hover:bg-[#333] text-white py-3 px-6 rounded-full font-sans text-[13px] font-bold transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#8FBF3C] focus-visible:ring-offset-2"
+          className="mt-4 inline-flex items-center gap-2 bg-[#0B0D13] hover:bg-[#1E293B] text-white py-3 px-6 rounded-full font-sans text-[13px] font-semibold transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[#10B981] focus-visible:ring-offset-2"
         >
-          Return to Vyom →
+          Return to ONNREV Home →
         </a>
       </motion.div>
     </section>

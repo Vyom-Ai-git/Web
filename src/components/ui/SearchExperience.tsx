@@ -11,7 +11,7 @@ export const SearchExperience: React.FC = () => {
 
   const placeholders = {
     Enterprise: 'Design an enterprise transformation roadmap...',
-    Intelligence: 'Ask Vyom about enterprise AI...',
+    Intelligence: 'Ask ONNREV about enterprise AI...',
     Growth: 'How can we accelerate revenue growth?',
   }
 

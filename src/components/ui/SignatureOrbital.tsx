@@ -39,7 +39,7 @@ export const SignatureOrbital: React.FC = () => {
       className={`inline-flex items-center justify-center w-[28px] md:w-[42px] lg:w-[62px] h-[16px] md:h-[22px] lg:h-[26px] border-[2px] border-[#1a1a1a] rounded-full relative select-none mx-1 md:mx-2 overflow-hidden align-middle bg-white/20 transition-all duration-[var(--nav-transition)] ${config.pulse ? 'ring-1 ring-[#8FBF3C]/25' : ''
         }`}
       role="img"
-      aria-label="Vyom Inline Signature Pill"
+      aria-label="ONNREV Inline Signature Orbital"
     >
       <svg
         viewBox="0 0 40 20"

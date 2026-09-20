@@ -24,14 +24,14 @@ const DiscoverArtwork: React.FC<{ active: boolean; reducedMotion: boolean }> = (
     {/* Running dashes on connection tracks */}
     <motion.line
       x1="120" y1="90" x2="65" y2="60"
-      className="stroke-[#8FBF3C] stroke-[1]"
+      className="stroke-[#10B981] stroke-[1]"
       strokeDasharray="6 12"
       animate={!reducedMotion ? { strokeDashoffset: [30, 0] } : {}}
       transition={{ repeat: Infinity, duration: 2.5, ease: 'linear' }}
     />
     <motion.line
       x1="120" y1="90" x2="175" y2="60"
-      className="stroke-[#8FBF3C] stroke-[1]"
+      className="stroke-[#10B981] stroke-[1]"
       strokeDasharray="6 12"
       animate={!reducedMotion ? { strokeDashoffset: [-30, 0] } : {}}
       transition={{ repeat: Infinity, duration: 3, ease: 'linear' }}
@@ -66,12 +66,12 @@ const DiscoverArtwork: React.FC<{ active: boolean; reducedMotion: boolean }> = (
     <circle cx="120" cy="90" r="18" className="fill-white stroke-[#1a1a1a]/30" />
     <motion.circle
       cx="120" cy="90" r="24"
-      className="stroke-[#8FBF3C] stroke-[1]"
+      className="stroke-[#10B981] stroke-[1]"
       animate={!reducedMotion ? { scale: [0.95, 1.15, 0.95], opacity: [0.3, 0.8, 0.3] } : {}}
       transition={{ repeat: Infinity, duration: 3.5, ease: 'easeInOut' }}
       style={{ transformOrigin: '120px 90px' }}
     />
-    <circle cx="120" cy="90" r="4.5" className="fill-[#8FBF3C] stroke-none" />
+    <circle cx="120" cy="90" r="4.5" className="fill-[#10B981] stroke-none" />
   </svg>
 )
 
@@ -90,13 +90,13 @@ const DesignArtwork: React.FC<{ active: boolean; reducedMotion: boolean }> = ({ 
       {/* Internal AI database stack */}
       <polygon points="120,55 160,75 120,95 80,75" className="stroke-[#1a1a1a] fill-white/10" />
       <polygon points="120,70 160,90 120,110 80,90" className="stroke-[#1a1a1a] fill-white/10" />
-      <polygon points="120,85 160,105 120,125 80,105" className="stroke-[#8FBF3C] stroke-[1.25] fill-white/10" />
+      <polygon points="120,85 160,105 120,125 80,105" className="stroke-[#10B981] stroke-[1.25] fill-white/10" />
     </g>
 
     {/* Radiating AI integrations flow */}
     <motion.circle
       cx="120" cy="90" r="42"
-      className="stroke-[#8FBF3C]/30"
+      className="stroke-[#10B981]/30"
       animate={!reducedMotion ? { scale: [0.9, 1.15, 0.9], opacity: [0.2, 0.6, 0.2] } : {}}
       transition={{ repeat: Infinity, duration: 5, ease: 'easeInOut' }}
       style={{ transformOrigin: '120px 90px' }}
@@ -118,7 +118,7 @@ const BuildArtwork: React.FC<{ active: boolean; reducedMotion: boolean }> = ({ a
       {/* Assembly loops gears */}
       <motion.circle
         cx="120" cy="90" r="12"
-        className="stroke-[#8FBF3C] stroke-[1.5]"
+        className="stroke-[#10B981] stroke-[1.5]"
         animate={!reducedMotion ? { rotate: 360 } : {}}
         transition={{ repeat: Infinity, duration: 8, ease: 'linear' }}
         strokeDasharray="4 4"
@@ -135,7 +135,7 @@ const BuildArtwork: React.FC<{ active: boolean; reducedMotion: boolean }> = ({ a
     />
     <motion.rect
       x="120" y="50" width="22" height="15" rx="1.5"
-      className="fill-white stroke-[#8FBF3C] stroke-[1.25]"
+      className="fill-white stroke-[#10B981] stroke-[1.25]"
       animate={active && !reducedMotion ? { x: [100, 180] } : {}}
       transition={{ repeat: Infinity, duration: 4.5, ease: 'linear', delay: 2.25 }}
     />
@@ -167,7 +167,7 @@ const OptimizeArtwork: React.FC<{ active: boolean; reducedMotion: boolean }> = (
     {/* Optimization Target Trend Line */}
     <motion.path
       d="M50,125 Q120,105 190,55"
-      className="stroke-[#8FBF3C] stroke-[1.5]"
+      className="stroke-[#10B981] stroke-[1.5]"
       animate={active && !reducedMotion ? { pathLength: [0, 1] } : {}}
       transition={{ duration: 2, ease: 'easeOut' }}
     />
@@ -175,7 +175,7 @@ const OptimizeArtwork: React.FC<{ active: boolean; reducedMotion: boolean }> = (
     {/* Live KPI monitoring pulse */}
     <motion.circle
       cx="190" cy="55" r="5"
-      className="fill-[#8FBF3C] stroke-none"
+      className="fill-[#10B981] stroke-none"
       animate={!reducedMotion ? { scale: [1, 2, 1], opacity: [0.8, 0, 0.8] } : {}}
       transition={{ repeat: Infinity, duration: 2.2, ease: 'easeOut' }}
     />
@@ -209,14 +209,14 @@ const ScaleArtwork: React.FC<{ active: boolean; reducedMotion: boolean }> = ({ a
       animate={!reducedMotion ? { y: [0, -3, 0] } : {}}
       transition={{ repeat: Infinity, duration: 4, ease: 'easeInOut' }}
     >
-      <circle cx="120" cy="45" r="8" className="fill-[#8FBF3C] stroke-white stroke-[1.25]" />
+      <circle cx="120" cy="45" r="8" className="fill-[#10B981] stroke-white stroke-[1.25]" />
       <circle cx="120" cy="45" r="2.5" className="fill-[#1a1a1a]" />
     </motion.g>
 
     {/* Connectivity rays / orbital wave */}
     <motion.circle
       cx="120" cy="90" r="48"
-      className="stroke-[#8FBF3C]/30"
+      className="stroke-[#10B981]/30"
       animate={!reducedMotion ? { scale: [1, 1.4, 1], opacity: [0.1, 0.6, 0.1] } : {}}
       transition={{ repeat: Infinity, duration: 5, ease: 'easeInOut' }}
       style={{ transformOrigin: '120px 90px' }}
@@ -349,9 +349,9 @@ export const Transformation: React.FC = () => {
   return (
     <section
       id="transformation"
-      className="w-full bg-[#EDEEF5] py-16 sm:py-[100px] md:py-[130px] border-t border-black/[0.05] relative z-20 select-none overflow-hidden"
+      className="w-full bg-[#F6F7F9] py-16 sm:py-[100px] md:py-[130px] border-t border-black/[0.05] relative z-20 select-none overflow-hidden"
       role="region"
-      aria-label="Vyom Transformation Journey Roadmap"
+      aria-label="ONNREV Transformation Journey Roadmap"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
       onFocus={() => setIsPaused(true)}
@@ -366,8 +366,8 @@ export const Transformation: React.FC = () => {
       {/* Top Chapter Label & Editorial Heading */}
       <div className="max-w-7xl mx-auto px-8 md:px-16 lg:px-20 grid grid-cols-12 gap-x-4 md:gap-x-8 mb-12 md:mb-16 relative z-10">
         <div className="col-span-12 md:col-span-10 md:col-start-2 text-left flex flex-col gap-4">
-          <span className="text-[11px] font-sans font-bold tracking-widest text-[#8e8e8e] uppercase">
-            CHAPTER 03 // Transformation Journey
+          <span className="text-[11px] font-mono tracking-[0.25em] text-[#10B981] uppercase">
+            // [ 09 / 12 ] THE PROCESS JOURNEY
           </span>
           <h2 className="font-display font-medium text-[36px] md:text-[50px] lg:text-[56px] leading-[1.12] text-[#1a1a1a] tracking-tight">
             Every Transformation Begins with Understanding

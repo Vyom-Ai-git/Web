@@ -35,7 +35,7 @@ const AgenticCover: React.FC = () => (
     <line x1="200" y1="100" x2="80" y2="160" strokeWidth="0.5" className="stroke-[#1a1a1a]/15" />
 
     <circle cx="200" cy="60" r="3" className="fill-[#1a1a1a]" />
-    <circle cx="200" cy="20" r="4.5" className="fill-[#8FBF3C] stroke-[#1a1a1a]/40" strokeWidth="0.5" />
+    <circle cx="200" cy="20" r="4.5" className="fill-[#10B981] stroke-[#1a1a1a]/40" strokeWidth="0.5" />
     <circle cx="120" cy="100" r="3" className="fill-[#1a1a1a]" />
     <circle cx="280" cy="100" r="3" className="fill-[#1a1a1a]" />
   </svg>
@@ -45,7 +45,7 @@ const AuditCover: React.FC = () => (
   <svg viewBox="0 0 200 120" className="w-full h-full stroke-primary/30 fill-none opacity-80" xmlns="http://www.w3.org/2000/svg">
     <path d="M0,20 H200 M0,40 H200 M0,60 H200 M0,80 H200 M0,100 H200 M40,0 V120 M80,0 V120 M120,0 V120 M160,0 V120" className="stroke-[#1a1a1a]/5" strokeWidth="0.5" />
     <rect x="25" y="15" width="150" height="90" strokeWidth="0.75" className="stroke-[#1a1a1a]" />
-    <circle cx="100" cy="60" r="30" strokeWidth="0.75" className="stroke-[#8FBF3C]" />
+    <circle cx="100" cy="60" r="30" strokeWidth="0.75" className="stroke-[#10B981]" />
     <line x1="25" y1="15" x2="175" y2="105" strokeWidth="0.5" className="stroke-[#1a1a1a]/15" />
   </svg>
 )
@@ -56,7 +56,7 @@ const GrowthCover: React.FC = () => (
     <line x1="10" y1="60" x2="190" y2="60" strokeWidth="0.75" className="stroke-[#1a1a1a]/15" />
     <line x1="10" y1="90" x2="190" y2="90" strokeWidth="0.75" className="stroke-[#1a1a1a]/15" />
     <circle cx="50" cy="30" r="3" className="fill-[#1a1a1a]" />
-    <circle cx="150" cy="60" r="4" className="fill-[#8FBF3C] stroke-[#1a1a1a]/40" strokeWidth="0.5" />
+    <circle cx="150" cy="60" r="4" className="fill-[#10B981] stroke-[#1a1a1a]/40" strokeWidth="0.5" />
     <circle cx="90" cy="90" r="3" className="fill-[#1a1a1a]" />
   </svg>
 )
@@ -66,7 +66,7 @@ const RagCover: React.FC = () => (
     <ellipse cx="100" cy="60" rx="75" ry="35" strokeWidth="0.75" className="stroke-[#1a1a1a]/10" />
     <ellipse cx="100" cy="60" rx="45" ry="20" strokeWidth="0.75" className="stroke-[#1a1a1a]/10" />
     <circle cx="100" cy="60" r="3" className="fill-[#1a1a1a]" />
-    <circle cx="175" cy="60" r="4" className="fill-[#8FBF3C] stroke-[#1a1a1a]/40" strokeWidth="0.5" />
+    <circle cx="175" cy="60" r="4" className="fill-[#10B981] stroke-[#1a1a1a]/40" strokeWidth="0.5" />
     <circle cx="145" cy="60" r="3.5" className="fill-[#1a1a1a]" />
   </svg>
 )
@@ -104,7 +104,7 @@ export const Insights: React.FC = () => {
       slug: 'agentic-workflow-orchestration',
       summary: 'A technical examination of autonomous agent loop coordination, state synchronization, and fallback boundaries in high-throughput enterprise backbones.',
       category: 'Artificial Intelligence',
-      author: 'Vyom Intelligence Lab',
+      author: 'ONNREV Intelligence Lab',
       date: 'July 24, 2026',
       readingTime: '12 min read',
       coverType: 'agentic'
@@ -234,9 +234,9 @@ export const Insights: React.FC = () => {
   return (
     <section
       id="insights"
-      className="w-full bg-[#EDEEF5] py-16 sm:py-[100px] md:py-[130px] border-t border-black/[0.05] relative z-20 select-none overflow-hidden"
+      className="w-full bg-[#F6F7F9] py-16 sm:py-[100px] md:py-[130px] border-t border-black/[0.05] relative z-20 select-none overflow-hidden"
       role="region"
-      aria-label="Vyom Insights Hub"
+      aria-label="ONNREV Insights Hub"
     >
       <div className="max-w-7xl mx-auto px-8 md:px-16 lg:px-20 flex flex-col gap-24 md:gap-32">
 
@@ -250,7 +250,7 @@ export const Insights: React.FC = () => {
               Ideas That Shape Intelligent Enterprises
             </h2>
             <p className="font-sans text-[15px] md:text-[16.5px] leading-relaxed text-[#8e8e8e] max-w-[680px]">
-              Technology evolves quickly, but enduring advantage comes from understanding how systems, people, and strategy evolve together. Explore research, implementation guides, and perspectives from the Vyom team.
+              Technology evolves quickly, but enduring advantage comes from understanding how systems, people, and strategy evolve together. Explore research, implementation guides, and perspectives from the ONNREV engineering team.
             </p>
           </div>
         </div>
@@ -274,7 +274,7 @@ export const Insights: React.FC = () => {
             {/* Right text layout metadata (Occupying 5 columns on desktop) */}
             <div className="col-span-12 lg:col-span-5 flex flex-col gap-6 text-left">
               <div className="flex items-center gap-4 text-[11px] font-sans font-bold text-[#8e8e8e] uppercase tracking-widest">
-                <span className="text-[#1a1a1a] bg-[#8FBF3C] px-2.5 py-1 rounded-[3px] text-[9.5px] font-bold tracking-wider uppercase">
+                <span className="text-[#1a1a1a] bg-[#10B981] px-2.5 py-1 rounded-[3px] text-[9.5px] font-bold tracking-wider uppercase">
                   {featuredArticle.category}
                 </span>
                 <span>•</span>
@@ -286,7 +286,7 @@ export const Insights: React.FC = () => {
               <h3 className="font-display font-medium text-[30px] md:text-[42px] lg:text-[48px] leading-[1.12] text-[#1a1a1a] tracking-tight relative pb-1">
                 <a href={`#insight-${featuredArticle.slug}`} className="outline-none block">
                   {featuredArticle.title}
-                  <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#8FBF3C] transition-all duration-300 group-hover:w-[120px]" />
+                  <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#10B981] transition-all duration-300 group-hover:w-[120px]" />
                 </a>
               </h3>
 
@@ -298,7 +298,7 @@ export const Insights: React.FC = () => {
                 <span className="text-[10px] font-sans font-bold text-[#1a1a1a] tracking-widest uppercase">
                   BY {featuredArticle.author.toUpperCase()}
                 </span>
-                <span className="text-[12px] font-sans text-zinc-900 group-hover:text-[#8FBF3C] hover:underline flex items-center gap-1.5 transition-colors font-bold">
+                <span className="text-[12px] font-sans text-zinc-900 group-hover:text-[#10B981] hover:underline flex items-center gap-1.5 transition-colors font-bold">
                   <span>read insight</span>
                   <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
                 </span>
@@ -361,7 +361,7 @@ export const Insights: React.FC = () => {
                     <h4 className="font-display font-medium text-[19px] md:text-[21px] text-[#1a1a1a] leading-snug tracking-tight relative">
                       <a href={`#insight-${art.slug}`} className="outline-none block pb-1">
                         {art.title}
-                        <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-[#8FBF3C] transition-all duration-[var(--nav-transition)] group-hover:w-full" />
+                        <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-[#10B981] transition-all duration-[var(--nav-transition)] group-hover:w-full" />
                       </a>
                     </h4>
 
@@ -418,7 +418,7 @@ export const Insights: React.FC = () => {
                   <span className="text-[11px] font-sans text-[#8e8e8e]">{res.duration}</span>
                   <a
                     href="#download"
-                    className="text-[12px] font-sans font-bold text-[#1a1a1a] hover:text-[#8FBF3C] group-hover:underline lowercase transition-colors"
+                    className="text-[12px] font-sans font-bold text-[#1a1a1a] hover:text-[#10B981] group-hover:underline lowercase transition-colors"
                   >
                     {res.cta.toLowerCase()} →
                   </a>
@@ -465,8 +465,8 @@ export const Insights: React.FC = () => {
                   />
                   <button
                     type="submit"
-                    aria-label="Subscribe to Vyom Intelligence newsletter"
-                    className="bg-[#1a1a1a] hover:bg-[#333] text-white py-2 px-5 rounded-pill font-sans text-[12.5px] font-medium transition-all duration-200 border-none outline-none cursor-pointer shrink-0 hover:scale-[1.02] active:scale-95 focus-visible:ring-2 focus-visible:ring-[#8FBF3C] focus-visible:ring-offset-2"
+                    aria-label="Subscribe to ONNREV Intelligence newsletter"
+                    className="bg-[#1a1a1a] hover:bg-[#333] text-white py-2 px-5 rounded-pill font-sans text-[12.5px] font-medium transition-all duration-200 border-none outline-none cursor-pointer shrink-0 hover:scale-[1.02] active:scale-95 focus-visible:ring-2 focus-visible:ring-[#10B981] focus-visible:ring-offset-2"
                   >
                     Subscribe
                   </button>
@@ -474,12 +474,12 @@ export const Insights: React.FC = () => {
               ) : (
                 <motion.div
                   key="subscribed-success"
-                  className="text-[13.5px] font-sans font-bold text-[#1a1a1a] bg-[#8FBF3C]/15 border border-[#8FBF3C]/30 py-3.5 px-6 rounded-pill text-center shadow-sm"
+                  className="text-[13.5px] font-sans font-bold text-[#1a1a1a] bg-[#10B981]/15 border border-[#10B981]/30 py-3.5 px-6 rounded-pill text-center shadow-sm"
                   initial={{ opacity: 0, scale: 0.95 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.3 }}
                 >
-                  Subscription verified. Welcome to Vyom Intelligence.
+                  Subscription verified. Welcome to ONNREV Intelligence.
                 </motion.div>
               )}
             </AnimatePresence>

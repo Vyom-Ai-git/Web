@@ -42,9 +42,9 @@ const ManufacturingArchSvg: React.FC = () => (
     <rect x="10" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
     <text x="24" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">ERP</text>
     <path d="M38,39 L62,39" className="stroke-white/30" />
-    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#8FBF3C] fill-[#8FBF3C]/10" />
+    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#10B981] fill-[#10B981]/10" />
     <text x="76" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">n8n</text>
-    <circle cx="76" cy="48" r="1" className="fill-[#8FBF3C]" />
+    <circle cx="76" cy="48" r="1" className="fill-[#10B981]" />
     <path d="M90,39 L114,39" className="stroke-white/30" />
     <rect x="114" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
     <text x="128" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">DB</text>
@@ -56,9 +56,9 @@ const FinanceArchSvg: React.FC = () => (
     <rect x="10" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
     <text x="24" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">DOCS</text>
     <path d="M38,39 L62,39" className="stroke-white/30" />
-    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#8FBF3C] fill-[#8FBF3C]/10" />
+    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#10B981] fill-[#10B981]/10" />
     <text x="76" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">RAG</text>
-    <path d="M68,34 L84,44" className="stroke-[#8FBF3C]/60" />
+    <path d="M68,34 L84,44" className="stroke-[#10B981]/60" />
     <path d="M90,39 L114,39" className="stroke-white/30" />
     <rect x="114" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
     <text x="128" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">LLM</text>
@@ -70,7 +70,7 @@ const LogisticsArchSvg: React.FC = () => (
     <rect x="10" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
     <text x="24" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">GPS</text>
     <path d="M38,39 L62,39" className="stroke-white/30" />
-    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#8FBF3C] fill-[#8FBF3C]/10" />
+    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#10B981] fill-[#10B981]/10" />
     <text x="76" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">REDIS</text>
     <path d="M90,39 L114,39" className="stroke-white/30" />
     <rect x="114" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
@@ -282,15 +282,15 @@ export const Trust: React.FC = () => {
   return (
     <>
       <section
-        id="industries"
-        className="w-full bg-[#0D1117] py-16 sm:py-[100px] md:py-[130px] border-t border-white/[0.08] relative z-20 select-none overflow-hidden"
+        id="proof"
+        className="w-full bg-black py-16 sm:py-[100px] md:py-[130px] border-t border-white/5 relative z-20 select-none overflow-hidden"
         role="region"
-        aria-label="Vyom Trust and Performance Layer"
+        aria-label="ONNREV Trust and Performance Layer"
       >
         {/* Soft Radial Glow / Editorial lighting */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-gradient-to-b from-[#8FBF3C]/5 to-transparent rounded-full blur-[120px] pointer-events-none" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-gradient-to-b from-[#ef233c]/10 to-transparent rounded-full blur-[140px] pointer-events-none" />
 
-        <div className="max-w-7xl mx-auto px-8 md:px-16 lg:px-20 flex flex-col gap-28 md:gap-36 relative z-10">
+        <div className="max-w-6xl mx-auto px-6 md:px-12 flex flex-col gap-28 md:gap-36 relative z-10">
 
           <div ref={metricsRef} className="grid grid-cols-12 gap-y-10 lg:gap-x-8 items-start">
             <motion.div
@@ -300,13 +300,13 @@ export const Trust: React.FC = () => {
               transition={baseTransition}
               className="col-span-12 lg:col-span-5 text-left flex flex-col gap-4"
             >
-              <span className="text-[11px] font-sans font-bold tracking-widest text-white/50 uppercase">
-                Chapter 01 // Impact
+              <span className="text-[11px] font-mono tracking-[0.25em] text-[#ef233c] uppercase font-semibold">
+                // [ 08 / 12 ] PROOF & PERFORMANCE TELEMETRY
               </span>
               <h2 className="font-display font-medium text-[32px] md:text-[44px] text-white tracking-tight leading-tight">
                 Outcomes That Matter
               </h2>
-              <p className="font-sans text-[14.5px] md:text-[15.5px] leading-relaxed text-white/70 max-w-[420px]">
+              <p className="font-sans text-[14.5px] md:text-[15.5px] leading-relaxed text-zinc-400 max-w-[420px]">
                 Every engagement is measured by tangible business outcomes rather than feature delivery.
               </p>
             </motion.div>
@@ -398,7 +398,7 @@ export const Trust: React.FC = () => {
                             <p className="font-sans text-[14px] md:text-[14.5px] leading-relaxed text-white/70 mb-1">
                               {caseStudy.outcome}
                             </p>
-                            <span className="font-sans text-[12.5px] text-[#0D1117] font-bold bg-[#8FBF3C] px-3 py-1.5 rounded-[4px] border border-[#8FBF3C]/20 w-fit shadow-sm">
+                            <span className="font-sans text-[12.5px] text-[#0D1117] font-bold bg-[#10B981] px-3 py-1.5 rounded-[4px] border border-[#10B981]/20 w-fit shadow-sm">
                               Impact: {caseStudy.impact}
                             </span>
                           </div>
@@ -484,7 +484,7 @@ export const Trust: React.FC = () => {
                 >
                   <h3 className="font-display font-medium text-[16px] md:text-[18px] text-white tracking-tight relative pb-1 inline-block w-fit">
                     {pr.title}
-                    <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-[#8FBF3C] transition-all duration-[var(--nav-transition)] group-hover:w-full" />
+                    <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-[#10B981] transition-all duration-[var(--nav-transition)] group-hover:w-full" />
                   </h3>
                   <p className="font-sans text-[13px] md:text-[13.5px] leading-relaxed text-white/70">
                     {pr.desc}
@@ -497,14 +497,14 @@ export const Trust: React.FC = () => {
         </div>
       </section>
 
-      {/* Chapter 04 // Stack (Editorial Light Section) */}
+      {/* Chapter 04 // Stack (Noir Dark Tech Matrix) */}
       <section
         id="technology"
-        className="w-full bg-[#EDEEF5] py-16 sm:py-[100px] md:py-[130px] border-t border-black/[0.05] relative z-20 select-none overflow-hidden text-left"
+        className="w-full bg-[#050507] py-16 sm:py-[100px] md:py-[130px] border-t border-white/5 relative z-20 select-none overflow-hidden text-left"
         role="region"
-        aria-label="Vyom Partner Technology Wall"
+        aria-label="ONNREV Partner Technology Wall"
       >
-        <div className="max-w-7xl mx-auto px-8 md:px-16 lg:px-20 flex flex-col gap-12">
+        <div className="max-w-6xl mx-auto px-6 md:px-12 flex flex-col gap-12">
           <motion.div
             initial={reducedMotion ? { opacity: 1 } : { opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -512,15 +512,15 @@ export const Trust: React.FC = () => {
             transition={baseTransition}
             className="flex flex-col gap-3"
           >
-            <span className="text-[11px] font-sans font-bold tracking-widest text-[#8e8e8e] uppercase">
+            <span className="text-[11px] font-mono font-semibold tracking-widest text-[#ef233c] uppercase">
               Chapter 04 // Stack
             </span>
-            <h2 className="font-display font-medium text-[32px] md:text-[44px] text-[#1a1a1a] tracking-tight">
+            <h2 className="font-display font-medium text-[32px] md:text-[44px] text-white tracking-tight">
               Ecosystem Technologies
             </h2>
           </motion.div>
 
-          <div className="flex flex-col border-t border-black/[0.08] mt-8">
+          <div className="flex flex-col border-t border-white/10 mt-8">
             {techEcosystem.map((cat, idx) => (
               <motion.div
                 key={cat.category}
@@ -528,30 +528,30 @@ export const Trust: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ ...baseTransition, delay: idx * 0.05 }}
-                className="grid grid-cols-12 gap-y-4 lg:gap-x-8 items-center border-b border-black/[0.08] py-12 text-left"
+                className="grid grid-cols-12 gap-y-4 lg:gap-x-8 items-center border-b border-white/10 py-10 text-left"
               >
                 <div className="col-span-12 lg:col-span-3 text-left">
-                  <span className="text-[11px] font-sans font-bold tracking-widest text-[#8e8e8e] uppercase">
+                  <span className="text-[11px] font-mono tracking-widest text-zinc-500 uppercase">
                     {cat.category}
                   </span>
                 </div>
 
-                <div className="col-span-12 lg:col-span-9 flex flex-row overflow-x-auto scrollbar-none gap-x-8 lg:gap-x-10 lg:flex-wrap lg:overflow-x-visible lg:gap-y-4 py-1">
+                <div className="col-span-12 lg:col-span-9 flex flex-row overflow-x-auto scrollbar-none gap-x-6 lg:gap-x-8 lg:flex-wrap lg:overflow-x-visible lg:gap-y-4 py-1">
                   {cat.items.map((item) => (
                     <div
                       key={item.name}
                       title={item.name}
                       tabIndex={0}
                       aria-label={`${item.name} technology integration`}
-                      className="flex items-center gap-3 py-2.5 px-5 h-12 rounded-[8px] bg-transparent transition-all duration-250 hover:-translate-y-0.5 group cursor-pointer relative select-none opacity-85 hover:opacity-100 outline-none focus-visible:ring-2 focus-visible:ring-black/40 focus-visible:ring-offset-2 shrink-0 lg:shrink"
+                      className="flex items-center gap-3 py-2.5 px-4 h-11 rounded-[8px] bg-white/[0.03] border border-white/5 transition-all duration-200 hover:border-[#ef233c]/40 hover:bg-white/[0.06] hover:-translate-y-0.5 group cursor-pointer relative select-none opacity-85 hover:opacity-100 outline-none shrink-0 lg:shrink"
                     >
-                      <div className="flex items-center justify-center shrink-0 w-6 h-6">
+                      <div className="flex items-center justify-center shrink-0 w-5 h-5 text-zinc-300">
                         {item.logo}
                       </div>
-                      <span className="font-sans text-[13.5px] font-bold text-[#1a1a1a] tracking-tight transition-all duration-250 group-hover:text-black">
+                      <span className="font-sans text-[13px] font-medium text-zinc-300 tracking-tight transition-all duration-200 group-hover:text-white">
                         {item.name}
                       </span>
-                      <span className="absolute bottom-0 left-5 right-5 h-[1.5px] bg-[#8FBF3C] scale-x-0 transition-transform duration-250 origin-left group-hover:scale-x-100" />
+                      <span className="absolute bottom-0 left-4 right-4 h-[1.5px] bg-[#ef233c] scale-x-0 transition-transform duration-200 origin-left group-hover:scale-x-100" />
                     </div>
                   ))}
                 </div>

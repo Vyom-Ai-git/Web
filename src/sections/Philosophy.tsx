@@ -13,19 +13,19 @@ export const Philosophy: React.FC = () => {
   const principles: Principle[] = [
     {
       title: 'Strategic Thinking',
-      desc: 'Every engagement begins with understanding business objectives before selecting technology.'
+      desc: 'Every engagement begins with understanding commercial objectives and operational constraints before selecting technology.'
     },
     {
       title: 'Intelligence by Design',
-      desc: 'AI is embedded where it creates measurable value, not where it creates novelty.'
+      desc: 'AI and autonomous models are embedded where they create measurable compound value, not where they create novelty.'
     },
     {
       title: 'Scalable Architecture',
-      desc: 'Solutions are designed to evolve with the organization rather than solve only today\'s problems.'
+      desc: 'Solutions are engineered to evolve with expanding organizational scale rather than solve only transient symptoms.'
     },
     {
       title: 'Measurable Impact',
-      desc: 'Every system should improve efficiency, decision-making, customer experience, or revenue through clear outcomes.'
+      desc: 'Every system is bounded by clear telemetry: accelerated throughput, reduced manual friction, and protected margins.'
     }
   ]
 
@@ -37,9 +37,9 @@ export const Philosophy: React.FC = () => {
   return (
     <section
       id="philosophy"
-      className="w-full bg-[#EDEEF5] py-16 sm:py-[100px] md:py-[130px] relative z-20 select-none overflow-hidden"
+      className="w-full bg-[#F6F7F9] py-16 sm:py-[100px] md:py-[120px] relative z-20 select-none overflow-hidden border-t border-[#0B0D13]/[0.06]"
       role="region"
-      aria-label="Vyom Corporate Philosophy"
+      aria-label="ONNREV Corporate Philosophy"
     >
       <div className="max-w-7xl w-full mx-auto px-8 md:px-16 lg:px-20 grid grid-cols-12 gap-y-12 lg:gap-x-8 items-center">
 
@@ -54,14 +54,14 @@ export const Philosophy: React.FC = () => {
             transition={baseTransition}
             className="flex flex-col gap-5"
           >
-            <span className="text-[11px] font-sans font-bold tracking-widest text-[#8e8e8e] uppercase">
-              Unified Approach
+            <span className="text-[11px] font-mono font-semibold tracking-[0.2em] text-[#64748B] uppercase">
+              // [ 11 / 12 ] ABOUT & ENGINEERING RIGOR
             </span>
-            <h2 className="font-display font-medium text-[36px] md:text-[50px] lg:text-[56px] leading-[1.12] text-[#1a1a1a] tracking-tight text-balance">
+            <h2 className="font-display font-medium text-[36px] md:text-[50px] lg:text-[56px] leading-[1.12] text-[#0B0D13] tracking-tight text-balance">
               Engineering Systems, Not Just Software
             </h2>
-            <p className="font-sans text-[15px] md:text-[17px] leading-relaxed text-[#8e8e8e] max-w-[620px] text-balance">
-              Technology creates value only when it becomes part of the way an organization thinks, operates, and grows. Vyom designs intelligent systems that connect strategy, automation, data, and human expertise into a unified operating model.
+            <p className="font-sans text-[15px] md:text-[17px] leading-relaxed text-[#64748B] max-w-[620px] text-balance">
+              Technology creates enduring value only when it becomes part of the way an organization thinks, operates, and scales. ONNREV designs resilient intelligent systems that connect executive strategy, autonomous workflows, data layers, and human expertise into a unified enterprise operating model.
             </p>
           </motion.div>
 
@@ -88,12 +88,12 @@ export const Philosophy: React.FC = () => {
                   visible: { opacity: 1, y: 0 }
                 }}
                 transition={{ duration: 0.5, ease: [0.25, 0.8, 0.25, 1] }}
-                className="flex flex-col gap-2 border-l border-black/[0.08] pl-4"
+                className="flex flex-col gap-2 border-l-2 border-[#0B0D13]/[0.1] pl-4 hover:border-[#10B981] transition-colors"
               >
-                <h4 className="font-display font-medium text-[16px] md:text-[18px] text-[#1a1a1a] tracking-tight">
+                <h3 className="font-display font-medium text-[16px] md:text-[18px] text-[#0B0D13] tracking-tight">
                   {pr.title}
-                </h4>
-                <p className="font-sans text-[13px] md:text-[14px] leading-relaxed text-[#8e8e8e]">
+                </h3>
+                <p className="font-sans text-[13px] md:text-[14px] leading-relaxed text-[#64748B]">
                   {pr.desc}
                 </p>
               </motion.div>
@@ -113,40 +113,40 @@ export const Philosophy: React.FC = () => {
           {/* Orbital Diagram SVG */}
           <svg
             viewBox="0 0 240 240"
-            className="w-full max-w-[260px] md:max-w-[280px] h-auto aspect-square select-none opacity-85"
+            className="w-full max-w-[260px] md:max-w-[280px] h-auto aspect-square select-none opacity-90"
             xmlns="http://www.w3.org/2000/svg"
           >
             {/* 3 Concentric orbits */}
-            <circle cx="120" cy="120" r="40" className="stroke-[#1a1a1a]/10 fill-none" strokeWidth="1" />
-            <circle cx="120" cy="120" r="75" className="stroke-[#1a1a1a]/10 fill-none" strokeWidth="1" />
-            <circle cx="120" cy="120" r="110" className="stroke-[#1a1a1a]/10 fill-none" strokeWidth="1" />
+            <circle cx="120" cy="120" r="40" className="stroke-[#0B0D13]/10 fill-none" strokeWidth="1" strokeDasharray="3 3" />
+            <circle cx="120" cy="120" r="75" className="stroke-[#0B0D13]/10 fill-none" strokeWidth="1" />
+            <circle cx="120" cy="120" r="110" className="stroke-[#0B0D13]/10 fill-none" strokeWidth="1" strokeDasharray="4 2" />
 
             {/* Center anchor nucleus */}
-            <circle cx="120" cy="120" r="4" className="fill-[#1a1a1a]" />
+            <circle cx="120" cy="120" r="4" className="fill-[#0B0D13]" />
 
-            {/* Orbiting nodes with slow GPU animations */}
+            {/* Orbiting nodes with slow animations */}
             <motion.g
               animate={reducedMotion ? {} : { rotate: 360 }}
-              transition={{ repeat: Infinity, duration: 15, ease: 'linear' }}
+              transition={{ repeat: Infinity, duration: 16, ease: 'linear' }}
               style={{ transformOrigin: '120px 120px' }}
             >
-              <circle cx="160" cy="120" r="3.5" className="fill-[#1a1a1a]" />
+              <circle cx="160" cy="120" r="3.5" className="fill-[#0B0D13]" />
             </motion.g>
 
             <motion.g
               animate={reducedMotion ? {} : { rotate: -360 }}
-              transition={{ repeat: Infinity, duration: 25, ease: 'linear' }}
+              transition={{ repeat: Infinity, duration: 24, ease: 'linear' }}
               style={{ transformOrigin: '120px 120px' }}
             >
-              <circle cx="120" cy="45" r="3.5" className="fill-[#1a1a1a]" />
+              <circle cx="120" cy="45" r="3.5" className="fill-[#0B0D13]/70" />
             </motion.g>
 
             <motion.g
               animate={reducedMotion ? {} : { rotate: 360 }}
-              transition={{ repeat: Infinity, duration: 35, ease: 'linear' }}
+              transition={{ repeat: Infinity, duration: 32, ease: 'linear' }}
               style={{ transformOrigin: '120px 120px' }}
             >
-              <circle cx="225" cy="120" r="4.5" className="fill-[#8FBF3C] stroke-[#1a1a1a]/40" strokeWidth="0.5" />
+              <circle cx="225" cy="120" r="4.5" className="fill-[#10B981] stroke-[#0B0D13]/30" strokeWidth="0.75" />
             </motion.g>
           </svg>
         </motion.div>

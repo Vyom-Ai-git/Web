@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://Vyom.ai/sitemap.xml
+Sitemap: https://onnrev.com/sitemap.xml
