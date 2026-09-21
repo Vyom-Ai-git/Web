@@ -77,30 +77,34 @@ export const VisualShowcase: React.FC = () => {
                 {/* Core Ingestion Stage Box */}
                 <rect x="60" y="115" width="100" height="70" rx="6" className="fill-[#090B10] stroke-white/30" />
                 <text x="110" y="145" textAnchor="middle" className="fill-white font-mono text-[10px]">INGRESS</text>
-                <text x="110" y="162" textAnchor="middle" className="fill-[#10B981] font-mono text-[8.5px]">100M EVENTS/D</text>
+                <text x="110" y="162" textAnchor="middle" className="fill-[#ef233c] font-mono text-[8.5px]">100M EVENTS/D</text>
 
                 {/* Cognitive Core Engine Box */}
-                <rect x="250" y="95" width="100" height="110" rx="6" className="fill-[#090B10] stroke-[#10B981]" strokeWidth="1.5" />
+                <rect x="250" y="95" width="100" height="110" rx="6" className="fill-[#090B10] stroke-[#ef233c]" strokeWidth="1.5" />
                 <text x="300" y="135" textAnchor="middle" className="fill-white font-mono text-[11px] font-bold">COGNITIVE CORE</text>
-                <text x="300" y="152" textAnchor="middle" className="fill-[#00E5FF] font-mono text-[8.5px]">RAG VECTOR PIPELINE</text>
-                <circle cx="300" cy="180" r="4" className="fill-[#10B981]" />
+                <text x="300" y="152" textAnchor="middle" className="fill-[#ef233c] font-mono text-[8.5px]">RAG VECTOR PIPELINE</text>
+                <circle cx="300" cy="180" r="4" className="fill-[#ef233c]" />
 
                 {/* Autonomous Output Stage Box */}
                 <rect x="440" y="115" width="100" height="70" rx="6" className="fill-[#090B10] stroke-white/30" />
                 <text x="490" y="145" textAnchor="middle" className="fill-white font-mono text-[10px]">DISPATCH</text>
-                <text x="490" y="162" textAnchor="middle" className="fill-[#10B981] font-mono text-[8.5px]">SUB-10MS LATENCY</text>
+                <text x="490" y="162" textAnchor="middle" className="fill-[#ef233c] font-mono text-[8.5px]">SUB-10MS LATENCY</text>
 
                 {/* Animated data packet dots */}
                 <motion.circle
+                  cx={160}
+                  cy={150}
                   r={3}
-                  className="fill-[#10B981]"
-                  animate={reducedMotion ? {} : { cx: [160, 250], cy: [150, 150] }}
+                  className="fill-[#ef233c]"
+                  animate={reducedMotion ? {} : { x: [0, 90] }}
                   transition={{ repeat: Infinity, duration: 2, ease: 'linear' }}
                 />
                 <motion.circle
+                  cx={350}
+                  cy={150}
                   r={3}
-                  className="fill-[#00E5FF]"
-                  animate={reducedMotion ? {} : { cx: [350, 440], cy: [150, 150] }}
+                  className="fill-white"
+                  animate={reducedMotion ? {} : { x: [0, 90] }}
                   transition={{ repeat: Infinity, duration: 2, ease: 'linear', delay: 1 }}
                 />
               </svg>
@@ -109,35 +113,35 @@ export const VisualShowcase: React.FC = () => {
             {/* Right: Technical Metadata Dossier */}
             <div className="col-span-12 lg:col-span-4 flex flex-col justify-between gap-6 text-left">
               <div className="flex flex-col gap-3">
-                <span className="text-[10px] font-mono tracking-widest text-[#10B981] uppercase">
+                <span className="text-[10px] font-mono tracking-widest text-[#ef233c] uppercase font-semibold">
                   ACTIVE PLATFORM SPECIFICATION
                 </span>
                 <h3 className="font-display font-medium text-[22px] text-white tracking-tight leading-snug">
                   High-Throughput Autonomous Orchestration Mesh
                 </h3>
-                <p className="font-sans text-[13.5px] leading-relaxed text-white/70">
+                <p className="font-sans text-[13.5px] leading-relaxed text-zinc-300">
                   Custom-engineered execution boundaries coordinating model inference, asynchronous background tasks, and zero-knowledge data synchronization.
                 </p>
               </div>
 
               <div className="flex flex-col gap-3 pt-4 border-t border-white/[0.08]">
-                <div className="flex items-center justify-between text-[12px] font-mono text-white/60">
+                <div className="flex items-center justify-between text-[12px] font-mono text-zinc-400">
                   <span>DEPLOYMENT:</span>
                   <span className="text-white">DEDICATED CLIENT VPC</span>
                 </div>
-                <div className="flex items-center justify-between text-[12px] font-mono text-white/60">
+                <div className="flex items-center justify-between text-[12px] font-mono text-zinc-400">
                   <span>STATE MANAGEMENT:</span>
                   <span className="text-white">TEMPORAL + REDIS</span>
                 </div>
-                <div className="flex items-center justify-between text-[12px] font-mono text-white/60">
+                <div className="flex items-center justify-between text-[12px] font-mono text-zinc-400">
                   <span>AUDIT TRACE:</span>
-                  <span className="text-[#10B981]">100% CRYPTOGRAPHIC LOG</span>
+                  <span className="text-[#ef233c]">100% CRYPTOGRAPHIC LOG</span>
                 </div>
               </div>
 
               <a
-                href="#proof"
-                className="inline-flex items-center gap-2 text-[13px] font-mono text-[#10B981] hover:text-white transition-colors group mt-2"
+                href="#work"
+                className="inline-flex items-center gap-2 text-[13px] font-mono text-[#ef233c] hover:text-white transition-colors group mt-2"
               >
                 <span>INSPECT PRODUCTION METRICS</span>
                 <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />

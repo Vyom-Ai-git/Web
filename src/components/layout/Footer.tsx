@@ -4,42 +4,38 @@ import { OnnrevLogo } from '@/components/shared/OnnrevLogo'
 
 const footerNav = [
   {
-    heading: 'Capabilities',
+    heading: 'Work',
     links: [
-      { label: 'Enterprise Intelligence', href: '#capabilities' },
-      { label: 'Autonomous Operations', href: '#capabilities' },
-      { label: 'Growth Infrastructure', href: '#capabilities' },
-      { label: 'Revenue Acceleration', href: '#capabilities' },
-      { label: 'Business Transformation', href: '#capabilities' },
+      { label: 'LabOS Platform', href: '#work' },
+      { label: 'Autonomic Operations', href: '#work' },
+      { label: 'Sovereign Context RAG', href: '#work' },
+      { label: 'Fleet Telemetry Stream', href: '#work' },
     ],
   },
   {
-    heading: 'Transformation',
+    heading: 'Services',
     links: [
-      { label: 'Discover Phase', href: '#transformation' },
-      { label: 'System Design', href: '#transformation' },
-      { label: 'Engineering Build', href: '#transformation' },
-      { label: 'Telemetry & Optimization', href: '#transformation' },
-      { label: 'Enterprise Scale', href: '#transformation' },
+      { label: 'AI & Technology', href: '#services' },
+      { label: 'Digital Experiences', href: '#services' },
+      { label: 'Business Solutions', href: '#services' },
+      { label: 'Automation Workflows', href: '#services' },
     ],
   },
   {
-    heading: 'Proof & Insights',
+    heading: 'About',
     links: [
-      { label: 'Verified Case Studies', href: '#proof' },
-      { label: 'Performance Telemetry', href: '#proof' },
-      { label: 'Engineering Principles', href: '#proof' },
-      { label: 'Research & Insights Hub', href: '#insights' },
+      { label: 'Our Aim', href: '#about' },
+      { label: 'Company Overview', href: '#about' },
+      { label: 'How We Build', href: '#process' },
       { label: 'Industry Sectors', href: '#industries' },
     ],
   },
   {
-    heading: 'Engage',
+    heading: 'Connect',
     links: [
-      { label: 'Executive Consultation', href: '#conversion' },
-      { label: 'Diagnostic Intake Console', href: '#conversion' },
-      { label: 'Legacy Modernization', href: '#conversion' },
+      { label: 'Start a Conversation', href: '#contact' },
       { label: 'contact@onnrev.com', href: 'mailto:contact@onnrev.com' },
+      { label: 'LinkedIn', href: 'https://linkedin.com/company/onnrev' },
     ],
   },
 ]
@@ -58,10 +54,10 @@ export const Footer: React.FC = () => {
     <footer
       id="footer"
       role="contentinfo"
-      className="w-full bg-[#090B10] text-left relative overflow-hidden border-t border-white/[0.08]"
+      className="w-full bg-[#050507] text-left relative overflow-hidden border-t border-white/[0.08]"
     >
-      {/* Subtle telemetry glow line */}
-      <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-[#10B981]/30 to-transparent absolute top-0 left-0" />
+      {/* Subtle telemetry red glow line */}
+      <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-[#ef233c]/40 to-transparent absolute top-0 left-0" />
 
       {/* Main nav grid */}
       <div className="max-w-7xl mx-auto px-8 md:px-16 lg:px-20 pt-16 pb-10 grid grid-cols-12 gap-y-12 lg:gap-x-8">

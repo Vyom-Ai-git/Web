@@ -42,9 +42,9 @@ const ManufacturingArchSvg: React.FC = () => (
     <rect x="10" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
     <text x="24" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">ERP</text>
     <path d="M38,39 L62,39" className="stroke-white/30" />
-    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#10B981] fill-[#10B981]/10" />
+    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#ef233c] fill-[#ef233c]/10" />
     <text x="76" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">n8n</text>
-    <circle cx="76" cy="48" r="1" className="fill-[#10B981]" />
+    <circle cx="76" cy="48" r="1" className="fill-[#ef233c]" />
     <path d="M90,39 L114,39" className="stroke-white/30" />
     <rect x="114" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
     <text x="128" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">DB</text>
@@ -56,9 +56,9 @@ const FinanceArchSvg: React.FC = () => (
     <rect x="10" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
     <text x="24" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">DOCS</text>
     <path d="M38,39 L62,39" className="stroke-white/30" />
-    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#10B981] fill-[#10B981]/10" />
+    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#ef233c] fill-[#ef233c]/10" />
     <text x="76" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">RAG</text>
-    <path d="M68,34 L84,44" className="stroke-[#10B981]/60" />
+    <path d="M68,34 L84,44" className="stroke-[#ef233c]/60" />
     <path d="M90,39 L114,39" className="stroke-white/30" />
     <rect x="114" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
     <text x="128" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">LLM</text>
@@ -70,7 +70,7 @@ const LogisticsArchSvg: React.FC = () => (
     <rect x="10" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
     <text x="24" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">GPS</text>
     <path d="M38,39 L62,39" className="stroke-white/30" />
-    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#10B981] fill-[#10B981]/10" />
+    <rect x="62" y="25" width="28" height="28" rx="2" className="stroke-[#ef233c] fill-[#ef233c]/10" />
     <text x="76" y="42" className="font-sans text-[7px] fill-white text-center" textAnchor="middle">REDIS</text>
     <path d="M90,39 L114,39" className="stroke-white/30" />
     <rect x="114" y="25" width="28" height="28" rx="2" className="stroke-white/30" />
@@ -398,7 +398,7 @@ export const Trust: React.FC = () => {
                             <p className="font-sans text-[14px] md:text-[14.5px] leading-relaxed text-white/70 mb-1">
                               {caseStudy.outcome}
                             </p>
-                            <span className="font-sans text-[12.5px] text-[#0D1117] font-bold bg-[#10B981] px-3 py-1.5 rounded-[4px] border border-[#10B981]/20 w-fit shadow-sm">
+                            <span className="font-sans text-[12.5px] text-white font-bold bg-[#ef233c] px-3 py-1.5 rounded-[4px] border border-[#ef233c]/20 w-fit shadow-sm">
                               Impact: {caseStudy.impact}
                             </span>
                           </div>
@@ -484,7 +484,7 @@ export const Trust: React.FC = () => {
                 >
                   <h3 className="font-display font-medium text-[16px] md:text-[18px] text-white tracking-tight relative pb-1 inline-block w-fit">
                     {pr.title}
-                    <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-[#10B981] transition-all duration-[var(--nav-transition)] group-hover:w-full" />
+                    <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-[#ef233c] transition-all duration-[var(--nav-transition)] group-hover:w-full" />
                   </h3>
                   <p className="font-sans text-[13px] md:text-[13.5px] leading-relaxed text-white/70">
                     {pr.desc}

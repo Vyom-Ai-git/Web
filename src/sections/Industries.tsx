@@ -27,7 +27,7 @@ export const Industries: React.FC = () => {
       id: 'manufacturing',
       title: 'Industrial Manufacturing',
       tagline: 'Synchronizing physical production floors with autonomous operational data layers.',
-      icon: <Factory className="w-5 h-5 text-[#10B981]" />,
+      icon: <Factory className="w-5 h-5 text-[#ef233c]" />,
       capabilities: [
         'Autonomous Operations',
         'Process Intelligence',
@@ -54,7 +54,7 @@ export const Industries: React.FC = () => {
       id: 'financial-services',
       title: 'Financial Services & Fintech',
       tagline: 'High-assurance cognitive pipelines engineered for zero-trust regulatory environments.',
-      icon: <Landmark className="w-5 h-5 text-[#10B981]" />,
+      icon: <Landmark className="w-5 h-5 text-[#ef233c]" />,
       capabilities: [
         'Enterprise Intelligence Architecture',
         'Sovereign Context Engineering',

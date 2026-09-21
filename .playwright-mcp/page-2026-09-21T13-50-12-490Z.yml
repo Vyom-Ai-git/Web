@@ -1,0 +1,772 @@
+- generic [ref=f2e3]:
+  - banner:
+    - navigation [ref=f2e4]:
+      - link "ONNREV — home" [ref=f2e6] [cursor=pointer]:
+        - /url: "#"
+        - generic "ONNREV" [ref=f2e7]:
+          - img "ONNREV Emblem" [ref=f2e8]
+      - generic [ref=f2e11]:
+        - link "Work" [ref=f2e13] [cursor=pointer]:
+          - /url: "#work"
+        - link "Services" [ref=f2e15] [cursor=pointer]:
+          - /url: "#services"
+        - link "About" [ref=f2e17] [cursor=pointer]:
+          - /url: "#about"
+        - link "Contact" [ref=f2e19] [cursor=pointer]:
+          - /url: "#contact"
+      - link "Start a Conversation" [ref=f2e21] [cursor=pointer]:
+        - /url: "#contact"
+  - main [ref=f2e25]:
+    - region "ONNREV Visual Hero" [ref=f2e26]:
+      - generic:
+        - generic:
+          - img "ONNREV Emblem"
+      - generic [ref=f2e28]:
+        - img "ONNREV Emblem" [ref=f2e29]
+        - generic [ref=f2e30]: ONNREV // OFFICIAL DIGITAL PRESENCE
+      - generic [ref=f2e32]:
+        - generic [ref=f2e33]: // ENTERPRISE TECHNOLOGY & SYSTEMS
+        - heading "BUILDING WHAT MOVES TOMORROW." [level=1] [ref=f2e34]:
+          - generic [ref=f2e35]: BUILDING WHAT
+          - generic [ref=f2e36]:
+            - text: MOVES
+            - generic [ref=f2e37]: TOMORROW.
+        - paragraph [ref=f2e40]: Technology, design and solutions built for businesses ready for what's next.
+        - generic [ref=f2e41]:
+          - link "EXPLORE OUR WORK" [ref=f2e42] [cursor=pointer]:
+            - /url: "#work"
+          - link "START A CONVERSATION" [ref=f2e46] [cursor=pointer]:
+            - /url: "#contact"
+      - generic [ref=f2e48]:
+        - generic [ref=f2e49]: ONNREV // 01 SHOWROOM
+        - button "Scroll down to introduction" [ref=f2e50] [cursor=pointer]:
+          - generic [ref=f2e51]: DISCOVER
+    - region "ONNREV Introduction" [ref=f2e54]:
+      - generic [ref=f2e56]:
+        - generic [ref=f2e57]:
+          - img "ONNREV Emblem" [ref=f2e58]
+          - generic [ref=f2e59]: // ONNREV IN BRIEF
+        - generic [ref=f2e60]:
+          - paragraph [ref=f2e61]: We design autonomous systems and intelligent infrastructure for organizations where latency and downtime are unacceptable.
+          - link "ABOUT ONNREV" [ref=f2e62] [cursor=pointer]:
+            - /url: "#about"
+    - region "ONNREV Visual Statement" [ref=f2e66]:
+      - generic [ref=f2e67]:
+        - generic [ref=f2e68]:
+          - img "ONNREV Emblem" [ref=f2e69]
+          - generic [ref=f2e70]: // THE FOUNDATION
+        - heading "IDEAS → SYSTEMS → IMPACT" [level=2] [ref=f2e72]:
+          - text: IDEAS
+          - generic [ref=f2e73]: →
+          - text: SYSTEMS
+          - generic [ref=f2e74]: →
+          - text: IMPACT
+        - generic [ref=f2e75]:
+          - paragraph [ref=f2e76]: Engineering real platforms that transform complex operational ideas into high-assurance digital systems.
+          - generic [ref=f2e77]: PRECISION ARCHITECTURE // ONNREV
+    - region "ONNREV What We Do" [ref=f2e78]:
+      - generic [ref=f2e79]:
+        - generic [ref=f2e80]:
+          - generic [ref=f2e81]:
+            - generic [ref=f2e82]: // WHAT WE DO
+            - heading "CAPABILITIES." [level=2] [ref=f2e83]
+          - paragraph [ref=f2e84]: Select a capability to inspect its architectural foundation and engineered execution.
+        - generic [ref=f2e85]:
+          - tablist [ref=f2e86]:
+            - tab "[01] AI & TECHNOLOGY Intelligent systems built to solve real business problems. START A CONVERSATION →" [selected] [ref=f2e87] [cursor=pointer]:
+              - generic [ref=f2e89]:
+                - generic [ref=f2e90]: "[01]"
+                - heading "AI & TECHNOLOGY" [level=3] [ref=f2e91]
+              - generic [ref=f2e94]:
+                - paragraph [ref=f2e95]: Intelligent systems built to solve real business problems.
+                - link "START A CONVERSATION →" [ref=f2e96]:
+                  - /url: "#contact"
+                  - generic [ref=f2e97]: START A CONVERSATION
+                  - generic [ref=f2e98]: →
+            - tab "[02] DIGITAL EXPERIENCES" [ref=f2e99] [cursor=pointer]:
+              - generic [ref=f2e101]:
+                - generic [ref=f2e102]: "[02]"
+                - heading "DIGITAL EXPERIENCES" [level=3] [ref=f2e103]
+            - tab "[03] BUSINESS SOLUTIONS" [ref=f2e106] [cursor=pointer]:
+              - generic [ref=f2e108]:
+                - generic [ref=f2e109]: "[03]"
+                - heading "BUSINESS SOLUTIONS" [level=3] [ref=f2e110]
+            - tab "[04] AUTOMATION" [ref=f2e113] [cursor=pointer]:
+              - generic [ref=f2e115]:
+                - generic [ref=f2e116]: "[04]"
+                - heading "AUTOMATION" [level=3] [ref=f2e117]
+          - generic [ref=f2e120]:
+            - generic [ref=f2e121]:
+              - generic [ref=f2e122]: SYSTEM ARCHITECTURE
+              - generic [ref=f2e123]: INTELLIGENT SYSTEMS
+            - generic [ref=f2e126]: CAPABILITY 01 // TOPOLOGY
+    - region "ONNREV Visual Architecture Showcase" [ref=f2e128]:
+      - generic [ref=f2e129]:
+        - generic [ref=f2e130]:
+          - generic [ref=f2e131]:
+            - generic [ref=f2e132]: // [ 05 / 12 ] VISUAL SHOWCASE
+            - heading "Architectural Rigor in Action" [level=2] [ref=f2e133]
+          - generic [ref=f2e134]: LIVE SYSTEM SCHEMATICS & INGESTION TELEMETRY
+        - generic [ref=f2e135]:
+          - generic [ref=f2e136]:
+            - generic [ref=f2e137]:
+              - img "ONNREV Emblem" [ref=f2e138]
+              - generic [ref=f2e139]: INFRASTRUCTURE TELEMETRY CONSOLE
+              - generic [ref=f2e140]: //
+              - generic [ref=f2e141]: "CLUSTER: PRODUCTION_US_EAST"
+            - generic [ref=f2e142]:
+              - generic [ref=f2e143]: "LATENCY: 8.4ms"
+              - generic [ref=f2e144]: "UPTIME: 99.99%"
+          - generic [ref=f2e145]:
+            - img [ref=f2e147]:
+              - generic [ref=f2e149]: INGRESS
+              - generic [ref=f2e150]: 100M EVENTS/D
+              - generic [ref=f2e152]: COGNITIVE CORE
+              - generic [ref=f2e153]: RAG VECTOR PIPELINE
+              - generic [ref=f2e156]: DISPATCH
+              - generic [ref=f2e157]: SUB-10MS LATENCY
+            - generic [ref=f2e160]:
+              - generic [ref=f2e161]:
+                - generic [ref=f2e162]: ACTIVE PLATFORM SPECIFICATION
+                - heading "High-Throughput Autonomous Orchestration Mesh" [level=3] [ref=f2e163]
+                - paragraph [ref=f2e164]: Custom-engineered execution boundaries coordinating model inference, asynchronous background tasks, and zero-knowledge data synchronization.
+              - generic [ref=f2e165]:
+                - generic [ref=f2e166]:
+                  - generic [ref=f2e167]: "DEPLOYMENT:"
+                  - generic [ref=f2e168]: DEDICATED CLIENT VPC
+                - generic [ref=f2e169]:
+                  - generic [ref=f2e170]: "STATE MANAGEMENT:"
+                  - generic [ref=f2e171]: TEMPORAL + REDIS
+                - generic [ref=f2e172]:
+                  - generic [ref=f2e173]: "AUDIT TRACE:"
+                  - generic [ref=f2e174]: 100% CRYPTOGRAPHIC LOG
+              - link "INSPECT PRODUCTION METRICS" [ref=f2e175] [cursor=pointer]:
+                - /url: "#work"
+    - region "ONNREV Solutions & Products Catalogue" [ref=f2e180]:
+      - generic [ref=f2e181]:
+        - generic [ref=f2e182]:
+          - generic [ref=f2e183]:
+            - generic [ref=f2e184]: // SOLUTIONS & PLATFORMS
+            - heading "Engineered Platforms." [level=2] [ref=f2e185]
+          - paragraph [ref=f2e186]: Battle-tested software systems, proprietary orchestrators, and industry-grade platforms.
+        - tablist [ref=f2e187]:
+          - tab "LabOS 01" [selected] [ref=f2e188] [cursor=pointer]:
+            - generic [ref=f2e189]: LabOS
+            - generic [ref=f2e190]: "01"
+          - tab "Autonomic Operations & Workflow Mesh 02" [ref=f2e191] [cursor=pointer]:
+            - generic [ref=f2e192]: Autonomic Operations & Workflow Mesh
+            - generic [ref=f2e193]: "02"
+          - tab "Sovereign Context & Document Intelligence Engine 03" [ref=f2e194] [cursor=pointer]:
+            - generic [ref=f2e195]: Sovereign Context & Document Intelligence Engine
+            - generic [ref=f2e196]: "03"
+        - generic [ref=f2e197]:
+          - generic [ref=f2e198]:
+            - generic [ref=f2e199]:
+              - generic [ref=f2e200]:
+                - generic [ref=f2e201]: PROD_01 // CORE
+                - generic [ref=f2e202]: •
+                - generic [ref=f2e203]: Diagnostic & Clinical Workflow Platform
+              - heading "LabOS — Laboratory Operating & Engagement Platform" [level=3] [ref=f2e204]
+              - paragraph [ref=f2e205]: A comprehensive operating platform digitizing the laboratory lifecycle from patient registration to automated report verification, secure WhatsApp report delivery, and consent-controlled patient engagement.
+            - generic [ref=f2e206]:
+              - generic [ref=f2e207]: "Key Capabilities:"
+              - list [ref=f2e208]:
+                - listitem [ref=f2e209]:
+                  - generic [ref=f2e212]: Centralized patient, test, sample, and result registry
+                - listitem [ref=f2e213]:
+                  - generic [ref=f2e216]: Automated encrypted report generation & WhatsApp delivery
+                - listitem [ref=f2e217]:
+                  - generic [ref=f2e220]: Patient-friendly AI report clarification assistance
+                - listitem [ref=f2e221]:
+                  - generic [ref=f2e224]: Multi-user granular role-based access control
+            - generic [ref=f2e225]:
+              - generic [ref=f2e226]: "Target Deployments:"
+              - generic [ref=f2e227]:
+                - generic [ref=f2e228]: Independent diagnostic laboratories
+                - generic [ref=f2e229]: Multi-branch clinical networks
+                - generic [ref=f2e230]: Hospital outpatient sample tracking centers
+          - generic [ref=f2e231]:
+            - generic [ref=f2e232]:
+              - generic [ref=f2e233]:
+                - generic [ref=f2e234]: TECHNICAL ARCHITECTURE SPEC
+                - generic [ref=f2e235]: VERIFIED
+              - generic [ref=f2e236]:
+                - generic [ref=f2e237]:
+                  - generic [ref=f2e238]: Architecture
+                  - generic [ref=f2e239]: Multi-Tenant Microservices
+                - generic [ref=f2e240]:
+                  - generic [ref=f2e241]: Automation Engine
+                  - generic [ref=f2e242]: n8n Workflow Core
+                - generic [ref=f2e243]:
+                  - generic [ref=f2e244]: Delivery Layer
+                  - generic [ref=f2e245]: WhatsApp Business API
+                - generic [ref=f2e246]:
+                  - generic [ref=f2e247]: Compliance
+                  - generic [ref=f2e248]: Consent-Controlled Patient Engagement
+            - generic [ref=f2e249]:
+              - link "Request Solution Dossier" [ref=f2e250] [cursor=pointer]:
+                - /url: "#contact"
+              - generic [ref=f2e254]: Custom deployment SLA delivered within 24 business hours.
+    - region "ONNREV Industry Practice Sectors" [ref=f2e255]:
+      - generic [ref=f2e256]:
+        - generic [ref=f2e258]:
+          - generic [ref=f2e259]: // INDUSTRIES
+          - heading "Sectors We Serve." [level=2] [ref=f2e260]
+          - paragraph [ref=f2e261]: Operational advantage engineered for demanding regulatory, industrial, and clinical realities.
+        - generic [ref=f2e262]:
+          - tablist [ref=f2e263]:
+            - tab "Industrial Manufacturing Synchronizing physical production floors with autonomous operational data layers." [selected] [ref=f2e264] [cursor=pointer]:
+              - generic [ref=f2e268]:
+                - generic [ref=f2e269]: Industrial Manufacturing
+                - generic [ref=f2e270]: Synchronizing physical production floors with autonomous operational data layers.
+            - tab "Financial Services & Fintech High-assurance cognitive pipelines engineered for zero-trust regulatory environments." [ref=f2e271] [cursor=pointer]:
+              - generic [ref=f2e275]:
+                - generic [ref=f2e276]: Financial Services & Fintech
+                - generic [ref=f2e277]: High-assurance cognitive pipelines engineered for zero-trust regulatory environments.
+            - tab "Supply Chain & Logistics Algorithmic routing engines and event-driven telemetry for distributed fleet networks." [ref=f2e278] [cursor=pointer]:
+              - generic [ref=f2e285]:
+                - generic [ref=f2e286]: Supply Chain & Logistics
+                - generic [ref=f2e287]: Algorithmic routing engines and event-driven telemetry for distributed fleet networks.
+            - tab "Clinical & Laboratory Systems Digital lab operating foundations and consent-controlled communication systems." [ref=f2e288] [cursor=pointer]:
+              - generic [ref=f2e292]:
+                - generic [ref=f2e293]: Clinical & Laboratory Systems
+                - generic [ref=f2e294]: Digital lab operating foundations and consent-controlled communication systems.
+          - generic [ref=f2e296]:
+            - generic [ref=f2e297]:
+              - generic [ref=f2e298]: Sector Practice Dossier
+              - heading "Industrial Manufacturing" [level=3] [ref=f2e301]
+              - paragraph [ref=f2e302]: Synchronizing physical production floors with autonomous operational data layers.
+            - generic [ref=f2e303]:
+              - generic [ref=f2e304]:
+                - generic [ref=f2e305]: // Engineered Solutions
+                - list [ref=f2e306]:
+                  - listitem [ref=f2e307]:
+                    - generic [ref=f2e311]: Multi-facility dispatch automation
+                  - listitem [ref=f2e312]:
+                    - generic [ref=f2e316]: Real-time ERP to shop-floor telemetry synchronization
+                  - listitem [ref=f2e317]:
+                    - generic [ref=f2e321]: Automated inventory discrepancy resolution
+              - generic [ref=f2e322]:
+                - generic [ref=f2e323]: // Primary Applications
+                - list [ref=f2e324]:
+                  - listitem [ref=f2e325]:
+                    - generic [ref=f2e327]: Regional manufacturing plants
+                  - listitem [ref=f2e328]:
+                    - generic [ref=f2e330]: Industrial parts distribution centers
+                  - listitem [ref=f2e331]:
+                    - generic [ref=f2e333]: Assembly line dispatch coordination
+            - generic [ref=f2e334]:
+              - generic [ref=f2e335]: "Integrated ONNREV Disciplines:"
+              - generic [ref=f2e336]:
+                - generic [ref=f2e337]: Autonomous Operations
+                - generic [ref=f2e338]: Process Intelligence
+                - generic [ref=f2e339]: ERP Workflow Orchestration
+                - generic [ref=f2e340]: Predictive Maintenance Triggers
+            - generic [ref=f2e341]:
+              - generic [ref=f2e342]:
+                - generic [ref=f2e343]: Verified Engagement Proof
+                - generic [ref=f2e344]: Manufacturing Enterprise Deployment
+                - generic [ref=f2e345]: 35% Dispatch Speedup across regional facilities
+              - link "Inspect Case Study" [ref=f2e346] [cursor=pointer]:
+                - /url: "#projects"
+    - region "ONNREV Trust and Performance Layer" [ref=f2e350]:
+      - generic [ref=f2e351]:
+        - generic [ref=f2e352]:
+          - generic [ref=f2e353]:
+            - generic [ref=f2e354]: // [ 08 / 12 ] PROOF & PERFORMANCE TELEMETRY
+            - heading "Outcomes That Matter" [level=2] [ref=f2e355]
+            - paragraph [ref=f2e356]: Every engagement is measured by tangible business outcomes rather than feature delivery.
+          - generic [ref=f2e357]:
+            - generic [ref=f2e358]:
+              - generic [ref=f2e359]: 0+
+              - generic [ref=f2e360]: Enterprise Systems Delivered
+            - generic [ref=f2e361]:
+              - generic [ref=f2e362]: 0+
+              - generic [ref=f2e363]: Workflows Automated
+            - generic [ref=f2e364]:
+              - generic [ref=f2e365]: 0+
+              - generic [ref=f2e366]: AI Solutions Deployed
+            - generic [ref=f2e367]:
+              - generic [ref=f2e368]: 0+
+              - generic [ref=f2e369]: Operational Hours Saved
+        - generic [ref=f2e370]:
+          - generic [ref=f2e371]:
+            - generic [ref=f2e372]: Chapter 02 // Engagements
+            - heading "Representative Engagements" [level=2] [ref=f2e373]
+          - generic [ref=f2e374]:
+            - generic [ref=f2e376]:
+              - generic [ref=f2e377]:
+                - generic [ref=f2e378]:
+                  - generic [ref=f2e379]: Manufacturing Enterprise
+                  - generic [ref=f2e380]: •
+                  - generic [ref=f2e381]: Industrial Logistics
+                  - generic [ref=f2e382]: •
+                  - generic [ref=f2e383]: 4 Months Timeline
+                - generic [ref=f2e384]:
+                  - generic [ref=f2e385]:
+                    - generic [ref=f2e386]: Business Challenge
+                    - paragraph [ref=f2e387]: Disconnected operational inventory and routing flows causing delays across regional facilities.
+                  - generic [ref=f2e388]:
+                    - generic [ref=f2e389]: Solution
+                    - paragraph [ref=f2e390]: Unified intelligence database platform integrating n8n automation and custom forecasting algorithms.
+                  - generic [ref=f2e391]:
+                    - generic [ref=f2e392]: Outcome & Impact
+                    - paragraph [ref=f2e393]: Unified regional pipeline operations, accelerated scheduling, and faster audit resolutions.
+                    - generic [ref=f2e394]: "Impact: 35% Operational Dispatch Speedup"
+                  - generic [ref=f2e395]:
+                    - generic [ref=f2e396]: Technologies Deployed
+                    - generic [ref=f2e397]:
+                      - generic [ref=f2e398]: Python
+                      - generic [ref=f2e399]: PostgreSQL
+                      - generic [ref=f2e400]: Kubernetes
+                      - generic [ref=f2e401]: n8n
+              - generic [ref=f2e402]:
+                - generic [ref=f2e403]: System Architecture Preview
+                - img [ref=f2e405]:
+                  - generic [ref=f2e407]: ERP
+                  - generic [ref=f2e409]: n8n
+                  - generic [ref=f2e412]: DB
+            - generic [ref=f2e414]:
+              - generic [ref=f2e415]:
+                - generic [ref=f2e416]:
+                  - generic [ref=f2e417]: Financial Services Platform
+                  - generic [ref=f2e418]: •
+                  - generic [ref=f2e419]: Fintech Compliance
+                  - generic [ref=f2e420]: •
+                  - generic [ref=f2e421]: 3 Months Timeline
+                - generic [ref=f2e422]:
+                  - generic [ref=f2e423]:
+                    - generic [ref=f2e424]: Business Challenge
+                    - paragraph [ref=f2e425]: Slow context indexing and high compliance latency in customer document verification pipelines.
+                  - generic [ref=f2e426]:
+                    - generic [ref=f2e427]: Solution
+                    - paragraph [ref=f2e428]: Secure RAG context-engineering scanner auditing PDF extractions and user validation paths.
+                  - generic [ref=f2e429]:
+                    - generic [ref=f2e430]: Outcome & Impact
+                    - paragraph [ref=f2e431]: Eliminated manual indexing delays, establishing self-healing document validation layers.
+                    - generic [ref=f2e432]: "Impact: 80% Reduction in Audit Latency"
+                  - generic [ref=f2e433]:
+                    - generic [ref=f2e434]: Technologies Deployed
+                    - generic [ref=f2e435]:
+                      - generic [ref=f2e436]: React
+                      - generic [ref=f2e437]: TypeScript
+                      - generic [ref=f2e438]: Redis
+                      - generic [ref=f2e439]: OpenAI
+              - generic [ref=f2e440]:
+                - generic [ref=f2e441]: System Architecture Preview
+                - img [ref=f2e443]:
+                  - generic [ref=f2e445]: DOCS
+                  - generic [ref=f2e447]: RAG
+                  - generic [ref=f2e450]: LLM
+            - generic [ref=f2e452]:
+              - generic [ref=f2e453]:
+                - generic [ref=f2e454]:
+                  - generic [ref=f2e455]: Logistics Network
+                  - generic [ref=f2e456]: •
+                  - generic [ref=f2e457]: Supply Chain Operations
+                  - generic [ref=f2e458]: •
+                  - generic [ref=f2e459]: 5 Months Timeline
+                - generic [ref=f2e460]:
+                  - generic [ref=f2e461]:
+                    - generic [ref=f2e462]: Business Challenge
+                    - paragraph [ref=f2e463]: Inefficient route tracking and driver coordination overhead under unstable cell telemetry.
+                  - generic [ref=f2e464]:
+                    - generic [ref=f2e465]: Solution
+                    - paragraph [ref=f2e466]: Algorithmic route optimization engine running on AWS, backed by fast Redis memory layers.
+                  - generic [ref=f2e467]:
+                    - generic [ref=f2e468]: Outcome & Impact
+                    - paragraph [ref=f2e469]: Automated warehouse dispatch syncing, stabilizing driver telemetry routing checks.
+                    - generic [ref=f2e470]: "Impact: 15% Monthly Fuel Cost Reduction"
+                  - generic [ref=f2e471]:
+                    - generic [ref=f2e472]: Technologies Deployed
+                    - generic [ref=f2e473]:
+                      - generic [ref=f2e474]: Python
+                      - generic [ref=f2e475]: Docker
+                      - generic [ref=f2e476]: Redis
+                      - generic [ref=f2e477]: AWS
+              - generic [ref=f2e478]:
+                - generic [ref=f2e479]: System Architecture Preview
+                - img [ref=f2e481]:
+                  - generic [ref=f2e483]: GPS
+                  - generic [ref=f2e485]: REDIS
+                  - generic [ref=f2e487]: AWS
+        - generic [ref=f2e488]:
+          - generic [ref=f2e489]:
+            - generic [ref=f2e490]: Chapter 03 // Methodology
+            - heading "How We Deliver" [level=2] [ref=f2e491]
+          - generic [ref=f2e492]:
+            - generic [ref=f2e493]:
+              - heading "Business First" [level=3] [ref=f2e494]
+              - paragraph [ref=f2e495]: Every technology decision must map directly to a commercial goal and measurable business outcomes.
+            - generic [ref=f2e496]:
+              - heading "Secure by Design" [level=3] [ref=f2e497]
+              - paragraph [ref=f2e498]: Threat modeling, compartmentalized vectors, and enterprise data privacy are integrated into the core.
+            - generic [ref=f2e499]:
+              - heading "Human-Centered AI" [level=3] [ref=f2e500]
+              - paragraph [ref=f2e501]: Systems are designed to augment human operations, maintaining human-in-the-loop validation triggers.
+            - generic [ref=f2e502]:
+              - heading "Measurable Value" [level=3] [ref=f2e503]
+              - paragraph [ref=f2e504]: We define clear telemetry metrics to track operational output and ROI from day one.
+            - generic [ref=f2e505]:
+              - heading "Scalable Architecture" [level=3] [ref=f2e506]
+              - paragraph [ref=f2e507]: Infrastructure scales naturally with expanding data loads without bloating technical debt.
+            - generic [ref=f2e508]:
+              - heading "Long-Term Partnership" [level=3] [ref=f2e509]
+              - paragraph [ref=f2e510]: We focus on operational independence, transferring systems knowledge to your internal teams.
+    - region "ONNREV Partner Technology Wall" [ref=f2e511]:
+      - generic [ref=f2e512]:
+        - generic [ref=f2e513]:
+          - generic [ref=f2e514]: Chapter 04 // Stack
+          - heading "Ecosystem Technologies" [level=2] [ref=f2e515]
+        - generic [ref=f2e516]:
+          - generic [ref=f2e517]:
+            - generic [ref=f2e518]: Artificial Intelligence
+            - generic [ref=f2e519]:
+              - generic "OpenAI technology integration" [ref=f2e520] [cursor=pointer]: OpenAI
+              - generic "Anthropic technology integration" [ref=f2e525] [cursor=pointer]: Anthropic
+              - generic "Google AI technology integration" [ref=f2e530] [cursor=pointer]: Google AI
+              - generic "Meta AI technology integration" [ref=f2e536] [cursor=pointer]: Meta AI
+              - generic "Gemini technology integration" [ref=f2e542] [cursor=pointer]: Gemini
+              - generic "LangChain technology integration" [ref=f2e547] [cursor=pointer]: LangChain
+          - generic [ref=f2e556]:
+            - generic [ref=f2e557]: Frontend
+            - generic [ref=f2e558]:
+              - generic "React technology integration" [ref=f2e559] [cursor=pointer]: React
+              - generic "Next.js technology integration" [ref=f2e568] [cursor=pointer]: Next.js
+              - generic "TypeScript technology integration" [ref=f2e575] [cursor=pointer]: TypeScript
+              - generic "Tailwind CSS technology integration" [ref=f2e581] [cursor=pointer]: Tailwind CSS
+              - generic "Vite technology integration" [ref=f2e586] [cursor=pointer]: Vite
+          - generic [ref=f2e592]:
+            - generic [ref=f2e593]: Backend
+            - generic [ref=f2e594]:
+              - generic "Python technology integration" [ref=f2e595] [cursor=pointer]: Python
+              - generic "Node.js technology integration" [ref=f2e601] [cursor=pointer]: Node.js
+              - generic "FastAPI technology integration" [ref=f2e608] [cursor=pointer]: FastAPI
+              - generic "Express technology integration" [ref=f2e614] [cursor=pointer]:
+                - img [ref=f2e616]:
+                  - generic [ref=f2e618]: ex
+                - generic [ref=f2e619]: Express
+          - generic [ref=f2e620]:
+            - generic [ref=f2e621]: Cloud
+            - generic [ref=f2e622]:
+              - generic "Amazon Web Services technology integration" [ref=f2e623] [cursor=pointer]: Amazon Web Services
+              - generic "Microsoft Azure technology integration" [ref=f2e630] [cursor=pointer]: Microsoft Azure
+              - generic "Google Cloud technology integration" [ref=f2e637] [cursor=pointer]: Google Cloud
+          - generic [ref=f2e645]:
+            - generic [ref=f2e646]: Databases
+            - generic [ref=f2e647]:
+              - generic "PostgreSQL technology integration" [ref=f2e648] [cursor=pointer]: PostgreSQL
+              - generic "MongoDB technology integration" [ref=f2e654] [cursor=pointer]: MongoDB
+              - generic "Redis technology integration" [ref=f2e661] [cursor=pointer]: Redis
+              - generic "Supabase technology integration" [ref=f2e668] [cursor=pointer]: Supabase
+          - generic [ref=f2e673]:
+            - generic [ref=f2e674]: Automation
+            - generic [ref=f2e675]:
+              - generic "n8n technology integration" [ref=f2e676] [cursor=pointer]: n8n
+              - generic "LangGraph technology integration" [ref=f2e683] [cursor=pointer]: LangGraph
+              - generic "Temporal technology integration" [ref=f2e693] [cursor=pointer]: Temporal
+              - generic "Pinecone technology integration" [ref=f2e698] [cursor=pointer]: Pinecone
+              - generic "Qdrant technology integration" [ref=f2e706] [cursor=pointer]: Qdrant
+          - generic [ref=f2e713]:
+            - generic [ref=f2e714]: Infrastructure
+            - generic [ref=f2e715]:
+              - generic "Docker technology integration" [ref=f2e716] [cursor=pointer]: Docker
+              - generic "Kubernetes technology integration" [ref=f2e725] [cursor=pointer]: Kubernetes
+              - generic "GitHub technology integration" [ref=f2e732] [cursor=pointer]: GitHub
+              - generic "Vercel technology integration" [ref=f2e737] [cursor=pointer]: Vercel
+              - generic "Cloudflare technology integration" [ref=f2e742] [cursor=pointer]: Cloudflare
+    - region "ONNREV Selected Work" [ref=f2e748]:
+      - generic [ref=f2e749]:
+        - generic [ref=f2e750]:
+          - generic [ref=f2e751]:
+            - generic [ref=f2e752]: // SELECTED WORK
+            - heading "SELECTED WORK." [level=2] [ref=f2e753]
+          - generic [ref=f2e754]: Real engineering systems built to solve high-concurrency enterprise challenges.
+        - generic [ref=f2e755]:
+          - button "PROJECT 01 0-Loss LabOS — Diagnostic & Patient Platform Clinical Healthcare & Diagnostics" [ref=f2e756] [cursor=pointer]:
+            - generic [ref=f2e757]:
+              - generic [ref=f2e758]: PROJECT 01
+              - generic [ref=f2e759]: 0-Loss
+            - generic [ref=f2e760]:
+              - generic [ref=f2e761]: LabOS — Diagnostic & Patient Platform
+              - generic [ref=f2e762]: Clinical Healthcare & Diagnostics
+          - button "PROJECT 02 +35% Autonomic Operations & Workflow Mesh Industrial Manufacturing & Logistics" [ref=f2e763] [cursor=pointer]:
+            - generic [ref=f2e764]:
+              - generic [ref=f2e765]: PROJECT 02
+              - generic [ref=f2e766]: +35%
+            - generic [ref=f2e767]:
+              - generic [ref=f2e768]: Autonomic Operations & Workflow Mesh
+              - generic [ref=f2e769]: Industrial Manufacturing & Logistics
+          - button "PROJECT 03 -80% Sovereign Context & Regulatory Scanner Financial Services & Compliance" [ref=f2e770] [cursor=pointer]:
+            - generic [ref=f2e771]:
+              - generic [ref=f2e772]: PROJECT 03
+              - generic [ref=f2e773]: "-80%"
+            - generic [ref=f2e774]:
+              - generic [ref=f2e775]: Sovereign Context & Regulatory Scanner
+              - generic [ref=f2e776]: Financial Services & Compliance
+          - button "PROJECT 04 -15% Algorithmic Fleet Telemetry Engine Supply Chain & Transportation" [ref=f2e777] [cursor=pointer]:
+            - generic [ref=f2e778]:
+              - generic [ref=f2e779]: PROJECT 04
+              - generic [ref=f2e780]: "-15%"
+            - generic [ref=f2e781]:
+              - generic [ref=f2e782]: Algorithmic Fleet Telemetry Engine
+              - generic [ref=f2e783]: Supply Chain & Transportation
+        - generic [ref=f2e784]:
+          - generic [ref=f2e785]:
+            - generic [ref=f2e786]:
+              - generic [ref=f2e787]:
+                - generic [ref=f2e788]: Clinical Healthcare & Diagnostics
+                - generic [ref=f2e789]: //
+                - generic [ref=f2e790]: PROJECT 01
+              - heading "LabOS — Diagnostic & Patient Platform" [level=3] [ref=f2e791]
+              - paragraph [ref=f2e792]: End-to-end diagnostic workflow operating system with secure digital delivery and patient engagement.
+            - generic [ref=f2e793]:
+              - generic [ref=f2e794]:
+                - generic [ref=f2e795]: "[ THE CHALLENGE ]"
+                - paragraph [ref=f2e796]: Manual specimen tracking, fragmented physician handoffs, and paper report dispatch caused high turnaround latency and client communication friction.
+              - generic [ref=f2e797]:
+                - generic [ref=f2e798]: "[ ONNREV SOLUTION ]"
+                - paragraph [ref=f2e799]: Engineered a unified multi-tenant operating system integrating patient intake, sample registry, automated validation rules, and direct WhatsApp report delivery.
+            - generic [ref=f2e800]:
+              - generic [ref=f2e801]: "What We Built:"
+              - paragraph [ref=f2e802]: Multi-branch lab portal, sample barcode tracking engine, consent-driven WhatsApp delivery pipeline, and automated test result clarification assistance.
+            - generic [ref=f2e803]:
+              - generic [ref=f2e804]: React
+              - generic [ref=f2e805]: TypeScript
+              - generic [ref=f2e806]: Multi-Tenant Microservices
+              - generic [ref=f2e807]: n8n Workflow
+              - generic [ref=f2e808]: WhatsApp Business API
+          - generic [ref=f2e809]:
+            - generic [ref=f2e810]:
+              - generic [ref=f2e811]: VERIFIED OUTCOME
+              - generic [ref=f2e812]: 0-Loss
+              - generic [ref=f2e813]: Sample tracking fidelity & automated delivery turnaround
+            - generic [ref=f2e814]:
+              - generic [ref=f2e815]: SYSTEM TELEMETRY
+              - generic [ref=f2e816]:
+                - generic [ref=f2e817]: "DEPLOYMENT:"
+                - generic [ref=f2e818]: CLIENT VPC / PRODUCTION
+              - generic [ref=f2e819]:
+                - generic [ref=f2e820]: "INTEGRITY:"
+                - generic [ref=f2e821]: 100% VERIFIED DATA
+              - generic [ref=f2e822]:
+                - generic [ref=f2e823]: "STATUS:"
+                - generic [ref=f2e824]: OPERATIONAL
+            - link "Discuss Similar Engagement" [ref=f2e825] [cursor=pointer]:
+              - /url: "#contact"
+        - generic [ref=f2e830]:
+          - generic [ref=f2e831]: SHOWING 4 OF 4 VERIFIED PRODUCTION CASES
+          - link "START A CONVERSATION →" [ref=f2e832] [cursor=pointer]:
+            - /url: "#contact"
+    - region "ONNREV How We Build" [ref=f2e834]:
+      - generic [ref=f2e835]:
+        - generic [ref=f2e836]:
+          - generic [ref=f2e837]:
+            - generic [ref=f2e838]: // HOW WE BUILD
+            - heading "HOW WE BUILD." [level=2] [ref=f2e839]
+          - generic [ref=f2e840]: FOUR RIGOROUS STAGES
+        - generic [ref=f2e841]:
+          - generic [ref=f2e842]:
+            - generic [ref=f2e843]:
+              - generic [ref=f2e844]:
+                - generic [ref=f2e845]: "[01]"
+                - generic [ref=f2e846]: STAGE
+              - generic [ref=f2e847]:
+                - heading "UNDERSTAND" [level=3] [ref=f2e848]
+                - paragraph [ref=f2e849]: Understand the problem before building.
+            - generic [ref=f2e850]: STAGE COMPLETE
+          - generic [ref=f2e854]:
+            - generic [ref=f2e855]:
+              - generic [ref=f2e856]:
+                - generic [ref=f2e857]: "[02]"
+                - generic [ref=f2e858]: STAGE
+              - generic [ref=f2e859]:
+                - heading "DESIGN" [level=3] [ref=f2e860]
+                - paragraph [ref=f2e861]: Turn ideas into clear experiences.
+            - generic [ref=f2e862]: STAGE COMPLETE
+          - generic [ref=f2e866]:
+            - generic [ref=f2e867]:
+              - generic [ref=f2e868]:
+                - generic [ref=f2e869]: "[03]"
+                - generic [ref=f2e870]: STAGE
+              - generic [ref=f2e871]:
+                - heading "BUILD" [level=3] [ref=f2e872]
+                - paragraph [ref=f2e873]: Engineer the right technology.
+            - generic [ref=f2e874]: STAGE COMPLETE
+          - generic [ref=f2e878]:
+            - generic [ref=f2e879]:
+              - generic [ref=f2e880]:
+                - generic [ref=f2e881]: "[04]"
+                - generic [ref=f2e882]: STAGE
+              - generic [ref=f2e883]:
+                - heading "EVOLVE" [level=3] [ref=f2e884]
+                - paragraph [ref=f2e885]: Improve and scale what we create.
+            - generic [ref=f2e886]: STAGE COMPLETE
+    - region "About ONNREV" [ref=f2e890]:
+      - generic [ref=f2e891]:
+        - generic [ref=f2e892]:
+          - generic [ref=f2e893]:
+            - img "ONNREV Emblem" [ref=f2e894]
+            - generic [ref=f2e895]: // OUR AIM
+          - blockquote [ref=f2e896]: "\"Build technology that makes businesses simpler, smarter and ready for tomorrow.\""
+          - generic [ref=f2e897]:
+            - generic [ref=f2e898]: INNOVATION
+            - generic [ref=f2e899]: •
+            - generic [ref=f2e900]: INTELLIGENCE
+            - generic [ref=f2e901]: •
+            - generic [ref=f2e902]: IMPACT
+        - generic [ref=f2e903]:
+          - generic [ref=f2e904]:
+            - img "ONNREV Emblem" [ref=f2e905]
+            - generic [ref=f2e906]:
+              - generic [ref=f2e907]: // ABOUT ONNREV
+              - heading "THE COMPANY." [level=2] [ref=f2e908]
+          - generic [ref=f2e909]:
+            - paragraph [ref=f2e910]: ONNREV is a technology-driven company focused on building digital products, intelligent systems and business solutions built to perform under high operational concurrency.
+            - link "DISCOVER ONNREV" [ref=f2e911] [cursor=pointer]:
+              - /url: "#contact"
+    - region "ONNREV Contact" [ref=f2e915]:
+      - generic [ref=f2e916]:
+        - generic [ref=f2e917]:
+          - generic [ref=f2e918]:
+            - generic [ref=f2e919]:
+              - img "ONNREV Emblem" [ref=f2e920]
+              - generic [ref=f2e921]: // CONTACT ONNREV
+            - generic [ref=f2e922]:
+              - generic [ref=f2e923]: HAVE AN IDEA?
+              - heading "LET'S BUILD WHAT'S NEXT." [level=2] [ref=f2e924]
+            - paragraph [ref=f2e925]: Tell us what you're working on. Let's explore what we can build together.
+          - generic [ref=f2e926]:
+            - generic [ref=f2e927]: // ENGAGEMENT DISCIPLINE
+            - list [ref=f2e928]:
+              - listitem [ref=f2e929]:
+                - generic [ref=f2e931]: "Executive Response: Within 24 business hours"
+              - listitem [ref=f2e932]:
+                - generic [ref=f2e934]: "Discovery & Architecture scoping call: 30 minutes"
+              - listitem [ref=f2e935]:
+                - generic [ref=f2e937]: Zero manufacturing of claims or metrics
+          - generic [ref=f2e938]:
+            - link "contact@onnrev.com" [ref=f2e939] [cursor=pointer]:
+              - /url: mailto:contact@onnrev.com
+            - generic [ref=f2e940]: //
+            - link "LinkedIn" [ref=f2e941] [cursor=pointer]:
+              - /url: https://linkedin.com/company/onnrev
+        - generic [ref=f2e943]:
+          - generic [ref=f2e944]:
+            - heading "Start a Conversation" [level=3] [ref=f2e945]
+            - generic [ref=f2e946]: Expected response within 24 business hours.
+          - generic [ref=f2e947]:
+            - generic [ref=f2e948]: Your Name *
+            - textbox "Your Name *" [ref=f2e949]:
+              - /placeholder: Enter your name
+          - generic [ref=f2e950]:
+            - generic [ref=f2e951]: Company *
+            - textbox "Company *" [ref=f2e952]:
+              - /placeholder: Enter your company name
+          - generic [ref=f2e953]:
+            - generic [ref=f2e954]: Business Email *
+            - textbox "Business Email *" [ref=f2e955]:
+              - /placeholder: name@company.com
+          - generic [ref=f2e956]:
+            - generic [ref=f2e957]: Phone (Optional)
+            - textbox "Phone (Optional)" [ref=f2e958]:
+              - /placeholder: +1 (555) 000-0000
+          - generic [ref=f2e959]:
+            - generic [ref=f2e960]: Project / Requirement *
+            - textbox "Project / Requirement *" [ref=f2e961]:
+              - /placeholder: Tell us about what you are building or modernizing...
+          - button "Start a Conversation" [ref=f2e962] [cursor=pointer]
+  - contentinfo [ref=f2e966]:
+    - generic [ref=f2e968]:
+      - generic [ref=f2e969]:
+        - link "ONNREV — back to home" [ref=f2e970] [cursor=pointer]:
+          - /url: "#"
+          - generic "ONNREV Enterprise Systems" [ref=f2e971]:
+            - img "ONNREV Emblem" [ref=f2e972]
+            - generic [ref=f2e973]:
+              - generic [ref=f2e974]: ONNREV
+              - generic [ref=f2e975]: Systems Architecture
+        - generic [ref=f2e976]:
+          - generic [ref=f2e977]: // Systems Rigor & Quiet Confidence
+          - paragraph [ref=f2e978]: Engineering systems, not just software. ONNREV designs resilient digital infrastructure, autonomous operations, and growth architecture to scale modern enterprise value.
+        - generic [ref=f2e979]:
+          - link "LinkedIn" [ref=f2e980] [cursor=pointer]:
+            - /url: https://linkedin.com/company/onnrev
+          - generic [ref=f2e981]: ·
+          - link "contact@onnrev.com" [ref=f2e982] [cursor=pointer]:
+            - /url: mailto:contact@onnrev.com
+          - generic [ref=f2e983]: ·
+          - generic [ref=f2e984]: "SLA: 24H"
+      - navigation "Footer navigation" [ref=f2e985]:
+        - generic [ref=f2e986]:
+          - generic [ref=f2e987]: Work
+          - list [ref=f2e988]:
+            - listitem [ref=f2e989]:
+              - link "LabOS Platform" [ref=f2e990] [cursor=pointer]:
+                - /url: "#work"
+            - listitem [ref=f2e991]:
+              - link "Autonomic Operations" [ref=f2e992] [cursor=pointer]:
+                - /url: "#work"
+            - listitem [ref=f2e993]:
+              - link "Sovereign Context RAG" [ref=f2e994] [cursor=pointer]:
+                - /url: "#work"
+            - listitem [ref=f2e995]:
+              - link "Fleet Telemetry Stream" [ref=f2e996] [cursor=pointer]:
+                - /url: "#work"
+        - generic [ref=f2e997]:
+          - generic [ref=f2e998]: Services
+          - list [ref=f2e999]:
+            - listitem [ref=f2e1000]:
+              - link "AI & Technology" [ref=f2e1001] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=f2e1002]:
+              - link "Digital Experiences" [ref=f2e1003] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=f2e1004]:
+              - link "Business Solutions" [ref=f2e1005] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=f2e1006]:
+              - link "Automation Workflows" [ref=f2e1007] [cursor=pointer]:
+                - /url: "#services"
+        - generic [ref=f2e1008]:
+          - generic [ref=f2e1009]: About
+          - list [ref=f2e1010]:
+            - listitem [ref=f2e1011]:
+              - link "Our Aim" [ref=f2e1012] [cursor=pointer]:
+                - /url: "#about"
+            - listitem [ref=f2e1013]:
+              - link "Company Overview" [ref=f2e1014] [cursor=pointer]:
+                - /url: "#about"
+            - listitem [ref=f2e1015]:
+              - link "How We Build" [ref=f2e1016] [cursor=pointer]:
+                - /url: "#process"
+            - listitem [ref=f2e1017]:
+              - link "Industry Sectors" [ref=f2e1018] [cursor=pointer]:
+                - /url: "#industries"
+        - generic [ref=f2e1019]:
+          - generic [ref=f2e1020]: Connect
+          - list [ref=f2e1021]:
+            - listitem [ref=f2e1022]:
+              - link "Start a Conversation" [ref=f2e1023] [cursor=pointer]:
+                - /url: "#contact"
+            - listitem [ref=f2e1024]:
+              - link "contact@onnrev.com" [ref=f2e1025] [cursor=pointer]:
+                - /url: mailto:contact@onnrev.com
+            - listitem [ref=f2e1026]:
+              - link "LinkedIn" [ref=f2e1027] [cursor=pointer]:
+                - /url: https://linkedin.com/company/onnrev
+    - generic: ONNREV
+    - generic [ref=f2e1028]:
+      - generic [ref=f2e1029]:
+        - generic [ref=f2e1030]: © 2026 ONNREV. All rights reserved.
+        - generic [ref=f2e1031]: "|"
+        - generic [ref=f2e1032]: ENTERPRISE ARCHITECTURE // ZERO FABRICATION
+      - generic [ref=f2e1033]:
+        - generic [ref=f2e1034]:
+          - link "Privacy Standard" [ref=f2e1035] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms of Delivery" [ref=f2e1036] [cursor=pointer]:
+            - /url: "#"
+          - link "Security Policy" [ref=f2e1037] [cursor=pointer]:
+            - /url: "#"
+        - button "Scroll Back to Top" [ref=f2e1038] [cursor=pointer]

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
 import { ArrowRight, Menu, X } from 'lucide-react'
 import { OnnrevLogo } from '@/components/shared/OnnrevLogo'
-import { useExperienceMode } from '@/hooks/useExperienceMode'
 
 export const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -10,22 +9,12 @@ export const Navbar: React.FC = () => {
   const [hoveredLink, setHoveredLink] = useState<string | null>(null)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
-  const { mode } = useExperienceMode()
-
   const navLinks = [
-    { label: 'Work', href: '#projects' },
-    { label: 'Capabilities', href: '#capabilities' },
-    { label: 'Products', href: '#products' },
-    { label: 'Industries', href: '#industries' },
+    { label: 'Work', href: '#work' },
+    { label: 'Services', href: '#services' },
     { label: 'About', href: '#about' },
+    { label: 'Contact', href: '#contact' },
   ]
-
-  // Map modes to CTA text
-  const ctaTextMap = {
-    Enterprise: 'Executive Intake',
-    Intelligence: 'Deploy Intelligence',
-    Growth: 'Accelerate Growth',
-  }
 
   // Scroll handler for adaptive blur and shadow
   useEffect(() => {
@@ -38,7 +27,7 @@ export const Navbar: React.FC = () => {
 
   // Scroll Spy logic
   useEffect(() => {
-    const sections = ['projects', 'capabilities', 'products', 'industries', 'about']
+    const sections = ['work', 'services', 'about', 'contact', 'capabilities', 'projects', 'conversion']
     const observerOptions = {
       root: null,
       rootMargin: '-35% 0px -35% 0px',
@@ -48,7 +37,11 @@ export const Navbar: React.FC = () => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          setActiveSection(entry.target.id)
+          const id = entry.target.id
+          if (id === 'projects') setActiveSection('work')
+          else if (id === 'capabilities') setActiveSection('services')
+          else if (id === 'conversion') setActiveSection('contact')
+          else setActiveSection(id)
         }
       })
     }, observerOptions)
@@ -67,7 +60,9 @@ export const Navbar: React.FC = () => {
     const targetId = href.replace('#', '')
 
     let actualId = targetId
-    if (targetId === 'connect' || targetId === 'begin' || targetId === 'contact') {
+    if (targetId === 'work') actualId = 'projects'
+    if (targetId === 'services') actualId = 'capabilities'
+    if (targetId === 'contact' || targetId === 'connect' || targetId === 'begin') {
       actualId = 'conversion'
     }
 
@@ -91,7 +86,7 @@ export const Navbar: React.FC = () => {
         <nav
           className={`max-w-6xl mx-auto flex items-center justify-between backdrop-blur-xl border rounded-full px-6 py-3 pointer-events-auto transition-all duration-300 ${
             isScrolled
-              ? 'bg-black/85 border-white/15 shadow-[0_12px_40px_rgba(0,0,0,0.8)]'
+              ? 'bg-black/90 border-white/15 shadow-[0_12px_40px_rgba(0,0,0,0.85)]'
               : 'bg-black/60 border-white/10 shadow-[0_8px_30px_rgba(0,0,0,0.5)]'
           }`}
         >
@@ -110,7 +105,7 @@ export const Navbar: React.FC = () => {
           {/* CENTER: Navigation Links (Desktop Only) */}
           <div className="hidden md:flex items-center gap-1 lg:gap-2">
             {navLinks.map((link) => {
-              const isActive = activeSection === link.href.slice(1)
+              const isActive = activeSection === link.label.toLowerCase()
               return (
                 <div
                   key={link.label}
@@ -121,7 +116,7 @@ export const Navbar: React.FC = () => {
                   <a
                     href={link.href}
                     onClick={(e) => handleScrollTo(e, link.href)}
-                    className={`font-sans text-[13.5px] tracking-tight transition-colors relative z-10 ${
+                    className={`font-sans text-[13.5px] uppercase tracking-wider transition-colors relative z-10 ${
                       isActive ? 'text-white font-semibold' : 'text-zinc-400 hover:text-white'
                     }`}
                   >
@@ -155,22 +150,14 @@ export const Navbar: React.FC = () => {
             })}
           </div>
 
-          {/* RIGHT: CTAs & Mobile Trigger */}
+          {/* RIGHT: Primary CTA & Mobile Trigger */}
           <div className="flex items-center gap-4">
             <a
-              href="#conversion"
-              onClick={(e) => handleScrollTo(e, '#conversion')}
-              className="hidden lg:inline-block font-sans text-[13px] text-zinc-400 hover:text-white transition-colors"
+              href="#contact"
+              onClick={(e) => handleScrollTo(e, '#contact')}
+              className="hidden sm:inline-flex items-center gap-2 px-5 py-2 rounded-full bg-[#ef233c] hover:bg-[#d90429] text-white text-xs font-semibold uppercase tracking-wider transition-all duration-200 shadow-[0_0_20px_rgba(239,35,60,0.35)] hover:shadow-[0_0_30px_rgba(239,35,60,0.6)] active:scale-95 group"
             >
-              Intake
-            </a>
-
-            <a
-              href="#conversion"
-              onClick={(e) => handleScrollTo(e, '#conversion')}
-              className="hidden sm:inline-flex items-center gap-2 px-5 py-2 rounded-full bg-[#ef233c] hover:bg-[#d90429] text-white text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-[0_0_20px_rgba(239,35,60,0.35)] hover:shadow-[0_0_30px_rgba(239,35,60,0.6)] active:scale-95 group"
-            >
-              <span>{ctaTextMap[mode]}</span>
+              <span>Start a Conversation</span>
               <ArrowRight className="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-0.5" />
             </a>
 
@@ -187,15 +174,15 @@ export const Navbar: React.FC = () => {
         </nav>
       </header>
 
-      {/* Mobile Drawer (Slides down) */}
+      {/* Mobile Drawer (Slides down) - Premium Dark Theme */}
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
-            initial={{ opacity: 0, y: -30 }}
+            initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -30 }}
-            transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-            className="fixed top-0 left-0 w-full bg-[#F6F7F9]/98 border-b border-[#0B0D13]/[0.08] shadow-medium z-40 pt-24 pb-10 px-8 flex flex-col md:hidden select-none pointer-events-auto backdrop-blur-xl"
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
+            className="fixed top-0 left-0 w-full bg-[#050507]/98 border-b border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.9)] z-40 pt-24 pb-8 px-8 flex flex-col md:hidden select-none pointer-events-auto backdrop-blur-2xl"
           >
             <motion.nav
               initial="hidden"
@@ -204,23 +191,23 @@ export const Navbar: React.FC = () => {
                 hidden: {},
                 visible: {
                   transition: {
-                    staggerChildren: 0.06,
+                    staggerChildren: 0.05,
                     delayChildren: 0.05,
                   },
                 },
               }}
-              className="flex flex-col gap-4 text-left"
+              className="flex flex-col gap-5 text-left"
             >
               {navLinks.map((link) => {
-                const isActive = activeSection === link.href.slice(1)
+                const isActive = activeSection === link.label.toLowerCase()
                 return (
                   <motion.div
                     key={link.label}
                     variants={{
-                      hidden: { opacity: 0, y: 8 },
+                      hidden: { opacity: 0, y: 6 },
                       visible: { opacity: 1, y: 0 },
                     }}
-                    transition={{ duration: 0.25 }}
+                    transition={{ duration: 0.2 }}
                     className="relative text-left"
                   >
                     <a
@@ -229,18 +216,18 @@ export const Navbar: React.FC = () => {
                         handleScrollTo(e, link.href)
                         setIsMobileMenuOpen(false)
                       }}
-                      className={`font-display font-medium text-[20px] transition-colors block lowercase ${
-                        isActive ? 'text-[#0B0D13] font-semibold' : 'text-[#64748B] hover:text-[#0B0D13]'
+                      className={`font-display font-medium text-[22px] tracking-tight uppercase transition-colors block ${
+                        isActive ? 'text-white font-bold' : 'text-zinc-400 hover:text-white'
                       }`}
                     >
                       {link.label}
                     </a>
 
-                    {/* Active Dot indicator for Mobile Drawer */}
+                    {/* Active Red Dot indicator for Mobile Drawer */}
                     {isActive && (
                       <motion.div
                         layoutId="mobile-active-dot"
-                        className="absolute left-[-14px] top-1/2 -translate-y-1/2 w-1.5 h-1.5 rounded-full bg-[#10B981]"
+                        className="absolute left-[-14px] top-1/2 -translate-y-1/2 w-1.5 h-1.5 rounded-full bg-[#ef233c] shadow-[0_0_8px_#ef233c]"
                         transition={{ type: 'spring', stiffness: 300, damping: 25 }}
                       />
                     )}
@@ -248,25 +235,25 @@ export const Navbar: React.FC = () => {
                 )
               })}
 
-              <hr className="border-[#0B0D13]/[0.08] my-3" />
+              <hr className="border-white/10 my-2" />
 
               <motion.div
                 variants={{
-                  hidden: { opacity: 0, y: 8 },
+                  hidden: { opacity: 0, y: 6 },
                   visible: { opacity: 1, y: 0 },
                 }}
                 className="flex flex-col gap-4 text-left"
               >
                 <a
-                  href="#conversion"
+                  href="#contact"
                   onClick={(e) => {
-                    handleScrollTo(e, '#conversion')
+                    handleScrollTo(e, '#contact')
                     setIsMobileMenuOpen(false)
                   }}
-                  className="flex items-center justify-between w-full px-5 py-3.5 rounded-pill bg-[#0B0D13] text-white font-sans text-[14px] font-medium active:scale-98 transition-transform"
+                  className="flex items-center justify-between w-full px-5 py-3.5 rounded-full bg-[#ef233c] hover:bg-[#d90429] text-white font-sans text-[13.5px] font-semibold uppercase tracking-wider active:scale-95 transition-all shadow-[0_0_20px_rgba(239,35,60,0.4)]"
                 >
-                  <span>{ctaTextMap[mode]}</span>
-                  <ArrowRight className="w-4 h-4 text-[#10B981]" />
+                  <span>Start a Conversation</span>
+                  <ArrowRight className="w-4 h-4 text-white" />
                 </a>
               </motion.div>
             </motion.nav>
