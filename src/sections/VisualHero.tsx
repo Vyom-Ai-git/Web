@@ -13,7 +13,7 @@ export const VisualHero: React.FC = () => {
   }
 
   const scrollToExplore = () => {
-    const el = document.getElementById('intro')
+    const el = document.getElementById('services')
     if (el) {
       el.scrollIntoView({ behavior: 'smooth', block: 'start' })
     }

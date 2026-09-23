@@ -49,7 +49,7 @@ export const VisualProcess: React.FC = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between border-b border-white/[0.1] pb-8 mb-16 gap-4">
           <div className="flex flex-col gap-2">
             <span className="text-[11px] font-mono tracking-[0.25em] text-[#ef233c] uppercase font-semibold">
-              // HOW WE BUILD
+              // 05 HOW WE BUILD
             </span>
             <h2 className="font-display font-medium text-[36px] sm:text-[48px] md:text-[56px] text-white tracking-tight uppercase">
               HOW WE BUILD.

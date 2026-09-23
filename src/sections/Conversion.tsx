@@ -108,7 +108,7 @@ export const Conversion: React.FC = () => {
             <div className="flex items-center gap-3">
               <OnnrevSymbolMark size={28} />
               <span className="text-[11px] font-mono tracking-[0.25em] text-[#ef233c] uppercase font-semibold">
-                // CONTACT ONNREV
+                // 07 CONTACT
               </span>
             </div>
 
@@ -309,7 +309,7 @@ export const Conversion: React.FC = () => {
                     </>
                   ) : (
                     <>
-                      <span>Start a Conversation</span>
+                      <span>Send Enquiry</span>
                       <ArrowRight className="w-4 h-4 text-white" />
                     </>
                   )}

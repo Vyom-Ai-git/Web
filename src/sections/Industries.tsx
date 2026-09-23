@@ -1,313 +1,134 @@
 import React, { useState } from 'react'
-import { motion, AnimatePresence } from 'motion/react'
-import { Factory, Landmark, Truck, Activity, ArrowRight, CheckCircle2 } from 'lucide-react'
-import { useReducedMotion } from '@/hooks/useReducedMotion'
+import { motion } from 'motion/react'
+import { ArrowUpRight } from 'lucide-react'
 
-interface IndustryData {
+interface SectorItem {
   id: string
-  title: string
-  tagline: string
-  icon: React.ReactNode
-  capabilities: string[]
-  solutions: string[]
-  applications: string[]
-  featuredCase: {
-    title: string
-    metric: string
-    stack: string
-  }
+  code: string
+  name: string
+  focus: string
+  deliverables: string
 }
 
 export const Industries: React.FC = () => {
-  const [selectedIdx, setSelectedIdx] = useState(0)
-  const reducedMotion = useReducedMotion()
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
-  const industries: IndustryData[] = [
+  const sectors: SectorItem[] = [
     {
-      id: 'manufacturing',
-      title: 'Industrial Manufacturing',
-      tagline: 'Synchronizing physical production floors with autonomous operational data layers.',
-      icon: <Factory className="w-5 h-5 text-[#ef233c]" />,
-      capabilities: [
-        'Autonomous Operations',
-        'Process Intelligence',
-        'ERP Workflow Orchestration',
-        'Predictive Maintenance Triggers',
-      ],
-      solutions: [
-        'Multi-facility dispatch automation',
-        'Real-time ERP to shop-floor telemetry synchronization',
-        'Automated inventory discrepancy resolution',
-      ],
-      applications: [
-        'Regional manufacturing plants',
-        'Industrial parts distribution centers',
-        'Assembly line dispatch coordination',
-      ],
-      featuredCase: {
-        title: 'Manufacturing Enterprise Deployment',
-        metric: '35% Dispatch Speedup across regional facilities',
-        stack: 'Python • PostgreSQL • Kubernetes • n8n',
-      },
+      id: 'healthcare',
+      code: '01',
+      name: 'HEALTHCARE',
+      focus: 'Clinical Operating Systems & Patient Engagement',
+      deliverables: 'Diagnostic accessioning pipelines, automated encrypted result delivery, and zero-leakage patient portals.',
+    },
+    {
+      id: 'technology',
+      code: '02',
+      name: 'TECHNOLOGY',
+      focus: 'High-Concurrency Platforms & Systems Architecture',
+      deliverables: 'Custom backend microservices, resilient APIs, and low-latency cloud infrastructure.',
     },
     {
       id: 'financial-services',
-      title: 'Financial Services & Fintech',
-      tagline: 'High-assurance cognitive pipelines engineered for zero-trust regulatory environments.',
-      icon: <Landmark className="w-5 h-5 text-[#ef233c]" />,
-      capabilities: [
-        'Enterprise Intelligence Architecture',
-        'Sovereign Context Engineering',
-        'Audit Trail Automation',
-        'Zero-Knowledge Data Routing',
-      ],
-      solutions: [
-        'Self-healing document verification pipeline',
-        'Automated compliance document extraction & indexing',
-        'Secure multi-tier client identity validation',
-      ],
-      applications: [
-        'Institutional credit verification',
-        'Fintech onboarding compliance',
-        'Automated regulatory filing preparation',
-      ],
-      featuredCase: {
-        title: 'Fintech Compliance Platform',
-        metric: '80% Reduction in Compliance Audit Latency',
-        stack: 'React • TypeScript • Redis • OpenAI',
-      },
+      code: '03',
+      name: 'FINANCIAL SERVICES',
+      focus: 'Sovereign Context Pipelines & Regulatory Automation',
+      deliverables: 'Isolated VPC data ingestion, zero-trust verification engines, and automated compliance indexing.',
     },
     {
       id: 'logistics',
-      title: 'Supply Chain & Logistics',
-      tagline: 'Algorithmic routing engines and event-driven telemetry for distributed fleet networks.',
-      icon: <Truck className="w-5 h-5 text-[#ef233c]" />,
-      capabilities: [
-        'Growth Infrastructure',
-        'Event-Driven Ingestion',
-        'Algorithmic Telemetry Engines',
-        'Edge Synchronization',
-      ],
-      solutions: [
-        'Dynamic route recalculation under intermittent network connectivity',
-        'Automated warehouse dock scheduling & handoffs',
-        'Real-time fleet consumption and routing telemetry',
-      ],
-      applications: [
-        'Cross-country freight networks',
-        'Cold-chain transport monitoring',
-        'Last-mile delivery orchestration',
-      ],
-      featuredCase: {
-        title: 'National Logistics Network',
-        metric: '15% Monthly Fuel Cost Reduction',
-        stack: 'Python • Docker • Redis • AWS',
-      },
+      code: '04',
+      name: 'LOGISTICS & SUPPLY CHAIN',
+      focus: 'Algorithmic Telemetry & Route Recalculation',
+      deliverables: 'Edge transit caching, real-time fleet synchronization, and automated warehouse loading dock coordination.',
     },
     {
-      id: 'healthcare-lab',
-      title: 'Clinical & Laboratory Systems',
-      tagline: 'Digital lab operating foundations and consent-controlled communication systems.',
-      icon: <Activity className="w-5 h-5 text-[#ef233c]" />,
-      capabilities: [
-        'Digital Product Architecture',
-        'Workflow Automation',
-        'AI Explanation Systems',
-        'Secure Messaging Infrastructure',
-      ],
-      solutions: [
-        'End-to-end sample and report lifecycle digitization',
-        'Automated encrypted report delivery via WhatsApp platform',
-        'Patient-friendly AI report clarification without medical diagnosis claims',
-      ],
-      applications: [
-        'Multi-branch clinical laboratories',
-        'Pathology sample tracking networks',
-        'Direct-to-patient digital health portals',
-      ],
-      featuredCase: {
-        title: 'LabOS Platform Architecture',
-        metric: 'Zero-loss sample tracking & automated digital delivery',
-        stack: 'React • TypeScript • n8n • Multi-Tenant Core',
-      },
+      id: 'manufacturing',
+      code: '05',
+      name: 'MANUFACTURING',
+      focus: 'Autonomic Operations & Industrial ERP Integration',
+      deliverables: 'Event-driven shop-floor synchronization, automated discrepancy resolution, and multi-facility queues.',
     },
   ]
-
-  const active = industries[selectedIdx]
 
   return (
     <section
       id="industries"
-      className="w-full bg-black py-16 sm:py-[100px] md:py-[120px] border-t border-white/5 relative z-20 select-none overflow-hidden"
+      className="w-full bg-[#050507] text-white py-24 sm:py-32 border-t border-white/[0.08] relative z-20 select-none overflow-hidden"
       role="region"
-      aria-label="ONNREV Industry Practice Sectors"
+      aria-label="ONNREV Industries"
     >
-      <div className="max-w-6xl mx-auto px-6 md:px-12 relative z-10">
-
+      <div className="max-w-6xl mx-auto px-6 md:px-12 relative z-10 text-left">
+        
         {/* Section Header */}
-        <div className="grid grid-cols-12 gap-x-4 md:gap-x-8 mb-16 md:mb-20">
-          <div className="col-span-12 lg:col-span-8 text-left flex flex-col gap-4">
-            <span className="text-[11px] font-mono font-semibold tracking-[0.2em] text-[#ef233c] uppercase">
-              // INDUSTRIES
+        <div className="flex flex-col md:flex-row md:items-end justify-between border-b border-white/[0.1] pb-8 mb-14 gap-6">
+          <div className="flex flex-col gap-2">
+            <span className="text-[11px] font-mono tracking-[0.25em] text-[#ef233c] uppercase font-semibold">
+              // 06 INDUSTRIES
             </span>
-            <h2 className="font-display font-medium text-[36px] sm:text-[48px] md:text-[56px] leading-[1.05] text-white tracking-tight uppercase">
-              Sectors We Serve.
+            <h2 className="font-display font-medium text-[36px] sm:text-[48px] md:text-[56px] text-white tracking-tight uppercase">
+              SECTORS WE SERVE.
             </h2>
-            <p className="font-sans text-[15px] leading-relaxed text-zinc-400 max-w-[580px]">
-              Operational advantage engineered for demanding regulatory, industrial, and clinical realities.
-            </p>
           </div>
+          <span className="text-[14px] font-sans text-zinc-400 tracking-normal text-left md:text-right max-w-[380px]">
+            Engineering systems built for sectors where reliability, latency, and compliance are paramount.
+          </span>
         </div>
 
-        {/* Industry Explorer Layout */}
-        <div className="grid grid-cols-12 gap-y-8 lg:gap-x-10 items-start">
-
-          {/* Left: Interactive Industry Navigation Tabs (Cols 1-4) */}
-          <div className="col-span-12 lg:col-span-4 flex flex-col gap-2.5" role="tablist">
-            {industries.map((ind, idx) => {
-              const isSelected = selectedIdx === idx
-              return (
-                <button
-                  key={ind.id}
-                  onClick={() => setSelectedIdx(idx)}
-                  role="tab"
-                  aria-selected={isSelected}
-                  className={`p-4 md:p-5 rounded-[10px] text-left transition-all duration-300 border flex items-start gap-3.5 cursor-pointer outline-none ${
-                    isSelected
-                      ? 'bg-white/10 border-[#ef233c] shadow-lg translate-x-1'
-                      : 'bg-white/[0.02] border-white/5 hover:bg-white/5 hover:border-white/10 text-zinc-400'
-                  }`}
-                >
-                  <div
-                    className={`p-2 rounded-md transition-colors ${
-                      isSelected ? 'bg-[#ef233c]/20 text-[#ef233c]' : 'bg-white/5 text-zinc-400'
-                    }`}
-                  >
-                    {ind.icon}
-                  </div>
-                  <div className="flex flex-col gap-1">
-                    <span
-                      className={`font-display font-medium text-[16px] tracking-tight ${
-                        isSelected ? 'text-white' : 'text-zinc-400'
-                      }`}
-                    >
-                      {ind.title}
-                    </span>
-                    <span className="text-[12px] font-sans text-zinc-500 line-clamp-1">
-                      {ind.tagline}
-                    </span>
-                  </div>
-                </button>
-              )
-            })}
-          </div>
-
-          {/* Right: Selected Industry Detail Dossier (Cols 5-12) */}
-          <div className="col-span-12 lg:col-span-8">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={active.id}
-                initial={reducedMotion ? { opacity: 1 } : { opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={reducedMotion ? { opacity: 0 } : { opacity: 0, y: -10 }}
-                transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-                className="bg-[#0a0c10] rounded-[14px] border border-white/10 p-7 md:p-9 shadow-2xl text-left flex flex-col gap-8 text-white"
+        {/* Typographic List (Section 21: Use typography rather than cards) */}
+        <div className="flex flex-col divide-y divide-white/[0.08]">
+          {sectors.map((sec, idx) => {
+            const isHovered = hoveredIndex === idx
+            return (
+              <div
+                key={sec.id}
+                onMouseEnter={() => setHoveredIndex(idx)}
+                onMouseLeave={() => setHoveredIndex(null)}
+                className="py-8 sm:py-10 transition-colors duration-300 flex flex-col gap-4 group cursor-pointer"
               >
-                {/* Dossier Header */}
-                <div className="flex flex-col gap-2 pb-6 border-b border-white/10">
-                  <div className="flex items-center gap-2">
-                    <span className="w-2 h-2 rounded-full bg-[#ef233c]" />
-                    <span className="text-[10px] font-mono tracking-widest text-zinc-400 uppercase">
-                      Sector Practice Dossier
+                <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                  <div className="flex items-baseline gap-4 sm:gap-6">
+                    <span className={`font-mono text-[14px] sm:text-[16px] font-bold transition-colors ${
+                      isHovered ? 'text-[#ef233c]' : 'text-zinc-600'
+                    }`}>
+                      [{sec.code}]
                     </span>
+                    <h3 className={`font-display font-medium text-[28px] sm:text-[40px] md:text-[50px] lg:text-[58px] uppercase tracking-tight transition-all duration-300 ${
+                      isHovered ? 'text-white translate-x-1 sm:translate-x-2' : 'text-zinc-400 group-hover:text-white'
+                    }`}>
+                      {sec.name}
+                    </h3>
                   </div>
-                  <h3 className="font-display font-medium text-[24px] md:text-[28px] text-white tracking-tight">
-                    {active.title}
-                  </h3>
-                  <p className="font-sans text-[14.5px] leading-relaxed text-zinc-400">
-                    {active.tagline}
+
+                  <div className="flex items-center gap-4 pl-8 md:pl-0">
+                    <span className="text-[12px] font-mono text-zinc-500 uppercase tracking-wider hidden sm:inline">
+                      {sec.focus}
+                    </span>
+                    <ArrowUpRight className={`w-5 h-5 text-[#ef233c] transition-all duration-300 ${
+                      isHovered ? 'translate-x-1 -translate-y-1 opacity-100' : 'opacity-30'
+                    }`} />
+                  </div>
+                </div>
+
+                {/* Subtext on hover / active */}
+                <motion.div
+                  initial={false}
+                  animate={{
+                    opacity: isHovered ? 1 : 0.6,
+                    height: isHovered ? 'auto' : 'auto',
+                  }}
+                  className="pl-8 sm:pl-12 flex flex-col md:flex-row md:items-center justify-between gap-2 text-zinc-400 font-sans text-[14px]"
+                >
+                  <p className="max-w-3xl leading-relaxed">
+                    {sec.deliverables}
                   </p>
-                </div>
-
-                {/* 2-Column Core Architecture Breakdown */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-
-                  {/* Operational Solutions */}
-                  <div className="flex flex-col gap-3">
-                    <span className="text-[10.5px] font-mono font-semibold tracking-wider text-white uppercase">
-                      // Engineered Solutions
-                    </span>
-                    <ul className="flex flex-col gap-2.5">
-                      {active.solutions.map((sol) => (
-                        <li key={sol} className="flex items-start gap-2.5 text-[13.5px] font-sans text-zinc-300">
-                          <CheckCircle2 className="w-4 h-4 text-[#ef233c] shrink-0 mt-0.5" />
-                          <span>{sol}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  {/* Target Applications */}
-                  <div className="flex flex-col gap-3">
-                    <span className="text-[10.5px] font-mono font-semibold tracking-wider text-white uppercase">
-                      // Primary Applications
-                    </span>
-                    <ul className="flex flex-col gap-2.5">
-                      {active.applications.map((app) => (
-                        <li key={app} className="flex items-start gap-2.5 text-[13.5px] font-sans text-zinc-300">
-                          <span className="w-1.5 h-1.5 rounded-full bg-[#ef233c] shrink-0 mt-2" />
-                          <span>{app}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                </div>
-
-                {/* Core Capability Chips */}
-                <div className="flex flex-col gap-2.5 pt-2">
-                  <span className="text-[10.5px] font-mono font-semibold tracking-wider text-zinc-400 uppercase">
-                    Integrated ONNREV Disciplines:
+                  <span className="text-[11px] font-mono text-[#ef233c] uppercase tracking-widest shrink-0">
+                    ONNREV SPEC // VERIFIED
                   </span>
-                  <div className="flex flex-wrap gap-2">
-                    {active.capabilities.map((cap) => (
-                      <span
-                        key={cap}
-                        className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[12px] font-sans font-medium text-zinc-300"
-                      >
-                        {cap}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Featured Verified Case Study Footer Card */}
-                <div className="p-4 md:p-5 rounded-[10px] bg-black border border-white/10 text-white flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-                  <div className="flex flex-col gap-1">
-                    <span className="text-[9.5px] font-mono tracking-widest text-[#ef233c] uppercase font-semibold">
-                      Verified Engagement Proof
-                    </span>
-                    <span className="font-display font-medium text-[15px]">
-                      {active.featuredCase.title}
-                    </span>
-                    <span className="text-[13px] text-zinc-400">
-                      {active.featuredCase.metric}
-                    </span>
-                  </div>
-
-                  <a
-                    href="#projects"
-                    className="inline-flex items-center gap-1.5 text-[12.5px] font-sans font-medium text-[#ef233c] hover:text-white transition-colors group shrink-0"
-                  >
-                    <span>Inspect Case Study</span>
-                    <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
-                  </a>
-                </div>
-
-              </motion.div>
-            </AnimatePresence>
-          </div>
-
+                </motion.div>
+              </div>
+            )
+          })}
         </div>
 
       </div>

@@ -27,7 +27,7 @@ export const Navbar: React.FC = () => {
 
   // Scroll Spy logic
   useEffect(() => {
-    const sections = ['work', 'services', 'about', 'contact', 'capabilities', 'projects', 'conversion']
+    const sections = ['work', 'services', 'about', 'contact']
     const observerOptions = {
       root: null,
       rootMargin: '-35% 0px -35% 0px',
@@ -37,11 +37,7 @@ export const Navbar: React.FC = () => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          const id = entry.target.id
-          if (id === 'projects') setActiveSection('work')
-          else if (id === 'capabilities') setActiveSection('services')
-          else if (id === 'conversion') setActiveSection('contact')
-          else setActiveSection(id)
+          setActiveSection(entry.target.id)
         }
       })
     }, observerOptions)
@@ -58,15 +54,7 @@ export const Navbar: React.FC = () => {
   const handleScrollTo = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault()
     const targetId = href.replace('#', '')
-
-    let actualId = targetId
-    if (targetId === 'work') actualId = 'projects'
-    if (targetId === 'services') actualId = 'capabilities'
-    if (targetId === 'contact' || targetId === 'connect' || targetId === 'begin') {
-      actualId = 'conversion'
-    }
-
-    const targetElement = document.getElementById(actualId)
+    const targetElement = document.getElementById(targetId)
     if (targetElement) {
       targetElement.scrollIntoView({
         behavior: 'smooth',
